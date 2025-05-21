@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import GitHubImage from './GitHubImage';
+import CloudImage from './CloudImage';
 import { useLanguage } from '@/context/LanguageContext';
 import { useStripe } from '@/context/StripeContext';
 import { useState, useEffect, useRef } from 'react';
@@ -210,7 +211,7 @@ export default function Hero() {
             </div>
             
             <div className="relative w-full h-[240px] md:h-[600px] rounded-xl md:rounded-3xl overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.1),0_10px_25px_rgba(0,0,0,0.2)] transform-gpu transition-all duration-500 hover:shadow-[0_0_35px_rgba(0,0,0,0.15),0_10px_35px_rgba(0,0,0,0.25)]">
-              <GitHubImage
+              <CloudImage
                 src="/banner/main-banner.jpeg"
                 alt="Park Nordica Banner"
                 fill
@@ -266,7 +267,7 @@ export default function Hero() {
                   {/* Logo */}
                   <div className="flex justify-center">
                     <div className="relative h-36 md:h-44 w-36 md:w-44">
-                      <GitHubImage
+                      <CloudImage
                         src="/logo/Nordica_Logo_V4_Grey.png"
                         alt="Park Nordica Logo"
                         fill

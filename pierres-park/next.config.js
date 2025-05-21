@@ -9,7 +9,7 @@ const nextConfig = {
   images: {
     // Erhöhe die maximale Größe für Bilder
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    // Aktiviere Remote-Patterns für GitHub-gehostete Bilder
+    // Aktiviere Remote-Patterns für diverse Image Hosting Services
     remotePatterns: [
       {
         protocol: 'https',
@@ -22,6 +22,12 @@ const nextConfig = {
         hostname: 'media.githubusercontent.com',
         port: '',
         pathname: '/media/Alex-Yumi/Park-Nordica-NO/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.cloudinary.com',
+        port: '',
+        pathname: '/**',
       },
     ],
   },
