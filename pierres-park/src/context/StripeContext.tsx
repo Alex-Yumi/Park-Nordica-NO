@@ -3,10 +3,8 @@
 import { createContext, useContext, ReactNode, useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 
-// Stripe Promise wird lazy erstellt
-const getStripePromise = () => {
-  return loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '');
-};
+// Stripes Publishable Key
+const PUBLISHABLE_KEY = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '';
 
 interface StripeContextType {
   initiateCheckout: (quantity: number) => Promise<void>;

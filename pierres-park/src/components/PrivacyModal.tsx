@@ -9,7 +9,7 @@ interface PrivacyModalProps {
 }
 
 export default function PrivacyModal({ isOpen, onClose }: PrivacyModalProps) {
-  const { t } = useLanguage();
+  useLanguage();
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {

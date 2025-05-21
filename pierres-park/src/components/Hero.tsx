@@ -93,7 +93,6 @@ export default function Hero() {
   const { t } = useLanguage();
   const { initiateCheckout, isLoading, error } = useStripe();
   const [activeCard, setActiveCard] = useState<string | null>(null);
-  const [copied, setCopied] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<ParkImage | null>(null);
   const [activeTextModal, setActiveTextModal] = useState<'future' | 'preview' | null>(null);
@@ -105,17 +104,6 @@ export default function Hero() {
   const directionsRef = useRef<HTMLDivElement>(null);
   const parkHighlightsRef = useRef<HTMLDivElement>(null);
   const visitorInfoRef = useRef<HTMLDivElement>(null);
-
-  const toggleCard = (id: string) => {
-    setActiveCard(activeCard === id ? null : id);
-  };
-
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    });
-  };
 
   // Funktion zur Animation eines Elements
   const animateElement = (element: HTMLElement) => {
