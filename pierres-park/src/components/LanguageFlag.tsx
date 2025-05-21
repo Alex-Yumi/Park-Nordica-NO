@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
 interface LanguageFlagProps {
   language: string;
@@ -9,24 +10,24 @@ interface LanguageFlagProps {
 }
 
 export default function LanguageFlag({ language, isActive, onClick, size = 'normal' }: LanguageFlagProps) {
-  // Explizit Unicode-Werte für Flaggen verwenden und als Fallback den Ländercode
-  const getFlagEmoji = (lang: string) => {
+  const getFlagInfo = (lang: string) => {
     switch (lang) {
       case 'de':
-        return { emoji: '🇩🇪', code: 'DE' }; // Germany Flag: U+1F1E9 U+1F1EA
+        return { path: '/flags/de.svg', code: 'DE' };
       case 'no':
-        return { emoji: '🇳🇴', code: 'NO' }; // Norway Flag: U+1F1F3 U+1F1F4
+        return { path: '/flags/no.svg', code: 'NO' };
       case 'en':
-        return { emoji: '🇬🇧', code: 'EN' }; // UK Flag: U+1F1EC U+1F1E7
+        return { path: '/flags/en.svg', code: 'EN' };
       case 'es':
-        return { emoji: '🇪🇸', code: 'ES' }; // Spain Flag: U+1F1EA U+1F1F8
+        return { path: '/flags/es.svg', code: 'ES' };
       default:
-        return { emoji: '', code: lang.toUpperCase() };
+        return { path: '', code: lang.toUpperCase() };
     }
   };
 
-  const { emoji, code } = getFlagEmoji(language);
-  const sizeClasses = size === 'large' ? 'w-20 h-20 text-4xl' : 'w-14 h-14 text-3xl';
+  const { path, code } = getFlagInfo(language);
+  const sizeClasses = size === 'large' ? 'w-20 h-20' : 'w-14 h-14';
+  const imgSize = size === 'large' ? 60 : 42;
 
   return (
     <button
@@ -40,7 +41,19 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
         hover:from-stone-400/90 hover:to-stone-500/90`}
       title={language.toUpperCase()}
     >
-      {emoji || <span className="text-xl font-bold">{code}</span>}
+      {path ? (
+        <div className="relative w-full h-full">
+          <Image 
+            src={path} 
+            alt={`${code} Flag`} 
+            width={imgSize} 
+            height={imgSize}
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        <span className="text-xl font-bold text-white">{code}</span>
+      )}
     </button>
   );
 } 

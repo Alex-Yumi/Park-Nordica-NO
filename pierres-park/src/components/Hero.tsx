@@ -533,7 +533,7 @@ export default function Hero() {
               ref={parkHighlightsRef}
               className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-16 md:pb-8"
             >
-              <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6">{t('buildingFuture')}</h2>
+              <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6 text-white">{t('buildingFuture')}</h2>
               <ul className="space-y-2 md:space-y-4 text-sm md:text-lg">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6 mt-1 text-[#4A90E2] flex-shrink-0 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -583,7 +583,7 @@ export default function Hero() {
               ref={visitorInfoRef}
               className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-16 md:pb-8"
             >
-              <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6">{t('weekendPreview')}</h2>
+              <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6 text-white">{t('weekendPreview')}</h2>
               <ul className="space-y-2 md:space-y-4 text-sm md:text-lg">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6 mt-1 text-[#4A90E2] flex-shrink-0 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
