@@ -37,29 +37,25 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # Park Nordica Website
 
-## Bildintegration mit Cloudinary
+## Bildintegration mit öffentlichem GitHub-Repository
 
-Um Probleme mit Git LFS und GitHub-Authentifizierungstokens zu umgehen, nutzen wir Cloudinary für die Bildhosting-Lösung. So richtest du es ein:
+Die Website verwendet Bilder aus dem öffentlichen GitHub-Repository. Diese werden automatisch geladen, ohne zusätzliche Konfiguration.
 
-1. Registriere dich kostenlos bei [Cloudinary](https://cloudinary.com/users/register/free)
-2. Nach der Anmeldung findest du deinen Cloud-Namen im Dashboard
-3. Erstelle eine `.env.local` Datei im Projektordner und füge folgende Zeile hinzu:
-   ```
-   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dein_cloud_name
-   ```
-4. Lade alle Bilder des Projekts in dein Cloudinary-Konto hoch. Achte darauf, dass die Dateinamen beibehalten werden.
+Die `GitHubImage`-Komponente lädt Bilder in der Entwicklungsumgebung lokal und in der Produktion direkt aus dem GitHub-Repository.
 
-Die `CloudImage` Komponente wird automatisch zwischen lokalen Bildern in der Entwicklung und Cloudinary-Bildern in der Produktion wechseln.
+### Wichtige Hinweise:
 
-## Verwendung der Cloudinary Integration
+- Das GitHub-Repository **muss öffentlich** sein, damit die Bilder geladen werden können
+- Die Bilder werden aus dem Pfad `pierres-park/public/` im Repository geladen
+- Bei Änderungen der Bilder müssen diese ins Repository gepusht werden
 
-Ersetze alle `<Image>` oder `<GitHubImage>` Tags durch `<CloudImage>`:
+## Verwendung der GitHubImage Komponente
 
 ```jsx
-import CloudImage from '@/components/CloudImage';
+import GitHubImage from '@/components/GitHubImage';
 
 // Verwende es wie eine normale Image-Komponente
-<CloudImage 
+<GitHubImage 
   src="/banner/main-banner.jpeg"
   alt="Banner" 
   width={1200} 
@@ -69,15 +65,12 @@ import CloudImage from '@/components/CloudImage';
 
 ## Umgebungsvariablen
 
-Das Projekt benötigt folgende Umgebungsvariablen:
+Das Projekt benötigt folgende Umgebungsvariablen für die Stripe-Integration:
 
 ```
 # Stripe API Keys
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 STRIPE_SECRET_KEY=sk_test_...
-
-# Cloudinary Configuration
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dein_cloud_name
 ```
 
 Erstelle eine `.env.local` Datei im Hauptverzeichnis des Projekts mit diesen Variablen.

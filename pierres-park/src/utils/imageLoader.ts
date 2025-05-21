@@ -1,6 +1,5 @@
 /**
- * Ein benutzerdefinierter Bildlader für Next.js, der Bilder von GitHub LFS statt von lokalen Pfaden lädt.
- * Dies ist eine Lösung für das Problem mit Git LFS bei Vercel-Deployments.
+ * Ein benutzerdefinierter Bildlader für Next.js, der Bilder aus dem öffentlichen GitHub-Repository lädt.
  */
 
 interface ImageLoaderProps {
@@ -10,7 +9,7 @@ interface ImageLoaderProps {
 }
 
 /**
- * Konvertiert lokale Bildpfade in GitHub LFS URLs
+ * Konvertiert lokale Bildpfade in GitHub Raw URLs für öffentliche Repositories
  */
 export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps) {
   // Prüfen, ob wir uns in einer Produktion oder lokalen Entwicklung befinden
@@ -22,9 +21,9 @@ export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps
   // Entferne führende Slashes
   const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
   
-  // GitHub LFS URL für die Bilder
+  // Bei öffentlichen Repositories können wir die raw.githubusercontent.com URL verwenden
   // Beachte: Der public-Ordner muss im Pfad hinzugefügt werden, da der client-seitige Pfad kein "public" enthält
-  const url = `https://media.githubusercontent.com/media/Alex-Yumi/Park-Nordica-NO/refs/heads/main/pierres-park/public/${cleanSrc}`;
+  const url = `https://raw.githubusercontent.com/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
   
   return url;
 }
