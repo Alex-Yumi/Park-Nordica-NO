@@ -9,22 +9,24 @@ interface LanguageFlagProps {
 }
 
 export default function LanguageFlag({ language, isActive, onClick, size = 'normal' }: LanguageFlagProps) {
+  // Explizit Unicode-Werte für Flaggen verwenden und als Fallback den Ländercode
   const getFlagEmoji = (lang: string) => {
     switch (lang) {
       case 'de':
-        return '🇩🇪';
+        return { emoji: '🇩🇪', code: 'DE' }; // Germany Flag: U+1F1E9 U+1F1EA
       case 'no':
-        return '🇳🇴';
+        return { emoji: '🇳🇴', code: 'NO' }; // Norway Flag: U+1F1F3 U+1F1F4
       case 'en':
-        return '🇬🇧';
+        return { emoji: '🇬🇧', code: 'EN' }; // UK Flag: U+1F1EC U+1F1E7
       case 'es':
-        return '🇪🇸';
+        return { emoji: '🇪🇸', code: 'ES' }; // Spain Flag: U+1F1EA U+1F1F8
       default:
-        return '';
+        return { emoji: '', code: lang.toUpperCase() };
     }
   };
 
-  const sizeClasses = size === 'large' ? 'w-20 h-20 text-5xl' : 'w-14 h-14 text-3xl';
+  const { emoji, code } = getFlagEmoji(language);
+  const sizeClasses = size === 'large' ? 'w-20 h-20 text-4xl' : 'w-14 h-14 text-3xl';
 
   return (
     <button
@@ -38,7 +40,7 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
         hover:from-stone-400/90 hover:to-stone-500/90`}
       title={language.toUpperCase()}
     >
-      {getFlagEmoji(language)}
+      {emoji || <span className="text-xl font-bold">{code}</span>}
     </button>
   );
 } 
