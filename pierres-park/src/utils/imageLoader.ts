@@ -9,7 +9,7 @@ interface ImageLoaderProps {
 }
 
 /**
- * Konvertiert lokale Bildpfade in GitHub Raw URLs für öffentliche Repositories
+ * Konvertiert lokale Bildpfade in GitHub Media URLs für LFS-Dateien
  */
 export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps) {
   // Prüfen, ob wir uns in einer Produktion oder lokalen Entwicklung befinden
@@ -21,9 +21,9 @@ export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps
   // Entferne führende Slashes
   const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
   
-  // Bei öffentlichen Repositories können wir die raw.githubusercontent.com URL verwenden
+  // Für Git LFS-Dateien müssen wir media.githubusercontent.com verwenden, auch bei öffentlichen Repos
   // Beachte: Der public-Ordner muss im Pfad hinzugefügt werden, da der client-seitige Pfad kein "public" enthält
-  const url = `https://raw.githubusercontent.com/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
+  const url = `https://media.githubusercontent.com/media/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
   
   return url;
 }
