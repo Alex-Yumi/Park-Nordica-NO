@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 
 interface LanguageFlagProps {
   language: string;
@@ -10,24 +9,40 @@ interface LanguageFlagProps {
 }
 
 export default function LanguageFlag({ language, isActive, onClick, size = 'normal' }: LanguageFlagProps) {
+  // Explizite Unicode-Code-Points für Flaggen
   const getFlagInfo = (lang: string) => {
     switch (lang) {
       case 'de':
-        return { path: '/flags/de.svg', code: 'DE' };
+        return { 
+          emoji: String.fromCodePoint(0x1F1E9, 0x1F1EA),  // 🇩🇪
+          code: 'DE'
+        };
       case 'no':
-        return { path: '/flags/no.svg', code: 'NO' };
+        return { 
+          emoji: String.fromCodePoint(0x1F1F3, 0x1F1F4),  // 🇳🇴
+          code: 'NO'
+        };
       case 'en':
-        return { path: '/flags/en.svg', code: 'EN' };
+        return { 
+          emoji: String.fromCodePoint(0x1F1EC, 0x1F1E7),  // 🇬🇧
+          code: 'EN'
+        };
       case 'es':
-        return { path: '/flags/es.svg', code: 'ES' };
+        return { 
+          emoji: String.fromCodePoint(0x1F1EA, 0x1F1F8),  // 🇪🇸
+          code: 'ES'
+        };
       default:
-        return { path: '', code: lang.toUpperCase() };
+        return { emoji: '', code: lang.toUpperCase() };
     }
   };
 
-  const { path, code } = getFlagInfo(language);
+  const { emoji, code } = getFlagInfo(language);
   const sizeClasses = size === 'large' ? 'w-20 h-20' : 'w-14 h-14';
-  const imgSize = size === 'large' ? 60 : 42;
+  const textSizeClass = size === 'large' ? 'text-4xl' : 'text-3xl';
+
+  // Prüfen, ob das Browser-Rendering Emoji-Unterstützung hat
+  const [fallbackActive, setFallbackActive] = React.useState(false);
 
   return (
     <button
@@ -41,16 +56,20 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
         hover:from-stone-400/90 hover:to-stone-500/90`}
       title={language.toUpperCase()}
     >
-      {path ? (
-        <div className="relative w-full h-full">
-          <Image 
-            src={path} 
-            alt={`${code} Flag`} 
-            width={imgSize} 
-            height={imgSize}
-            className="object-cover"
-          />
-        </div>
+      {emoji && !fallbackActive ? (
+        <span 
+          className={`${textSizeClass} emoji-fix`}
+          style={{
+            fontFamily: 'Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols',
+            fontStyle: 'normal',
+            lineHeight: 1,
+            textRendering: 'optimizeLegibility',
+            WebkitFontSmoothing: 'antialiased',
+          }}
+          onError={() => setFallbackActive(true)}
+        >
+          {emoji}
+        </span>
       ) : (
         <span className="text-xl font-bold text-white">{code}</span>
       )}

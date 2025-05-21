@@ -64,3 +64,14 @@
     }
   }
 }
+
+/* Emoji Fix für alle Plattformen */
+.emoji-fix {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols', sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  line-height: 1;
+}
