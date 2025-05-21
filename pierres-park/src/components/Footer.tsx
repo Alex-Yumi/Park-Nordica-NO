@@ -1,25 +1,35 @@
 'use client';
 
+import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import Link from 'next/link';
+import PrivacyModal from '@/components/PrivacyModal';
+import GitHubImage from './GitHubImage';
 
 export default function Footer() {
   const { t } = useLanguage();
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
+
+  const openPrivacyModal = () => {
+    setIsPrivacyModalOpen(true);
+  };
 
   return (
-    <footer className="bg-gradient-to-br from-stone-700/95 to-stone-800/95 text-white py-12 backdrop-blur-sm shadow-lg">
+    <footer className="bg-gradient-to-br from-[#1E2A3B]/90 to-[#2C3E50]/90 text-white pt-12 pb-6 shadow-xl mt-4">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#4A90E2] to-[#63B3ED] bg-clip-text text-transparent">
-              Park Nordica
-            </h3>
-            <p className="text-white/80 mb-6">{t('parkSlogan')}</p>
-            <img
-              src="/logo/Nordica_Logo_V4_Grey.png"
-              alt="Park Nordica Logo"
-              className="h-24 w-auto filter-brightness-110"
-            />
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-8">
+          <div className="mb-8 md:mb-0 flex flex-col items-center md:items-start">
+            <div className="relative h-24 w-24 mb-4">
+              <GitHubImage
+                src="/logo/Nordica_Logo_V4_Grey.png"
+                alt="Park Nordica Logo"
+                fill
+                className="object-contain filter-brightness-110"
+              />
+            </div>
+            <p className="text-sm text-white/60 max-w-xs text-center md:text-left">
+              {t('parkSlogan')}
+            </p>
           </div>
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#4A90E2] to-[#63B3ED] bg-clip-text text-transparent">

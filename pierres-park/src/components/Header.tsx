@@ -2,9 +2,10 @@
 
 import { useLanguage } from '@/context/LanguageContext';
 import LanguageFlag from './LanguageFlag';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import GitHubImage from './GitHubImage';
 
 export default function Header() {
   const { language, setLanguage, t } = useLanguage();
@@ -114,11 +115,14 @@ export default function Header() {
               href="/" 
               className="transition-transform hover:scale-105"
             >
-              <img
-                src="/logo/Nordica_Logo_V4_Grey.png"
-                alt="Park Nordica Logo"
-                className="h-24 w-auto filter-brightness-110"
-              />
+              <div className="relative h-24 w-24">
+                <GitHubImage
+                  src="/logo/Nordica_Logo_V4_Grey.png"
+                  alt="Park Nordica Logo"
+                  fill
+                  className="object-contain filter-brightness-110"
+                />
+              </div>
             </Link>
           </div>
         </div>
@@ -143,11 +147,14 @@ export default function Header() {
               className="flex justify-center items-center space-x-3 transition-transform hover:scale-105"
             >
               <span className="text-xl font-bold text-white">Park</span>
-              <img
-                src="/logo/Nordica_Logo_V4_Grey.png"
-                alt="Park Nordica Logo"
-                className="h-24 w-auto filter-brightness-110"
-              />
+              <div className="relative h-24 w-24">
+                <GitHubImage
+                  src="/logo/Nordica_Logo_V4_Grey.png"
+                  alt="Park Nordica Logo"
+                  fill
+                  className="object-contain filter-brightness-110"
+                />
+              </div>
               <span className="text-xl font-bold text-white">Nordica</span>
             </Link>
 
@@ -216,11 +223,14 @@ export default function Header() {
             Park Nordica
           </h3>
           <p className="text-white/80 mb-4 text-center px-8">{t('parkSlogan')}</p>
-          <img
-            src="/logo/Nordica_Logo_V4_Grey.png"
-            alt="Park Nordica Logo"
-            className="h-20 w-auto filter-brightness-110"
-          />
+          <div className="relative h-24 w-24">
+            <GitHubImage
+              src="/logo/Nordica_Logo_V4_Grey.png"
+              alt="Park Nordica Logo"
+              fill
+              className="object-contain filter-brightness-110"
+            />
+          </div>
         </div>
 
         {/* Mobile Navigation Links */}

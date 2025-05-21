@@ -1,9 +1,10 @@
 'use client';
 
 import Image from 'next/image';
+import GitHubImage from './GitHubImage';
 import { useLanguage } from '@/context/LanguageContext';
 import { useStripe } from '@/context/StripeContext';
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Bus, Car, Ticket, Coffee, Utensils, ShoppingCart, Minus, Plus } from 'lucide-react';
 
 interface ParkImage {
@@ -209,7 +210,7 @@ export default function Hero() {
             </div>
             
             <div className="relative w-full h-[240px] md:h-[600px] rounded-xl md:rounded-3xl overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.1),0_10px_25px_rgba(0,0,0,0.2)] transform-gpu transition-all duration-500 hover:shadow-[0_0_35px_rgba(0,0,0,0.15),0_10px_35px_rgba(0,0,0,0.25)]">
-              <Image
+              <GitHubImage
                 src="/banner/main-banner.jpeg"
                 alt="Park Nordica Banner"
                 fill
@@ -264,11 +265,14 @@ export default function Hero() {
                   
                   {/* Logo */}
                   <div className="flex justify-center">
-                    <img
-                      src="/logo/Nordica_Logo_V4_Grey.png"
-                      alt="Park Nordica Logo"
-                      className="h-36 md:h-44 w-auto filter-brightness-110"
-                    />
+                    <div className="relative h-36 md:h-44 w-36 md:w-44">
+                      <GitHubImage
+                        src="/logo/Nordica_Logo_V4_Grey.png"
+                        alt="Park Nordica Logo"
+                        fill
+                        className="object-contain filter-brightness-110"
+                      />
+                    </div>
                   </div>
                 </div>
 
@@ -486,7 +490,7 @@ export default function Hero() {
                   }`}
                   onClick={() => handleImageClick(image)}
                   >
-                    <Image
+                    <GitHubImage
                     src={image.imageUrl.landscape || image.imageUrl.square || ''}
                     alt={`Park Image ${image.id}`}
                       fill
@@ -506,7 +510,7 @@ export default function Hero() {
                   }`}
                   onClick={() => handleImageClick(image)}
                   >
-                    <Image
+                    <GitHubImage
                     src={image.imageUrl.landscape || image.imageUrl.square || ''}
                     alt={`Park Image ${image.id}`}
                       fill
@@ -672,7 +676,7 @@ export default function Hero() {
             
             {/* Image Container */}
             <div className="relative">
-              <Image
+              <GitHubImage
                 src={selectedImage.imageUrl.landscape || selectedImage.imageUrl.square || ''}
                 alt={`Park Image ${selectedImage.id}`}
                 width={1920}

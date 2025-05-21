@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
+import { useSearchParams } from 'next/navigation';
+import GitHubImage from '@/components/GitHubImage';
 
 export default function ThankYouPage() {
   const { t } = useLanguage();
@@ -35,14 +37,17 @@ export default function ThankYouPage() {
         <div className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden backdrop-blur-md border border-white/10 p-8">
           
           {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center">
-              <img
-                src="/logo/Nordica_Logo_V4_Grey.png"
-                alt="Park Nordica Logo"
-                className="h-20 md:h-24 w-auto filter-brightness-110"
-              />
-            </div>
+          <div className="flex flex-col items-center justify-center text-center mb-10">
+            <Link href="/" className="mb-2">
+              <div className="relative h-28 w-28">
+                <GitHubImage
+                  src="/logo/Nordica_Logo_V4_Grey.png"
+                  alt="Park Nordica Logo"
+                  fill
+                  className="object-contain filter-brightness-110 transition-transform hover:scale-110"
+                />
+              </div>
+            </Link>
           </div>
           
           {/* Bestätigungsnachricht */}
