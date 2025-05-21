@@ -7,8 +7,6 @@ const nextConfig = {
   },
   // Konfiguriere das Image Optimization für externe Bilder
   images: {
-    // Erhöhe die Bildqualität
-    quality: 90,
     // Erhöhe die maximale Größe für Bilder
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     // Aktiviere Remote-Patterns für GitHub-gehostete Bilder
