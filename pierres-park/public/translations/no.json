@@ -1,0 +1,179 @@
+{
+  "privacy": {
+    "title": "Personvernerklæring",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduksjon",
+        "content": "Denne personvernerklæringen forklarer hvordan vi samler inn og bruker dine personopplysninger."
+      },
+      "responsible": {
+        "title": "2. Ansvarlig enhet",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "data": {
+        "title": "3. Data vi samler inn",
+        "items": {
+          "0": "Navn, kontaktinformasjon",
+          "1": "Kjøpsdetaljer",
+          "2": "IP-adresse og informasjonskapsler"
+        }
+      },
+      "purpose": {
+        "title": "4. Formål med behandlingen",
+        "items": {
+          "0": "Behandling av kjøp",
+          "1": "Kundeservice"
+        }
+      },
+      "legal": {
+        "title": "5. Rettslig grunnlag",
+        "content": "Samtykke, kontrakt og juridiske forpliktelser."
+      },
+      "storage": {
+        "title": "6. Lagring",
+        "content": "Data slettes når de ikke lenger er nødvendige."
+      },
+      "sharing": {
+        "title": "7. Datadeling",
+        "content": "Kun med samtykke eller juridisk forpliktelse."
+      },
+      "rights": {
+        "title": "8. Dine rettigheter",
+        "items": {
+          "0": "Informasjon",
+          "1": "Korrigering",
+          "2": "Sletting",
+          "3": "Klage"
+        }
+      },
+      "cookies": {
+        "title": "9. Informasjonskapsler",
+        "content": "Brukes for analyse og funksjonalitet."
+      },
+      "security": {
+        "title": "10. Sikkerhet",
+        "content": "Vi beskytter dine data med passende tiltak."
+      },
+      "changes": {
+        "title": "11. Endringer",
+        "content": "Endringer vil bli publisert på nettstedet."
+      }
+    },
+    "lastUpdated": "Sist oppdatert: {{date}}"
+  },
+  "terms": {
+    "title": "Vilkår og betingelser",
+    "sections": {
+      "introduction": {
+        "title": "1. Generell informasjon",
+        "content": "Dette nettstedet drives av Park Nordica, under det juridiske navnet Nordisk Opplevelse AS. Ved å bruke nettstedet vårt godtar du våre vilkår og betingelser som er angitt nedenfor."
+      },
+      "contact": {
+        "title": "2. Kontaktinformasjon",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorge\nInfo@ParkNordica.no"
+      },
+      "tickets": {
+        "title": "3. Billetter og reservasjoner",
+        "items": {
+          "0": "Billetter er kun gyldige for valgt dato",
+          "1": "Ingen refusjon unntatt ved kansellering fra vår side",
+          "2": "Vennligst ta med billetten ved ankomst"
+        }
+      },
+      "usage": {
+        "title": "4. Bruk av nettstedet",
+        "items": {
+          "0": "Innholdet er beskyttet av opphavsrett",
+          "1": "Automatisert datainnsamling er forbudt"
+        }
+      },
+      "privacy": {
+        "title": "5. Personvern",
+        "content": "Vi behandler dine data i henhold til norsk lov."
+      },
+      "liability": {
+        "title": "6. Ansvarsbegrensning",
+        "content": "Vi påtar oss ikke ansvar for tap som oppstår ved bruk av nettstedet."
+      },
+      "security": {
+        "title": "7. Sikkerhet",
+        "content": "Vi beskytter din informasjon, men kan ikke garantere fullstendig sikkerhet."
+      },
+      "changes": {
+        "title": "8. Endringer",
+        "content": "Vi forbeholder oss retten til å endre disse vilkårene når som helst."
+      },
+      "jurisdiction": {
+        "title": "9. Gjeldende lov og verneting",
+        "content": "Norsk lov gjelder. Tvister vil bli avgjort for Oslo tingrett."
+      }
+    },
+    "lastUpdated": "Sist oppdatert: {{date}}"
+  },
+  "disclaimer": {
+    "title": "Ansvarsfraskrivelse",
+    "sections": {
+      "general": {
+        "title": "1. Generelt",
+        "content": "Opphold og bruk av parken skjer generelt på egen risiko. Park Nordica er en naturpark med frittlevende og inngjerdede ville dyr som kan være følsomme for forstyrrelser. Av denne grunn har alle besøkende et spesielt ansvar for å oppføre seg respektfullt og hensynsfullt overfor dyr, natur og andre gjester.\n\nDet er strengt forbudt å plage, mate, jakte på eller på annen måte stresse dyr. Enhver form for forstyrrende atferd kan være farlig for både dyr og mennesker. Besøkende er forpliktet til å oppføre seg forsvarlig og holde tilstrekkelig avstand til ville dyr.\n\nVidere legger Park Nordica stor vekt på miljøvern og bærekraft. Vi oppfordrer alle gjester til ikke å etterlate søppel i parken, da dette kan bli spist av dyr og føre til alvorlige skader eller til og med død.\n\nVi appellerer til miljøbevisstheten og det personlige ansvaret til hver enkelt besøkende om aktivt å bidra til beskyttelsen av vårt sårbare økosystem."
+      },
+      "website": {
+        "title": "2. Bruk av nettstedet og online betalingssystemer",
+        "content": "Park Nordica påtar seg intet ansvar for direkte eller indirekte skader som oppstår ved bruk av dette nettstedet, spesielt ikke for:\n• tekniske feil eller driftsstans,\n• ufullstendig eller feilaktig informasjon,\n• midlertidig utilgjengelighet av tilbudet,\n• eller skader forårsaket av virus, skadelig programvare eller usikre tilkoblinger.\n\nSelv om vi alltid bestreber oss på å holde all informasjon på nettstedet vårt oppdatert, korrekt og fullstendig, kan utilsiktede feil eller endringer forekomme. Innhold, priser, arrangementer eller åpningstider kan når som helst og uten forvarsel justeres.\n\nBestilling og betaling av billetter, arrangementer eller andre tjenester behandles gjennom betalingstjenestesystemet \"Stripe\" og dets tekniske infrastruktur. Park Nordica har ingen direkte tilgang til sensitive betalingsdata (som kredittkortnumre eller lignende), da disse utelukkende behandles av Stripe.\n\nVi behandler all personlig informasjon som gis til oss under bestillingsprosessen med største forsiktighet og i samsvar med gjeldende personvernlovgivning. Park Nordica påtar seg imidlertid intet ansvar for eventuelle feil, svikt eller datatap som oppstår hos Stripe eller deres partnere.\n\nBruk av alt innhold, skjemaer og betalingsfunksjoner på nettstedet vårt skjer på egen risiko. Feilfri og permanent tilgjengelighet kan ikke garanteres."
+      },
+      "stay": {
+        "title": "3. Opphold i parken",
+        "content": "Opphold i parken skjer generelt på egen risiko. Foreldre eller foresatte bærer det fulle ansvaret for sikkerheten og oppførselen til sine barn eller personer de har ansvaret for.\n\nPark Nordica påtar seg intet ansvar for personskade eller materiell skade som oppstår under et opphold i parken, forutsatt at disse kan tilskrives feilaktig bruk av fasiliteter, grovt uaktsom oppførsel eller manglende overholdelse av sikkerhetsinstruksjoner og personalets direktiver.\n\nBesøkende er forpliktet til å oppføre seg ansvarlig til enhver tid, ivareta egen og andres sikkerhet, og følge alle instruksjoner og advarselsskilt i parken. Manglende overholdelse kan føre til umiddelbar bortvisning fra parken – uten rett til refusjon."
+      },
+      "animals": {
+        "title": "4. Kontakt med dyr",
+        "content": "Kontakt med dyr i klappedyrhagen i Park Nordica skjer på egen risiko eller på risikoen til de respektive tilsynspersonene. Barn har ikke adgang til klappedyrhagen uten tilsyn av en voksen.\n\nAlle besøkende er forpliktet til å behandle dyrene respektfullt og følge personalets sikkerhets- og atferdsanbefalinger.\n\nAll kontakt med andre dyr utenfor klappedyrhagen – spesielt med ville dyr eller inngjerdede dyr – er strengt forbudt. Overtredelser skjer på egen risiko. Park Nordica påtar seg intet ansvar for skader eller personskader som følge av slik uautorisert dyrekontakt."
+      },
+      "activities": {
+        "title": "5. Aktiviteter og attraksjoner",
+        "content": "Bruk av lekeapparater, attraksjoner, forlystelser og alle andre fritidsaktiviteter i parken skjer på egen risiko. Besøkende er forpliktet til å strengt følge alle sikkerhetsinstruksjoner, alders- eller høydebegrensninger og personalets direktiver.\n\nDersom utstyr eller anlegg ikke brukes i henhold til forskriftene, eller dersom personalets instruksjoner ikke følges, påtar Park Nordica seg intet ansvar overhodet for eventuelle resulterende skader, personskader eller andre konsekvenser.\n\nKorrekt bruk og hensyn til andre besøkende er grunnleggende forutsetninger for deltakelse i alle aktiviteter i parken. Ved gjentatt dårlig oppførsel forbeholder vi oss retten til å nekte de berørte personene adgang til bestemte områder eller hele parken."
+      },
+      "events": {
+        "title": "6. Arrangementer",
+        "content": "Billetter til arrangementer eller spesielle begivenheter i Park Nordica er utelukkende gyldige på arrangementsdagen som er trykt på dem. Refusjon eller ombooking er utelukket, selv om gjesten ikke møter opp.\n\nPark Nordica påtar seg intet ansvar for avlysninger eller endringer forårsaket av værforhold, tekniske problemer eller andre omstendigheter utenfor vår kontroll.\n\nUnder arrangementet har besøkende kun tillatelse til å oppholde seg i de angitte og merkede områdene. Opphold i resten av parkområdet er forbudt med mindre det uttrykkelig er tillatt av personalet.\n\nDenne forskriften tjener til å beskytte besøkende, da det også er ville dyr og ikke-offentlig tilgjengelige innhegninger i parken, hvor uovervåket adgang kan medføre betydelige farer.\n\nOvertredelser skjer på egen risiko, og Park Nordica forbeholder seg retten til å bortvise personer fra området."
+      },
+      "theft": {
+        "title": "7. Tyveri",
+        "content": "Park Nordica påtar seg intet ansvar overhodet for tapte, skadede eller stjålne gjenstander, verken på parkområdet, på de tilhørende parkeringsplassene eller i innendørsområder.\n\nVi ber alle gjester om å håndtere eiendelene sine forsiktig og til enhver tid holde personlige eiendeler under oppsikt eller trygt oppbevart.\n\nMedbringelse av verdisaker skjer på egen risiko. Ingen kompensasjon vil bli gitt ved tap eller tyveri."
+      },
+      "force": {
+        "title": "8. Force Majeure",
+        "content": "Park Nordica er ikke ansvarlig for skader, svikt eller begrensninger forårsaket av force majeure-hendelser. Force majeure-hendelser er alle uforutsette, ekstraordinære hendelser som ligger utenfor vår kontroll og som ikke kan forhindres til tross for rimelig aktsomhet.\n\nDisse inkluderer, men er ikke begrenset til:\n• Naturkatastrofer (f.eks. stormer, lynnedslag, flom)\n• Branner eller eksplosjoner\n• Pandemier og offisielt beordrede nedleggelser\n• Tekniske feil på grunn av strøm- eller internettbrudd\n• Streiker eller arbeidskonflikter\n• Terrorhandlinger eller sikkerhetsrelaterte trusler\n\nI slike tilfeller forbeholder vi oss retten til å avlyse arrangementer, endre åpningstider eller stenge parken helt eller delvis, uten at det oppstår krav om erstatning, refusjon eller annen kompensasjon."
+      }
+    },
+    "lastUpdated": "Sist oppdatert: {{date}}"
+  },
+  "buildingFuture": "Park Nordica – Gjenåpning i juni 2026",
+  "parkClosed": "Parken vår er stengt i 2025 – vi bygger for fremtiden",
+  "constructionSafety": "Omfattende renoveringer for økt sikkerhet og bærekraft",
+  "modernization": "Omforming til en moderne, naturnær opplevelsespark",
+  "reopening": "Gjenåpning i juni 2026 med nye høydepunkter for hele familien",
+  "futureDetailedText": "Det er med stor beklagelse at vi må informere om at Park Nordica ikke vil være åpen i løpet av 2025-sesongen. I løpet av denne tiden omformer vi den tidligere familieparken med stor lidenskap og engasjement til en fullstendig fornyet, moderne og naturnær opplevelsespark.\n\nVårt mål er å skape et trygt, bærekraftig og teknisk feilfritt miljø – omfattende renoveringstiltak er nødvendige for dette. Vanlig besøkstrafikk er dessverre ikke mulig under denne byggefasen.\n\nVi ber oppriktig om din forståelse og gleder oss allerede til å ønske deg og familien din velkommen til parken vår fra juni 2026 – i en park som venter på deg med kjærlighet til naturen, innovative ideer og nye høydepunkter.",
+  "limitedSpots": "Strengt begrenset antall plasser – bestill raskt!",
+  "weekendPreview": "Eksklusiv helgeforhåndsvisning",
+  "sneakPeekDates": "Datoer: 19. og 20. juli 2025",
+  "guidedFeeding": "Guidet mating av fjellrev og ulver",
+  "firstLook": "Første titt på de nye innhegningene og fasilitetene",
+  "foodIncluded": "Kaffe, te og tradisjonelle bakevarer inkludert",
+  "previewDetailedText": "Sneak Peek 19. og 20. juli – Et første blikk bak kulissene\n\nDen 19. og 20. juli 2025 åpner vi eksklusivt utvalgte områder av Park Nordica – og inviterer deg hjertelig til en helt spesiell sneak peek-helg!\n\nOpplev på nært hold hva som allerede har endret seg, ta en første titt på våre nye ideer, og bli med oss på mating av utvalgte dyr som finner sted på faste tidspunkter. Ved kjøp av billetter kan du melde deg på en av matingstidene for å oppleve dyrene på nært hold og nyte de første møtene i den nye parken.\n\nVær oppmerksom på: Antall besøkende er strengt begrenset per dag, da parken fortsatt er under oppbygging og bare vil være delvis åpen.\n\nI tillegg inviterer vi deg til å nyte hjertelige grillsnacks og alkoholfrie forfriskninger. Hver billett inkluderer en matbong og en drikkebong som kan innløses på stedet.\n\nVi gleder oss spesielt til å ønske gjester fra Namdalen-regionen, fra Trøndelag og utover velkommen til denne unike muligheten – for å gi deg en første smakebit av den nye Park Nordica-opplevelsen.\n\nBilletter er tilgjengelige nå – så lenge lageret rekker!",
+  "readMore": "Les mer",
+  "close": "Lukk",
+  "sneakPeekTicket": "Sneak Peek Billett",
+  "ticketIncludes": "Prisen inkluderer: 1× drikkekupong og 1× matkupong",
+  "drinkVoucher": "drikkekupong",
+  "foodVoucher": "matkupong",
+  "thankYou": "Takk for ditt kjøp!",
+  "orderConfirmed": "Din bestilling er fullført.",
+  "confirmationEmailSent": "En bekreftelse er sendt til din e-postadresse.",
+  "orderNumber": "Ordrenummer",
+  "ticketsPurchased": "Antall billetter",
+  "whatNext": "Hva skjer nå?",
+  "ticketsInfo": "Dine billetter vil bli sendt på e-post kort tid før arrangementet. Vennligst ta med billettene enten utskrevet eller digitalt på smarttelefonen din.",
+  "backToHome": "Tilbake til forsiden",
+  "printReceipt": "Skriv ut kvittering"
+} 

@@ -1,0 +1,110 @@
+'use client';
+
+import { useLanguage } from '@/context/LanguageContext';
+import LanguageFlag from './LanguageFlag';
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
+
+export default function Header() {
+  const { language, setLanguage, t } = useLanguage();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+      {/* Logo-Container außerhalb des Header-Containers, damit es nicht abgeschnitten wird */}
+      <div className="absolute top-4 left-8 z-[51]">
+        <div className="relative">
+          <img
+            src="/logo/park-logo.png"
+            alt="Park Nordica Logo"
+            width={180}
+            height={180}
+            className="drop-shadow-xl"
+            style={{ 
+              transform: 'translateY(-20px)',
+              maxWidth: '100%',
+              height: 'auto'
+            }}
+          />
+        </div>
+      </div>
+
+      <div className={`relative w-full h-16 transition-all duration-300 ${
+        isScrolled 
+          ? 'shadow-lg' 
+          : ''
+      }`}>
+        {/* Norwegische Flagge als Hintergrund */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="relative w-full h-full">
+            <Image
+              src="/landscapes/norwegian-flag.jpg"
+              alt="Norwegische Flagge"
+              fill
+              className="object-cover object-left"
+              priority
+            />
+          </div>
+          <div className={`absolute inset-0 ${
+            isScrolled 
+              ? 'bg-black/50' 
+              : 'bg-black/10'
+          }`}></div>
+        </div>
+
+        <nav className="container relative mx-auto px-4 h-full z-10">
+          <div className="flex justify-between items-center h-full">
+            {/* Platzhalter für das Logo */}
+            <div className="flex-1 relative">
+            </div>
+            <h1 className="text-xl font-extrabold text-white tracking-wider drop-shadow-md">Park Nordica</h1>
+            <div className="flex items-center space-x-6 flex-1 justify-end">
+              <div className="hidden md:flex space-x-8">
+                <a href="#attraktionen" className="text-white font-semibold hover:text-white transition-all duration-300 hover:scale-105">
+                  {t('attractions')}
+                </a>
+                <a href="#tickets" className="text-white font-semibold hover:text-white transition-all duration-300 hover:scale-105">
+                  {t('tickets')}
+                </a>
+                <a href="#kontakt" className="text-white font-semibold hover:text-white transition-all duration-300 hover:scale-105">
+                  {t('contact')}
+                </a>
+              </div>
+              <div className="flex space-x-3">
+                <LanguageFlag 
+                  language="de" 
+                  isActive={language === 'de'} 
+                  onClick={() => setLanguage('de')} 
+                />
+                <LanguageFlag 
+                  language="no" 
+                  isActive={language === 'no'} 
+                  onClick={() => setLanguage('no')} 
+                />
+                <LanguageFlag 
+                  language="en" 
+                  isActive={language === 'en'} 
+                  onClick={() => setLanguage('en')} 
+                />
+                <LanguageFlag 
+                  language="es" 
+                  isActive={language === 'es'} 
+                  onClick={() => setLanguage('es')} 
+                />
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+} 

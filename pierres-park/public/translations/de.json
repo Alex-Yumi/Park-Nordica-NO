@@ -1,0 +1,204 @@
+{
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "introduction": {
+        "title": "1. Einführung",
+        "content": "Diese Datenschutzerklärung erklärt, wie wir Ihre personenbezogenen Daten erheben und nutzen."
+      },
+      "responsible": {
+        "title": "2. Verantwortliche Stelle",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "data": {
+        "title": "3. Welche Daten wir erheben",
+        "items": {
+          "0": "Name, Kontaktdaten",
+          "1": "Kaufdetails",
+          "2": "IP-Adresse und Cookies"
+        }
+      },
+      "purpose": {
+        "title": "4. Zweck der Verarbeitung",
+        "items": {
+          "0": "Abwicklung von Käufen",
+          "1": "Kundenservice"
+        }
+      },
+      "legal": {
+        "title": "5. Rechtsgrundlage",
+        "content": "Einwilligung, Vertrag und gesetzliche Verpflichtungen."
+      },
+      "storage": {
+        "title": "6. Speicherung",
+        "content": "Daten werden gelöscht, wenn sie nicht mehr benötigt werden."
+      },
+      "sharing": {
+        "title": "7. Weitergabe",
+        "content": "Nur mit Einwilligung oder gesetzlicher Verpflichtung."
+      },
+      "rights": {
+        "title": "8. Ihre Rechte",
+        "items": {
+          "0": "Auskunft",
+          "1": "Berichtigung",
+          "2": "Löschung",
+          "3": "Beschwerde"
+        }
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "content": "Verwendung für Analyse und Funktionalität."
+      },
+      "security": {
+        "title": "10. Sicherheit",
+        "content": "Wir schützen Ihre Daten mit geeigneten Maßnahmen."
+      },
+      "changes": {
+        "title": "11. Änderungen",
+        "content": "Änderungen werden auf der Website veröffentlicht."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "sections": {
+      "introduction": {
+        "title": "1. Allgemeine Informationen",
+        "content": "Diese Website wird betrieben von Park Nordica, unter dem rechtlichen Namen Nordisk Opplevelse AS. Mit der Nutzung unserer Website akzeptieren Sie unsere untenstehenden Bedingungen."
+      },
+      "contact": {
+        "title": "2. Kontaktinformationen",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorwegen\nInfo@ParkNordica.no"
+      },
+      "tickets": {
+        "title": "3. Tickets und Reservierungen",
+        "items": {
+          "0": "Tickets gelten nur für das gewählte Datum.",
+          "1": "Keine Rückerstattung, außer bei Absage durch uns.",
+          "2": "Bitte bringen Sie Ihr Ticket bei der Ankunft mit."
+        }
+      },
+      "usage": {
+        "title": "4. Nutzung der Website",
+        "items": {
+          "0": "Der Inhalt ist urheberrechtlich geschützt.",
+          "1": "Automatisiertes Sammeln von Daten ist untersagt."
+        }
+      },
+      "privacy": {
+        "title": "5. Datenschutz",
+        "content": "Wir verarbeiten Ihre Daten gemäß norwegischem Recht."
+      },
+      "liability": {
+        "title": "6. Haftungsbeschränkung",
+        "content": "Wir übernehmen keine Haftung für Verluste, die durch die Nutzung der Website entstehen."
+      },
+      "security": {
+        "title": "7. Sicherheit",
+        "content": "Wir schützen Ihre Informationen, können jedoch keine vollständige Sicherheit garantieren."
+      },
+      "changes": {
+        "title": "8. Änderungen",
+        "content": "Wir behalten uns das Recht vor, die Bedingungen jederzeit zu ändern."
+      },
+      "jurisdiction": {
+        "title": "9. Anwendbares Recht und Gerichtsstand",
+        "content": "Es gilt norwegisches Recht. Streitigkeiten werden vor dem Amtsgericht Oslo verhandelt."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+  },
+  "disclaimer": {
+    "title": "Haftungsausschluss",
+    "sections": {
+      "general": {
+        "title": "1. Allgemein",
+        "content": "Der Aufenthalt und die Nutzung des Parks erfolgen grundsätzlich auf eigene Gefahr. Park Nordica ist ein Naturpark mit freilebenden und eingezäunten Wildtieren, die empfindlich auf Störungen reagieren können. Aus diesem Grund tragen alle Besucher eine besondere Verantwortung dafür, sich respektvoll und rücksichtsvoll gegenüber Tieren, Natur und anderen Gästen zu verhalten.\\n\\nEs ist streng untersagt, Tiere zu bedrängen, zu füttern, zu jagen oder in anderer Weise zu stressen. Jede Form von störendem Verhalten kann für Tiere wie auch für Menschen gefährlich werden. Besucher sind verpflichtet, sich umsichtig zu verhalten und Wildtieren ausreichend Abstand zu gewähren.\\n\\nZudem legt Park Nordica großen Wert auf Umweltschutz und Nachhaltigkeit. Wir bitten alle Gäste eindringlich, keinen Müll im Park zu hinterlassen, da dieser von Tieren aufgenommen werden könnte und zu schweren Verletzungen oder sogar zum Tod führen kann.\\n\\nWir appellieren an das Umweltbewusstsein und die Eigenverantwortung jedes Besuchers, zum Schutz unseres sensiblen Ökosystems aktiv beizutragen."
+      },
+      "website": {
+        "title": "2. Nutzung der Website und Online-Zahlungssysteme",
+        "content": "Park Nordica übernimmt keine Haftung für direkte oder indirekte Schäden, die durch die Nutzung dieser Website entstehen, insbesondere nicht für:\\n• technische Störungen oder Ausfälle,\\n• unvollständige oder fehlerhafte Informationen,\\n• temporäre Nichtverfügbarkeit des Angebots,\\n• oder Schäden, die durch Viren, Malware oder unsichere Verbindungen verursacht werden.\\n\\nObwohl wir stets bemüht sind, alle Informationen auf unserer Website aktuell, korrekt und vollständig zu halten, kann es zu unbeabsichtigten Fehlern oder Änderungen kommen. Inhalte, Preise, Veranstaltungen oder Öffnungszeiten können jederzeit und ohne Vorankündigung angepasst werden.\\n\\nDie Buchung und Bezahlung von Tickets, Events oder sonstigen Leistungen erfolgt über das Zahlungsdienstleistungssystem \\\"Stripe\\\" und deren technische Infrastruktur. Park Nordica hat keinen direkten Zugriff auf sensible Zahlungsdaten (wie Kreditkartennummern o. Ä.), da diese ausschließlich von Stripe verarbeitet werden.\\n\\nWir behandeln alle personenbezogenen Informationen, die uns im Rahmen des Buchungsvorgangs zur Verfügung gestellt werden, mit größter Sorgfalt und in Übereinstimmung mit der geltenden Datenschutzgesetzgebung. Für etwaige Fehler, Ausfälle oder Datenverluste, die bei Stripe oder deren Partnern auftreten, übernimmt Park Nordica jedoch keine Haftung.\\n\\nDie Nutzung sämtlicher Inhalte, Formulare und Zahlungsfunktionen auf unserer Website erfolgt auf eigene Verantwortung. Eine feilfreie und dauerhafte Verfügbarkeit kann nicht garantiert werden."
+      },
+      "stay": {
+        "title": "3. Aufenthalt im Park",
+        "content": "Der Aufenthalt im Park erfolgt grundsätzlich auf eigene Gefahr. Eltern oder gesetzliche Aufsichtspersonen tragen die volle Verantwortung für die Sicherheit und das Verhalten ihrer Kinder oder der ihnen anvertrauten Personen.\\n\\nPark Nordica übernimmt keine Haftung für Personen- oder Sachschäden, die während des Aufenthalts im Park entstehen, sofern diese auf unsachgemäße Nutzung von Einrichtungen, grob fahrlässiges Verhalten oder die Nichtbefolgung von Sicherheitshinweisen und Anweisungen des Personals zurückzuführen sind.\\n\\nBesucher sind verpflichtet, sich jederzeit verantwortungsvoll zu verhalten, auf die eigene Sicherheit und die Sicherheit anderer zu achten und alle Anweisungen und Warnhinweise im Park zu befolgen. Eine Zuwiderhandlung kann zum sofortigen Verweis aus dem Park führen – ohne Anspruch auf Rückerstattung."
+      },
+      "animals": {
+        "title": "4. Tierkontakte",
+        "content": "Der Kontakt zu Tieren im Streichelzoo-Bereich von Park Nordica erfolgt auf eigene Verantwortung oder auf die Verantwortung der jeweiligen Aufsichtspersonen. Kinder dürfen sich nicht ohne Begleitung einer volljährigen Aufsichtsperson im Bereich des Streichelzoos aufhalten.\\n\\nAlle Besucher sind verpflichtet, respektvoll mit den Tieren umzugehen und den Sicherheits- sowie Verhaltensempfehlungen des Personals Folge zu leisten.\\n\\nJeglicher Kontakt zu anderen Tieren außerhalb des Streichelzoos – insbesondere zu Wildtieren oder eingezäunten Tieren – ist strengstens untersagt. Zuwiderhandlungen geschehen auf eigene Gefahr. Park Nordica übernimmt keine Haftung für Schäden oder Verletzungen, die aus einem solchen unerlaubten Tierkontakt entstehen."
+      },
+      "activities": {
+        "title": "5. Aktivitäten und Fahrgeschäfte",
+        "content": "Die Nutzung von Spielgeräten, Fahrgeschäften, Attraktionen und allen weiteren Freizeitaktivitäten im Park erfolgt auf eigene Gefahr. Besucher sind verpflichtet, alle Sicherheitshinweise, Alters- oder Größenbeschränkungen sowie Anweisungen des Personals strikt zu befolgen.\\n\\nSollten Geräte oder Anlagen nicht gemäß den Vorgaben genutzt werden, oder werden Anweisungen des Personals missachtet, übernimmt Park Nordica keinerlei Haftung für daraus resultierende Schäden, Verletzungen oder sonstige Folgen.\\n\\nEine sachgemäße Nutzung und die Rücksichtnahme auf andere Besucher sind Grundvoraussetzungen für die Teilnahme an sämtlichen Aktivitäten im Park. Bei wiederholtem Fehlverhalten behalten wir uns vor, den betreffenden Personen den Zugang zu bestimmten Bereichen oder dem gesamten Park zu verwehren."
+      },
+      "events": {
+        "title": "6. Veranstaltungen",
+        "content": "Eintrittskarten für Veranstaltungen oder Sonder-Events im Park Nordica sind ausschließlich am aufgedruckten Veranstaltungstag gültig. Eine Rückerstattung oder Umbuchung ist ausgeschlossen, auch bei Nicht-Erscheinen des Gastes.\\n\\nPark Nordica übernimmt keine Haftung für Ausfälle oder Änderungen, die durch Wetterbedingungen, technische Probleme oder andere nicht beeinflussbare Umstände entstehen.\\n\\nWährend der Veranstaltung ist es Besuchern ausschließlich gestattet, sich in den hierfür vorgesehenen und gekennzeichneten Bereichen aufzuhalten. Ein Aufenthalt im restlichen Parkgelände ist untersagt, sofern dies nicht ausdrücklich durch das Personal gestattet wird.\\n\\nDiese Regelung dient dem Schutz der Besucher, da sich im Park auch Wildtiere und nicht öffentlich zugängliche Gehege befinden, deren unbeaufsichtigter Zugang mit erheblichen Gefahren verbunden sein kann.\\n\\nZuwiderhandlungen erfolgen auf eigene Gefahr, und Park Nordica behält sich vor, Personen vom Gelände zu verweisen."
+      },
+      "theft": {
+        "title": "7. Diebstahl",
+        "content": "Park Nordica übernimmt keinerlei Haftung für verlorengegangene, beschädigte oder gestohlene Gegenstände, weder im Parkgelände noch auf den zugehörigen Parkplätzen oder in Innenbereichen.\\n\\nWir bitten alle Gäste, achtsam mit ihrem Eigentum umzugehen und ihre persönlichen Gegenstände jederzeit im Blick zu behalten oder sicher zu verwahren.\\n\\nDas Mitbringen von Wertgegenständen erfolgt auf eigene Verantwortung. Bei Verlust oder Diebstahl wird keine Entschädigung gewährt."
+      },
+      "force": {
+        "title": "8. Höhere Gewalt",
+        "content": "Park Nordica haftet nicht für Schäden, Ausfälle oder Einschränkungen, die durch Ereignisse höherer Gewalt verursacht werden. Als höhere Gewalt gelten alle unvorhersehbaren, außergewöhnlichen Ereignisse, die außerhalb unseres Einflussbereichs liegen und trotz zumutbarer Sorgfalt nicht verhindert werden können.\\n\\nDazu zählen unter anderem – aber nicht ausschließlich:\\n• Naturkatastrophen (z. B. Sturm, Blitzschlag, Hochwasser)\\n• Brände oder Explosionen\\n• Pandemien und behördlich angeordnete Schließungen\\n• technische Ausfälle durch Strom- oder Internetausfall\\n• Streiks oder Arbeitskampfmaßnahmen\\n• terroristische Handlungen oder sicherheitsrelevante Bedrohungen\\n\\nIn solchen Fällen behalten wir uns das Recht vor, Veranstaltungen abzusagen, Öffnungszeiten zu ändern oder den Park ganz oder teilweise zu schließen, ohne dass ein Anspruch auf Schadensersatz, Rückerstattung oder anderweitige Entschädigung entsteht."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+  },
+  "thankYou": "Vielen Dank für Ihren Kauf!",
+  "orderConfirmed": "Ihre Bestellung wurde erfolgreich abgeschlossen.",
+  "confirmationEmailSent": "Eine Bestätigungs-E-Mail wurde an Ihre angegebene E-Mail-Adresse gesendet.",
+  "orderNumber": "Bestellnummer",
+  "ticketsPurchased": "Anzahl der Tickets",
+  "whatNext": "Was passiert als Nächstes?",
+  "ticketsInfo": "Ihre Tickets werden kurz vor dem Event per E-Mail zugesandt. Bitte bringen Sie die Tickets ausgedruckt oder digital auf Ihrem Smartphone mit.",
+  "backToHome": "Zurück zur Startseite",
+  "printReceipt": "Beleg drucken",
+  "welcome": "Park Nordica - Wiedereröffnung im Juni 2026",
+  "subtitle": "Unser Park bleibt 2025 geschlossen - wir bauen für die Zukunft",
+  "bookTickets": "Sneak Peek Tickets",
+  "openingHours": "Folgt uns gerne!",
+  "ticketPrices": "Ticketpreise",
+  "adults": "Erwachsene",
+  "children": "Kinder",
+  "seniors": "Senioren",
+  "familyTicket": "Familienticket",
+  "familyTicketNote": "Das Familienticket gilt für 2 Erwachsene und bis zu 3 Kinder unter 16 Jahren.",
+  "buyTickets": "Tickets kaufen",
+  "directions": "Anreise",
+  "byBus": "Mit dem Bus",
+  "busDirections": "Buslinie 42 vom Hauptbahnhof Trones, stündlich von 8:00 bis 19:00 Uhr",
+  "byCar": "Mit dem Auto",
+  "carDirections": "Folgen Sie der E6 Richtung Norden und nehmen Sie die Ausfahrt Trones-Nord",
+  "viewOnMap": "Auf Karte ansehen",
+  "buildingFuture": "Park Nordica – Wiedereröffnung im Juni 2026",
+  "parkClosed": "Unser Park bleibt 2025 geschlossen – wir bauen für die Zukunft",
+  "constructionSafety": "Umfangreiche Umbauten für erhöhte Sicherheit und Nachhaltigkeit",
+  "modernization": "Neugestaltung zu einem modernen, naturnahen Erlebnispark",
+  "reopening": "Wiedereröffnung im Juni 2026 mit neuen Highlights für die ganze Familie",
+  "futureDetailedText": "Mit großem Bedauern müssen wir mitteilen, dass Park Nordica in der Saison 2025 nicht geöffnet sein wird. Während dieser Zeit verwandeln wir den ehemaligen Familienpark mit viel Herzblut und Engagement in einen rundum erneuerten, modernen und naturnahen Erlebnispark.\n\nUnser Ziel ist es, eine sichere, nachhaltige und technisch einwandfreie Umgebung zu schaffen – dafür sind umfangreiche Umbaumaßnahmen notwendig. Ein regulärer Besucherverkehr ist während dieser Bauphase leider nicht möglich.\n\nWir bitten herzlich um Ihr Verständnis und freuen uns schon jetzt darauf, Sie und Ihre Familie ab Juni 2026 bei uns willkommen zu heißen – in einem Park, der mit Liebe zur Natur, innovativen Ideen und neuen Highlights auf Sie wartet.",
+  "weekendPreview": "Exklusive Wochenend-Vorschau",
+  "sneakPeekDates": "Termine: 19. & 20. Juli 2025",
+  "guidedFeeding": "Begleitete Fütterungen der Polarfüchse & Wölfe",
+  "firstLook": "Erster Blick auf die neuen Gehege und Anlagen",
+  "foodIncluded": "Kaffee, Tee und traditionelles Gebäck inklusive",
+  "limitedSpots": "Stark limitierte Plätze – jetzt schnell buchen!",
+  "previewDetailedText": "Sneak Peek am 19. & 20. Juli – ein erster Blick hinter die Kulissen\n\nAm 19. und 20. Juli 2025 öffnen wir exklusiv für zwei Tage ausgewählte Bereiche von Park Nordica – und laden euch herzlich zu einem ganz besonderen Sneak Peek-Wochenende ein!\n\nErlebt hautnah, was sich bereits verändert hat, werft einen ersten Blick auf unsere neuen Ideen und begleitet uns bei Fütterungen ausgewählter Tiere, die zu festen Uhrzeiten stattfinden. Beim Ticketkauf könnt ihr euch für eine der Fütterungszeiten anmelden, um die Tiere hautnah zu erleben und erste Begegnungen im neuen Park zu genießen.\n\nBitte beachtet: Die Besucherzahl ist pro Tag stark begrenzt, da sich der Park weiterhin im Umbau befindet und nur teilweise geöffnet wird.\n\nZusätzlich laden wir euch zu herzhaften Snacks vom Grill und alkoholfreien Erfrischungsgetränken ein. Jedes Ticket beinhaltet eine Essensmarke und eine Getränkemarke, die vor Ort eingelöst werden können.\n\nWir freuen uns besonders, Gäste aus der Region Namdalen, aus Trøndelag und darüber hinaus bei dieser einmaligen Gelegenheit begrüßen zu dürfen – um euch einen ersten Vorgeschmack auf das neue Park Nordica Erlebnis zu geben.\n\nTickets sind ab sofort verfügbar – solange der Vorrat reicht!",
+  "readMore": "Mehr erfahren",
+  "close": "Schließen",
+  "addressValue": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway",
+  "phoneValue": "+47 743 33 700",
+  "weekdays": "Montag - Freitag",
+  "weekends": "Samstag - Sonntag",
+  "timeWeekdays": "10:00 - 18:00",
+  "timeWeekends": "09:00 - 19:00",
+  "copyAddress": "Adresse kopieren",
+  "copied": "Kopiert!",
+  "sneakPeekTicket": "Sneak Peek Ticket",
+  "ticketIncludes": "Im Preis inbegriffen: 1× Getränkemarke und 1× Essensmarke",
+  "drinkVoucher": "Getränkemarke",
+  "foodVoucher": "Essensmarke"
+} 

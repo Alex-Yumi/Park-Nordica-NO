@@ -1,0 +1,64 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "This privacy policy explains how we collect and use your personal data."
+      },
+      "responsible": {
+        "title": "2. Responsible Entity",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "data": {
+        "title": "3. Data We Collect",
+        "items": [
+          "Name, contact details",
+          "Purchase details",
+          "IP address and cookies"
+        ]
+      },
+      "purpose": {
+        "title": "4. Purpose of Processing",
+        "items": [
+          "Processing purchases",
+          "Customer service"
+        ]
+      },
+      "legal": {
+        "title": "5. Legal Basis",
+        "content": "Consent, contract, and legal obligations."
+      },
+      "storage": {
+        "title": "6. Storage",
+        "content": "Data will be deleted when no longer needed."
+      },
+      "sharing": {
+        "title": "7. Data Sharing",
+        "content": "Only with consent or legal obligation."
+      },
+      "rights": {
+        "title": "8. Your Rights",
+        "items": [
+          "Information",
+          "Correction",
+          "Deletion",
+          "Complaints"
+        ]
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "content": "Used for analytics and functionality."
+      },
+      "security": {
+        "title": "10. Security",
+        "content": "We protect your data with appropriate measures."
+      },
+      "changes": {
+        "title": "11. Changes",
+        "content": "Changes will be published on the website."
+      }
+    },
+    "lastUpdated": "Last updated: {{date}}"
+  }
+} 

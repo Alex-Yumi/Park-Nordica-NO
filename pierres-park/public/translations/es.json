@@ -1,0 +1,179 @@
+{
+  "privacy": {
+    "title": "Política de Privacidad",
+    "sections": {
+      "introduction": {
+        "title": "1. Introducción",
+        "content": "Esta política de privacidad explica cómo recopilamos y utilizamos sus datos personales."
+      },
+      "responsible": {
+        "title": "2. Entidad Responsable",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "data": {
+        "title": "3. Datos que Recopilamos",
+        "items": {
+          "0": "Nombre, datos de contacto",
+          "1": "Detalles de la compra",
+          "2": "Dirección IP y cookies"
+        }
+      },
+      "purpose": {
+        "title": "4. Propósito del Procesamiento",
+        "items": {
+          "0": "Procesamiento de compras",
+          "1": "Servicio al cliente"
+        }
+      },
+      "legal": {
+        "title": "5. Base Legal",
+        "content": "Consentimiento, contrato y obligaciones legales."
+      },
+      "storage": {
+        "title": "6. Almacenamiento",
+        "content": "Los datos se eliminarán cuando ya no sean necesarios."
+      },
+      "sharing": {
+        "title": "7. Intercambio de Datos",
+        "content": "Solo con consentimiento u obligación legal."
+      },
+      "rights": {
+        "title": "8. Sus Derechos",
+        "items": {
+          "0": "Información",
+          "1": "Corrección",
+          "2": "Eliminación",
+          "3": "Quejas"
+        }
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "content": "Utilizadas para análisis y funcionalidad."
+      },
+      "security": {
+        "title": "10. Seguridad",
+        "content": "Protegemos sus datos con medidas adecuadas."
+      },
+      "changes": {
+        "title": "11. Cambios",
+        "content": "Los cambios se publicarán en el sitio web."
+      }
+    },
+    "lastUpdated": "Última actualización: {{date}}"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "sections": {
+      "introduction": {
+        "title": "1. Información General",
+        "content": "Este sitio web es operado por Park Nordica, bajo el nombre legal Nordisk Opplevelse AS. Al utilizar nuestro sitio web, usted acepta nuestros términos y condiciones establecidos a continuación. (Texto de marcador de posición)"
+      },
+      "contact": {
+        "title": "2. Información de Contacto",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "tickets": {
+        "title": "3. Entradas y Reservas",
+        "items": {
+          "0": "Las entradas son válidas solo para la fecha seleccionada",
+          "1": "No hay reembolsos excepto en caso de cancelación por nuestra parte",
+          "2": "Por favor, traiga su entrada al llegar"
+        }
+      },
+      "usage": {
+        "title": "4. Uso del Sitio Web",
+        "items": {
+          "0": "El contenido está protegido por derechos de autor",
+          "1": "La recopilación automatizada de datos está prohibida"
+        }
+      },
+      "privacy": {
+        "title": "5. Privacidad",
+        "content": "Procesamos sus datos de acuerdo con la ley noruega. (Texto de marcador de posición)"
+      },
+      "liability": {
+        "title": "6. Limitación de Responsabilidad",
+        "content": "No asumimos ninguna responsabilidad por las pérdidas derivadas del uso del sitio web. (Texto de marcador de posición)"
+      },
+      "security": {
+        "title": "7. Seguridad",
+        "content": "Protegemos su información pero no podemos garantizar una seguridad completa. (Texto de marcador de posición)"
+      },
+      "changes": {
+        "title": "8. Cambios",
+        "content": "Nos reservamos el derecho de cambiar estos términos en cualquier momento. (Texto de marcador de posición)"
+      },
+      "jurisdiction": {
+        "title": "9. Ley Aplicable y Jurisdicción",
+        "content": "Se aplica la ley noruega. Las disputas se resolverán ante el Tribunal de Distrito de Oslo. (Texto de marcador de posición)"
+      }
+    },
+    "lastUpdated": "Última actualización: {{date}}"
+  },
+  "disclaimer": {
+    "title": "Descargo de Responsabilidad",
+    "sections": {
+      "general": {
+        "title": "1. General",
+        "content": "La visita y el uso del parque son generalmente bajo su propio riesgo. Park Nordica es un parque natural con animales salvajes tanto en libertad como en recintos, que pueden ser sensibles a las perturbaciones. Por esta razón, todos los visitantes tienen una responsabilidad especial de comportarse de manera respetuosa y considerada hacia los animales, la naturaleza y otros huéspedes.\n\nEstá estrictamente prohibido acosar, alimentar, cazar o estresar de cualquier otra forma a los animales. Cualquier forma de comportamiento perturbador puede ser peligrosa tanto para los animales como para los humanos. Los visitantes están obligados a comportarse con prudencia y a mantener una distancia suficiente de los animales salvajes.\n\nAdemás, Park Nordica otorga gran importancia a la protección del medio ambiente y la sostenibilidad. Instamos a todos los huéspedes a no dejar basura en el parque, ya que podría ser ingerida por los animales y provocar lesiones graves o incluso la muerte.\n\nApelamos a la conciencia ambiental y la responsabilidad personal de cada visitante para contribuir activamente a la protección de nuestro sensible ecosistema."
+      },
+      "website": {
+        "title": "2. Uso del Sitio Web y Sistemas de Pago en Línea",
+        "content": "Park Nordica no asume ninguna responsabilidad por daños directos o indirectos derivados del uso de este sitio web, en particular no por:\n• fallos técnicos o averías,\n• información incompleta o incorrecta,\n• indisponibilidad temporal de la oferta,\n• o daños causados por virus, malware o conexiones inseguras.\n\nAunque siempre nos esforzamos por mantener toda la información de nuestro sitio web actualizada, correcta y completa, pueden producirse errores o cambios no intencionados. El contenido, los precios, los eventos o los horarios de apertura pueden ajustarse en cualquier momento y sin previo aviso.\n\nLa reserva y el pago de entradas, eventos u otros servicios se procesan a través del sistema de servicio de pago \"Stripe\" y su infraestructura técnica. Park Nordica no tiene acceso directo a datos de pago sensibles (como números de tarjetas de crédito o similares), ya que estos son procesados exclusivamente por Stripe.\n\nTratamos toda la información personal que se nos proporciona durante el proceso de reserva con el máximo cuidado y de acuerdo con la legislación vigente sobre protección de datos. Sin embargo, Park Nordica no asume ninguna responsabilidad por errores, fallos o pérdidas de datos que ocurran en Stripe o sus socios.\n\nEl uso de todo el contenido, formularios y funciones de pago en nuestro sitio web es bajo su propio riesgo. No se puede garantizar una disponibilidad impecable y permanente."
+      },
+      "stay": {
+        "title": "3. Estancia en el Parque",
+        "content": "La estancia en el parque es generalmente bajo su propio riesgo. Los padres o tutores legales asumen la total responsabilidad por la seguridad y el comportamiento de sus hijos o de las personas a su cargo.\n\nPark Nordica no asume ninguna responsabilidad por lesiones personales o daños materiales que ocurran durante la estancia en el parque, siempre que estos sean atribuibles al uso indebido de las instalaciones, comportamiento gravemente negligente o incumplimiento de las instrucciones de seguridad y las directivas del personal.\n\nLos visitantes están obligados a comportarse de manera responsable en todo momento, a velar por su propia seguridad y la de los demás, y a seguir todas las instrucciones y señales de advertencia en el parque. El incumplimiento puede dar lugar a la expulsión inmediata del parque, sin derecho a reembolso."
+      },
+      "animals": {
+        "title": "4. Contacto con Animales",
+        "content": "El contacto con los animales en el área del zoológico de mascotas de Park Nordica es bajo su propio riesgo o el de los supervisores respectivos. No se permite la entrada de niños al área del zoológico de mascotas sin la supervisión de un adulto.\n\nTodos los visitantes están obligados a tratar a los animales con respeto y a seguir las recomendaciones de seguridad y comportamiento del personal.\n\nCualquier contacto con otros animales fuera del zoológico de mascotas, especialmente con animales salvajes o animales en recintos, está estrictamente prohibido. Las violaciones son bajo su propio riesgo. Park Nordica no asume ninguna responsabilidad por daños o lesiones resultantes de dicho contacto no autorizado con animales."
+      },
+      "activities": {
+        "title": "5. Actividades y Atracciones",
+        "content": "El uso de equipos de juego, atracciones, y todas las demás actividades de ocio en el parque es bajo su propio riesgo. Los visitantes están obligados a seguir estrictamente todas las instrucciones de seguridad, restricciones de edad o altura, y las directivas del personal.\n\nSi el equipo o las instalaciones no se utilizan de acuerdo con las regulaciones, o si se ignoran las instrucciones del personal, Park Nordica no asume responsabilidad alguna por los daños, lesiones u otras consecuencias resultantes.\n\nEl uso adecuado y la consideración hacia otros visitantes son requisitos fundamentales para la participación en todas las actividades del parque. En caso de mala conducta reiterada, nos reservamos el derecho de negar a las personas afectadas el acceso a ciertas áreas o a todo el parque."
+      },
+      "events": {
+        "title": "6. Eventos",
+        "content": "Las entradas para eventos o eventos especiales en Park Nordica son válidas exclusivamente el día del evento impreso en ellas. Se excluyen los reembolsos o cambios de reserva, incluso si el huésped no se presenta.\n\nPark Nordica no asume ninguna responsabilidad por cancelaciones o cambios causados por condiciones climáticas, problemas técnicos u otras circunstancias ajenas a nuestro control.\n\nDurante el evento, los visitantes solo pueden permanecer en las áreas designadas y señalizadas. Está prohibido permanecer en el resto del recinto del parque a menos que el personal lo permita expresamente.\n\nEsta regulación sirve para proteger a los visitantes, ya que también hay animales salvajes y recintos no accesibles al público en el parque, cuyo acceso no supervisado puede estar asociado con peligros considerables.\n\nLas violaciones son bajo su propio riesgo, y Park Nordica se reserva el derecho de expulsar a personas del recinto."
+      },
+      "theft": {
+        "title": "7. Robo",
+        "content": "Park Nordica no asume responsabilidad alguna por objetos perdidos, dañados o robados, ni en el recinto del parque ni en los aparcamientos asociados o áreas interiores.\n\nPedimos a todos los huéspedes que manejen sus propiedades con cuidado y que mantengan sus pertenencias personales a la vista o guardadas de forma segura en todo momento.\n\nLlevar objetos de valor es bajo su propio riesgo. No se concederá ninguna compensación en caso de pérdida o robo."
+      },
+      "force": {
+        "title": "8. Fuerza Mayor",
+        "content": "Park Nordica no se hace responsable de los daños, fallos o restricciones causados por eventos de fuerza mayor. Los eventos de fuerza mayor son todos los eventos imprevisibles y extraordinarios que escapan a nuestro control y que no pueden prevenirse a pesar de un cuidado razonable.\n\nEstos incluyen, entre otros:\n• Desastres naturales (por ejemplo, tormentas, rayos, inundaciones)\n• Incendios o explosiones\n• Pandemias y cierres ordenados oficialmente\n• Fallos técnicos debidos a cortes de energía o de Internet\n• Huelgas o acciones sindicales\n• Actos terroristas o amenazas relacionadas con la seguridad\n\nEn tales casos, nos reservamos el derecho de cancelar eventos, cambiar los horarios de apertura o cerrar el parque total o parcialmente, sin que ello dé lugar a ninguna reclamación por daños, reembolsos u otra compensación."
+      }
+    },
+    "lastUpdated": "Última actualización: {{date}}"
+  },
+  "buildingFuture": "Park Nordica – Reapertura en junio de 2026",
+  "parkClosed": "Nuestro parque permanece cerrado en 2025 – estamos construyendo para el futuro",
+  "constructionSafety": "Renovaciones extensas para mayor seguridad y sostenibilidad",
+  "modernization": "Rediseño a un parque de aventuras moderno y orientado a la naturaleza",
+  "reopening": "Reapertura en junio de 2026 con nuevos atractivos para toda la familia",
+  "futureDetailedText": "Es con gran pesar que debemos informarles que Park Nordica no estará abierto durante la temporada 2025. Durante este tiempo, estamos transformando el antiguo parque familiar con gran pasión y compromiso en un parque de aventuras completamente renovado, moderno y orientado a la naturaleza.\n\nNuestro objetivo es crear un entorno seguro, sostenible y técnicamente impecable – para ello son necesarias extensas medidas de renovación. Lamentablemente, el tráfico regular de visitantes no es posible durante esta fase de construcción.\n\nPedimos sinceramente su comprensión y ya estamos deseando darles la bienvenida a usted y a su familia en nuestro parque a partir de junio de 2026 – en un parque que le espera con amor por la naturaleza, ideas innovadoras y nuevos atractivos.",
+  "limitedSpots": "Plazas estrictamente limitadas – ¡reserve rápido!",
+  "weekendPreview": "Vista previa exclusiva de fin de semana",
+  "sneakPeekDates": "Fechas: 19 y 20 de julio de 2025",
+  "guidedFeeding": "Alimentación guiada de zorros árticos y lobos",
+  "firstLook": "Primera vista de los nuevos recintos e instalaciones",
+  "foodIncluded": "Café, té y pasteles tradicionales incluidos",
+  "previewDetailedText": "Sneak Peek el 19 y 20 de julio – Un primer vistazo detrás de escena\n\n¡El 19 y 20 de julio de 2025, abriremos exclusivamente áreas seleccionadas de Park Nordica – y te invitamos cordialmente a un fin de semana muy especial de sneak peek!\n\nExperimenta de primera mano lo que ya ha cambiado, echa un primer vistazo a nuestras nuevas ideas y únete a nosotros para alimentar a animales seleccionados en horarios fijos. Al comprar las entradas, puedes inscribirte en uno de los horarios de alimentación para experimentar a los animales de cerca y disfrutar de los primeros encuentros en el nuevo parque.\n\nTen en cuenta: El número de visitantes está estrictamente limitado por día, ya que el parque aún está en construcción y solo se abrirá parcialmente.\n\nAdemás, te invitamos a disfrutar de sabrosos snacks a la parrilla y refrescos sin alcohol. Cada entrada incluye un vale de comida y un vale de bebida que se pueden canjear en el lugar.\n\nEstamos especialmente emocionados de dar la bienvenida a visitantes de la región de Namdalen, de Trøndelag y más allá para esta oportunidad única – para darles un primer vistazo a la nueva experiencia de Park Nordica.\n\n¡Las entradas están disponibles ahora – hasta agotar existencias!",
+  "readMore": "Leer más",
+  "close": "Cerrar",
+  "sneakPeekTicket": "Entrada de Preestreno",
+  "ticketIncludes": "El precio incluye: 1× vale de bebida y 1× vale de comida",
+  "drinkVoucher": "vale de bebida",
+  "foodVoucher": "vale de comida",
+  "thankYou": "¡Gracias por su compra!",
+  "orderConfirmed": "Su pedido se ha completado con éxito.",
+  "confirmationEmailSent": "Se ha enviado un correo electrónico de confirmación a su dirección de correo electrónico proporcionada.",
+  "orderNumber": "Número de pedido",
+  "ticketsPurchased": "Entradas compradas",
+  "whatNext": "¿Qué sucede a continuación?",
+  "ticketsInfo": "Sus entradas se enviarán por correo electrónico poco antes del evento. Por favor, traiga sus entradas impresas o en formato digital en su smartphone.",
+  "backToHome": "Volver a inicio",
+  "printReceipt": "Imprimir recibo"
+} 

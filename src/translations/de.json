@@ -1,0 +1,64 @@
+{
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "introduction": {
+        "title": "1. Einführung",
+        "content": "Diese Datenschutzerklärung erklärt, wie wir Ihre personenbezogenen Daten erheben und nutzen."
+      },
+      "responsible": {
+        "title": "2. Verantwortliche Stelle",
+        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+      },
+      "data": {
+        "title": "3. Welche Daten wir erheben",
+        "items": [
+          "Name, Kontaktdaten",
+          "Kaufdetails",
+          "IP-Adresse und Cookies"
+        ]
+      },
+      "purpose": {
+        "title": "4. Zweck der Verarbeitung",
+        "items": [
+          "Abwicklung von Käufen",
+          "Kundenservice"
+        ]
+      },
+      "legal": {
+        "title": "5. Rechtsgrundlage",
+        "content": "Einwilligung, Vertrag und gesetzliche Verpflichtungen."
+      },
+      "storage": {
+        "title": "6. Speicherung",
+        "content": "Daten werden gelöscht, wenn sie nicht mehr benötigt werden."
+      },
+      "sharing": {
+        "title": "7. Weitergabe",
+        "content": "Nur mit Einwilligung oder gesetzlicher Verpflichtung."
+      },
+      "rights": {
+        "title": "8. Ihre Rechte",
+        "items": [
+          "Auskunft",
+          "Berichtigung",
+          "Löschung",
+          "Beschwerde"
+        ]
+      },
+      "cookies": {
+        "title": "9. Cookies",
+        "content": "Verwendung für Analyse und Funktionalität."
+      },
+      "security": {
+        "title": "10. Sicherheit",
+        "content": "Wir schützen Ihre Daten mit geeigneten Maßnahmen."
+      },
+      "changes": {
+        "title": "11. Änderungen",
+        "content": "Änderungen werden auf der Website veröffentlicht."
+      }
+    },
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+  }
+} 

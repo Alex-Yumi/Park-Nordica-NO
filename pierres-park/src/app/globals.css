@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .highlight-target {
+    @apply animate-highlight;
+  }
+
+  .carousel-container {
+    @apply flex overflow-hidden w-full;
+  }
+
+  .carousel-track {
+    @apply flex animate-slideLeft;
+  }
+
+  .carousel-track:hover {
+    @apply [animation-play-state:paused];
+  }
+}
+
+@layer utilities {
+  @keyframes highlightTarget {
+    0% {
+      @apply scale-100 shadow-md;
+    }
+    50% {
+      @apply scale-105 shadow-lg;
+    }
+    100% {
+      @apply scale-100 shadow-md;
+    }
+  }
+
+  @keyframes slideLeft {
+    0% {
+      @apply translate-x-0;
+    }
+    100% {
+      @apply -translate-x-full;
+    }
+  }
+}
