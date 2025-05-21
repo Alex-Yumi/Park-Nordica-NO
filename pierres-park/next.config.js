@@ -17,6 +17,12 @@ const nextConfig = {
         port: '',
         pathname: '/Alex-Yumi/Park-Nordica-NO/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'media.githubusercontent.com',
+        port: '',
+        pathname: '/media/Alex-Yumi/Park-Nordica-NO/**',
+      },
     ],
   },
 };
