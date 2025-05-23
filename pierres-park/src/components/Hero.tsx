@@ -197,7 +197,7 @@ export default function Hero() {
   return (
     <div className="relative">
       {/* Waldlandschaft mit Tierkarten */}
-      <div className="relative min-h-screen w-full max-w-[100vw] bg-[#4b4d3b]">
+      <div className="relative min-h-screen w-full max-w-[100vw] bg-[#0a4725]">
         {/* Hauptinhalt */}
         <div className="relative w-full max-w-[100vw] mx-auto px-1 md:px-4 pt-32 md:pt-24 pb-20 md:pb-24 overflow-hidden">
           
@@ -526,7 +526,7 @@ export default function Hero() {
       </div>
 
       {/* Schneelandschaft */}
-      <div className="relative w-full max-w-[100vw] bg-[#4b4d3b] -mt-4 md:-mt-8 pb-16 md:pb-24 overflow-visible">
+      <div className="relative w-full max-w-[100vw] bg-[#0a4725] -mt-4 md:-mt-8 pb-16 md:pb-24 overflow-visible">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 relative z-30 mt-2">
             <div 
@@ -697,7 +697,7 @@ export default function Hero() {
           onClick={() => setActiveTextModal(null)}
         >
           <div 
-            className="relative bg-[#4b4d3b] max-w-2xl mx-4 rounded-xl shadow-2xl"
+            className="relative bg-[#0a4725] max-w-2xl mx-4 rounded-xl shadow-2xl"
             onClick={e => e.stopPropagation()}
           >
             {/* Modal Header */}

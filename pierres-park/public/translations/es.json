@@ -8,7 +8,7 @@
       },
       "responsible": {
         "title": "2. Entidad Responsable",
-        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+        "content": "Parkveien 1\n7892 Trones\nNoruega\nInfo@ParkNordica.no"
       },
       "data": {
         "title": "3. Datos que Recopilamos",
@@ -70,7 +70,7 @@
       },
       "contact": {
         "title": "2. Información de Contacto",
-        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+        "content": "Parkveien 1\n7892 Trones\nNoruega\nInfo@ParkNordica.no"
       },
       "tickets": {
         "title": "3. Entradas y Reservas",
@@ -175,5 +175,6 @@
   "whatNext": "¿Qué sucede a continuación?",
   "ticketsInfo": "Sus entradas se enviarán por correo electrónico poco antes del evento. Por favor, traiga sus entradas impresas o en formato digital en su smartphone.",
   "backToHome": "Volver a inicio",
-  "printReceipt": "Imprimir recibo"
+  "printReceipt": "Imprimir recibo",
+  "addressValue": "Parkveien 1\n7892 Trones\nNoruega"
 } 

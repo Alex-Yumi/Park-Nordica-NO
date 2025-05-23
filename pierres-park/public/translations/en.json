@@ -8,7 +8,7 @@
       },
       "responsible": {
         "title": "2. Responsible Entity",
-        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+        "content": "Parkveien 1\n7892 Trones\nNorway\nInfo@ParkNordica.no"
       },
       "data": {
         "title": "3. Data We Collect",
@@ -70,7 +70,7 @@
       },
       "contact": {
         "title": "2. Contact Information",
-        "content": "Nordisk Opplevelse AS\nFinnvolldalsveien 1244\n7896 Brekkvasselv\nNorway\nInfo@ParkNordica.no"
+        "content": "Parkveien 1\n7892 Trones\nNorway\nInfo@ParkNordica.no"
       },
       "tickets": {
         "title": "3. Tickets and Reservations",
@@ -175,5 +175,6 @@
   "sneakPeekTicket": "Sneak Peek Ticket",
   "ticketIncludes": "Price includes: 1× drink voucher and 1× food voucher",
   "drinkVoucher": "drink voucher",
-  "foodVoucher": "food voucher"
+  "foodVoucher": "food voucher",
+  "addressValue": "Parkveien 1\n7892 Trones\nNorway"
 } 
