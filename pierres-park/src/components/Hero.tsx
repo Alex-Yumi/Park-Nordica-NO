@@ -233,7 +233,7 @@ export default function Hero() {
               {/* Button in der unteren rechten Ecke - Für Desktop und Mobile */}
               <div className="absolute bottom-4 right-4">
                 <a
-                  href="#tickets"
+                  href="/#tickets"
                   className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-bold py-1.5 px-4 md:py-3 md:px-8 rounded-full text-xs md:text-lg transition-colors shadow-lg whitespace-nowrap"
                 >
                   {t('bookTickets')}

@@ -76,7 +76,7 @@ export default function Header() {
           <div className="flex justify-between items-center h-12 pt-3">
             {/* Ticket-Button */}
             <a 
-              href="#tickets"
+              href="/#tickets"
               className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-colors shadow-md whitespace-nowrap"
             >
               {t('bookTickets')}
@@ -134,7 +134,7 @@ export default function Header() {
             {/* Linker Bereich: Sneak Peek Button */}
             <div className="flex flex-1 justify-start">
                 <a 
-                href="#tickets"
+                href="/#tickets"
                 className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-colors shadow-md whitespace-nowrap"
                 >
                 {t('bookTickets')}
@@ -187,7 +187,7 @@ export default function Header() {
               {/* Desktop Navigation - jetzt nach den Flaggen */}
               <div className="flex"> {/* space-x hier nicht mehr nötig, da nur ein Element */}
                 <a 
-                  href="#contact" 
+                  href="/#contact" 
                   className={`text-white font-semibold hover:text-white transition-all duration-300 hover:scale-105 text-base ${
                     activeSection === 'contact' ? 'text-[#4A90E2] scale-105' : ''
                   }`}
@@ -236,7 +236,7 @@ export default function Header() {
         {/* Mobile Navigation Links */}
         <div className="flex flex-col items-center w-full px-8">
           <a 
-            href="#contact" 
+            href="/#contact" 
             className={`text-2xl font-bold text-white hover:text-[#4A90E2] transition-colors mb-6 ${
               activeSection === 'contact' ? 'text-[#4A90E2]' : ''
             }`}
