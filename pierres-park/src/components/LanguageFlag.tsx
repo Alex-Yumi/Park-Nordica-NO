@@ -67,7 +67,6 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
           fontSize: flagSize,
           lineHeight: 1,
         }}
-        title={languageLabel}
       />
     </button>
   );

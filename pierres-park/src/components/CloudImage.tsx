@@ -31,24 +31,27 @@ export default function CloudImage({ src, fallbackToLocal = true, alt, ...props 
 
   // Wenn wir in der Entwicklungsumgebung sind oder ein Fallback erwünscht ist, zeige das lokale Bild
   if ((process.env.NODE_ENV === 'development' || fallbackToLocal) && (!useCloudinary || error)) {
-    return <Image src={src} alt={alt} {...props} onError={() => setError(true)} />;
+    return <Image src={src} alt={alt || 'Image'} {...props} onError={() => setError(true)} />;
   }
 
   // Versuche, das Bild von Cloudinary zu laden
   try {
     const cloudinaryId = getCloudinaryId(src);
     
+    // Entferne problematische Props für CldImage
+    const { onError, ...cloudinaryProps } = props;
+    
     return (
       <CldImage
         src={cloudinaryId}
         alt={alt || 'Image'}
-        {...props}
+        {...(cloudinaryProps as any)}
         onError={() => setError(true)}
       />
     );
   } catch (e) {
     console.error('Fehler beim Laden des Cloudinary-Bildes:', e);
     // Fallback zum lokalen Bild bei Fehler
-    return <Image src={src} alt={alt} {...props} />;
+    return <Image src={src} alt={alt || 'Image'} {...props} />;
   }
 } 
