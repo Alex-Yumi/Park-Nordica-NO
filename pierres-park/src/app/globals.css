@@ -4,23 +4,31 @@
 
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #171717;
+    --background: #0a4725;
+    --foreground: #ffffff;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: #0a0a0a;
-      --foreground: #ededed;
+      --background: #0a4725;
+      --foreground: #ffffff;
     }
   }
 
-  body {
-    @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
+  html {
+    @apply scroll-smooth bg-[#0a4725];
+    /* Verhindert horizontales Scrollen */
+    overflow-x: hidden;
   }
 
-  html {
-    @apply scroll-smooth;
+  body {
+    @apply bg-[#0a4725] text-white font-sans;
+    /* Verhindert horizontales Scrollen */
+    overflow-x: hidden;
+    /* Für mobile Geräte: verhindert Bounce-Scrolling über die Seite hinaus */
+    overscroll-behavior: none;
+    /* Mindesthöhe für vollständige Abdeckung */
+    min-height: 100vh;
   }
 }
 
