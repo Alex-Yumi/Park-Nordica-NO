@@ -149,11 +149,11 @@ export default function Header() {
               <span className="text-xl font-bold text-white">Park</span>
               <div className="relative h-24 w-24">
                 <GitHubImage
-                  src="/logo/Nordica_Logo_V4_Grey.png"
-                  alt="Park Nordica Logo"
+                src="/logo/Nordica_Logo_V4_Grey.png"
+                alt="Park Nordica Logo"
                   fill
                   className="object-contain filter-brightness-110"
-                />
+              />
               </div>
               <span className="text-xl font-bold text-white">Nordica</span>
             </Link>

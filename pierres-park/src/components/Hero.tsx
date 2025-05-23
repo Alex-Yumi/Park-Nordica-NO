@@ -261,18 +261,18 @@ export default function Hero() {
                 {/* Container für Titel und Logo */}
                 <div className="flex-grow flex flex-col items-center justify-center">
                   <h2 className="text-xl md:text-2xl font-semibold mb-4 text-white text-center">
-                    Folgt unserem Fortschritt auf Social Media!
-                </h2>
+                    {t('followSocialMedia')}
+                  </h2>
                   
                   {/* Logo */}
                   <div className="flex justify-center">
                     <div className="relative h-36 md:h-44 w-36 md:w-44">
                       <GitHubImage
-                        src="/logo/Nordica_Logo_V4_Grey.png"
-                        alt="Park Nordica Logo"
+                      src="/logo/Nordica_Logo_V4_Grey.png"
+                      alt="Park Nordica Logo"
                         fill
                         className="object-contain filter-brightness-110"
-                      />
+                    />
                     </div>
                   </div>
                 </div>

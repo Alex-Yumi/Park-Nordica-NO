@@ -163,6 +163,7 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     previewDetailedText: "Sneak Peek am 19. & 20. Juli – ein erster Blick hinter die Kulissen\nAm 19. und 20. Juli 2025 öffnen wir exklusiv für zwei Tage ausgewählte Bereiche von Park Nordica – und laden euch herzlich zu einem ganz besonderen Sneak Peek-Wochenende ein!\nErlebt hautnah, was sich bereits verändert hat, werft einen ersten Blick auf unsere neuen Ideen und begleitet uns bei Fütterungen ausgewählter Tiere, die zu festen Uhrzeiten stattfinden. Beim Ticketkauf könnt ihr euch für eine der Fütterungszeiten anmelden, um die Tiere hautnah zu erleben und erste Begegnungen im neuen Park zu genießen.\nBitte beachtet: Die Besucherzahl ist pro Tag stark begrenzt, da sich der Park weiterhin im Umbau befindet und nur teilweise geöffnet wird.\nZusätzlich laden wir euch zu herzhaften Snacks vom Grill und alkoholfreien Erfrischungsgetränken ein.\nJedes Ticket beinhaltet eine Essensmarke und eine Getränkemarke, die vor Ort eingelöst werden können.\nWir freuen uns besonders, Gäste aus der Region Namdalen, aus Trøndelag und darüber hinaus bei dieser einmaligen Gelegenheit begrüßen zu dürfen – um euch einen ersten Vorgeschmack auf das neue Park Nordica Erlebnis zu geben.\nTickets sind ab sofort verfügbar – solange der Vorrat reicht!",
     readMore: "Mehr erfahren",
     close: "Schließen",
+    followSocialMedia: "Folgt unserem Fortschritt auf Social Media!"
   },
   en: {
     parkName: 'Namsskogan Wildlife and Adventure Park',
@@ -281,7 +282,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     limitedSpots: 'Strictly limited spots – book quickly!',
     previewDetailedText: "[NEEDS TRANSLATION - German original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor der offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Read more",
-    close: "Close"
+    close: "Close",
+    followSocialMedia: "Follow our progress on social media!"
   },
   no: {
     parkName: 'Namsskogan Familiepark og Rovdyrsenter',
@@ -400,7 +402,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     limitedSpots: 'Strengt begrensede plasser – bestill raskt!',
     previewDetailedText: "[TRENGER OVERSETTELSE - Tysk original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor der offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Les mer",
-    close: "Lukk"
+    close: "Lukk",
+    followSocialMedia: "Følg vårt fremgang på sosiale medier!"
   },
   es: {
     parkName: 'Parque de Vida Silvestre y Aventuras Namsskogan',
@@ -519,7 +522,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     limitedSpots: 'Plazas estrictamente limitadas – ¡reserve rápido!',
     previewDetailedText: "[NECESITA TRADUCCIÓN - Original alemán: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor la offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Leer más",
-    close: "Cerrar"
+    close: "Cerrar",
+    followSocialMedia: "¡Sigue nuestro progreso en las redes sociales!"
   }
 };
 

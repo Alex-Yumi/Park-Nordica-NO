@@ -21,11 +21,11 @@ export default function Footer() {
           <div className="mb-8 md:mb-0 flex flex-col items-center md:items-start">
             <div className="relative h-24 w-24 mb-4">
               <GitHubImage
-                src="/logo/Nordica_Logo_V4_Grey.png"
-                alt="Park Nordica Logo"
+              src="/logo/Nordica_Logo_V4_Grey.png"
+              alt="Park Nordica Logo"
                 fill
                 className="object-contain filter-brightness-110"
-              />
+            />
             </div>
             <p className="text-sm text-white/60 max-w-xs text-center md:text-left">
               {t('parkSlogan')}
