@@ -165,8 +165,8 @@
   "close": "Lukk",
   "sneakPeekTicket": "Sneak Peek Billett",
   "ticketIncludes": "Prisen inkluderer: 1× drikkekupong og 1× matkupong",
-  "drinkVoucher": "drikkekupong",
-  "foodVoucher": "matkupong",
+  "drinkVoucher": "drikkepolet",
+  "foodVoucher": "matpolet",
   "thankYou": "Takk for ditt kjøp!",
   "orderConfirmed": "Din bestilling er fullført.",
   "confirmationEmailSent": "En bekreftelse er sendt til din e-postadresse.",
@@ -201,5 +201,6 @@
   "timeWeekends": "09:00 - 19:00",
   "copyAddress": "Kopier adresse",
   "copied": "Kopiert!",
-  "followSocialMedia": "Følg vårt fremgang på sosiale medier!"
+  "followSocialMedia": "Følg vårt fremgang på sosiale medier!",
+  "copyright": "Alle rettigheter forbeholdt"
 } 
