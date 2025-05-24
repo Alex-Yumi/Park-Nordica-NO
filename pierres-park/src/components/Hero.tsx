@@ -212,19 +212,46 @@ export default function Hero() {
             
             <div className="relative w-full h-[240px] md:h-[600px] rounded-xl md:rounded-3xl overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.1),0_10px_25px_rgba(0,0,0,0.2)] transform-gpu transition-all duration-500 hover:shadow-[0_0_35px_rgba(0,0,0,0.15),0_10px_35px_rgba(0,0,0,0.25)]">
               <GitHubImage
-                src="/banner/main-banner.jpeg"
+                src="/banner/main-banner.jpeg?v=2024123101"
                 alt="Park Nordica Banner"
                 fill
                 className="object-cover object-center transform-gpu transition-all duration-500 hover:scale-[1.02]"
                 priority
+                fallbackSrc="/banner/main-banner-fallback.jpg"
                 onError={(e) => {
-                  console.warn('Banner image failed to load:', e);
-                  // Fallback zu einem alternativen Bild oder Hintergrund
+                  console.error('Main banner failed to load:', e);
                   const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
                   const parent = target.parentElement;
+                  
                   if (parent) {
-                    parent.style.background = 'linear-gradient(135deg, #0a4725 0%, #166534 50%, #0a4725 100%)';
+                    // Erstelle einen besseren Fallback-Hintergrund
+                    parent.style.background = 'linear-gradient(135deg, #0a4725 0%, #166534 30%, #1e7e34 70%, #0a4725 100%)';
+                    parent.style.backgroundSize = 'cover';
+                    parent.style.backgroundPosition = 'center';
+                    
+                    // Verstecke das fehlgeschlagene Bild
+                    target.style.display = 'none';
+                    
+                    // Füge einen Text-Overlay hinzu für bessere UX
+                    const overlay = document.createElement('div');
+                    overlay.style.position = 'absolute';
+                    overlay.style.top = '50%';
+                    overlay.style.left = '50%';
+                    overlay.style.transform = 'translate(-50%, -50%)';
+                    overlay.style.color = 'white';
+                    overlay.style.textAlign = 'center';
+                    overlay.style.fontSize = '1.2rem';
+                    overlay.style.fontWeight = 'bold';
+                    overlay.style.background = 'rgba(0,0,0,0.6)';
+                    overlay.style.padding = '1rem 2rem';
+                    overlay.style.borderRadius = '0.5rem';
+                    overlay.style.backdropFilter = 'blur(4px)';
+                    overlay.innerHTML = '🌲 Park Nordica 🌲<br><small>Banner wird geladen...</small>';
+                    
+                    if (!parent.querySelector('.fallback-overlay')) {
+                      overlay.className = 'fallback-overlay';
+                      parent.appendChild(overlay);
+                    }
                   }
                 }}
               />
