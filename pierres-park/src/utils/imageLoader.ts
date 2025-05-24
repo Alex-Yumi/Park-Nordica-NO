@@ -21,9 +21,9 @@ export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps
   // Entferne führende Slashes
   const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
   
-  // WINDOWS CORS FIX: Verwende GitHub Raw statt Media für bessere CORS-Unterstützung
-  // GitHub Raw hat weniger CORS-Probleme als media.githubusercontent.com
-  const url = `https://raw.githubusercontent.com/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
+  // Für Git LFS-Dateien MÜSSEN wir media.githubusercontent.com verwenden
+  // Das ist der einzige Endpoint der LFS-Dateien korrekt ausliefert
+  const url = `https://media.githubusercontent.com/media/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
   
   return url;
 }

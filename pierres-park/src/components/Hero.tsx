@@ -272,7 +272,7 @@ export default function Hero() {
                 <div className="flex-grow flex flex-col items-center justify-center">
                   <h2 className="text-xl md:text-2xl font-semibold mb-4 text-white text-center">
                     {t('followSocialMedia')}
-                  </h2>
+                </h2>
                   
                   {/* Logo */}
                   <div className="flex justify-center">
