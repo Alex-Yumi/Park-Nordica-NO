@@ -163,11 +163,6 @@ export default function Header() {
               {/* Desktop Language Flags - jetzt vor dem Kontakt-Link */}
               <div className="flex space-x-3">
                 <LanguageFlag 
-                  language="de" 
-                  isActive={language === 'de'} 
-                  onClick={() => setLanguage('de')} 
-                />
-                <LanguageFlag 
                   language="no" 
                   isActive={language === 'no'} 
                   onClick={() => setLanguage('no')} 
@@ -176,6 +171,11 @@ export default function Header() {
                   language="en" 
                   isActive={language === 'en'} 
                   onClick={() => setLanguage('en')} 
+                />
+                <LanguageFlag 
+                  language="de" 
+                  isActive={language === 'de'} 
+                  onClick={() => setLanguage('de')} 
                 />
                 <LanguageFlag 
                   language="es" 
@@ -314,17 +314,6 @@ export default function Header() {
           <div className="flex justify-center flex-wrap gap-8 px-4 mb-10">
             <div className="w-14 h-14 transform hover:scale-110 transition-transform">
           <LanguageFlag 
-            language="de" 
-            isActive={language === 'de'} 
-            onClick={() => {
-              setLanguage('de');
-              setMobileMenuOpen(false);
-            }} 
-            size="large"
-          />
-            </div>
-            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
-          <LanguageFlag 
             language="no" 
             isActive={language === 'no'} 
             onClick={() => {
@@ -340,6 +329,17 @@ export default function Header() {
             isActive={language === 'en'} 
             onClick={() => {
               setLanguage('en');
+              setMobileMenuOpen(false);
+            }} 
+            size="large"
+          />
+            </div>
+            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
+          <LanguageFlag 
+            language="de" 
+            isActive={language === 'de'} 
+            onClick={() => {
+              setLanguage('de');
               setMobileMenuOpen(false);
             }} 
             size="large"
