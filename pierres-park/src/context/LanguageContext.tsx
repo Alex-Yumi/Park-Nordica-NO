@@ -636,6 +636,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         }
         const data: TranslationObject = await response.json();
         // JSON-Daten haben Vorrang, globalTranslations nur für fehlende Keys
+        // AGB Terms Bug Fix - Force redeploy v2.1
         const globalData = globalTranslations[lang] || {};
         const mergedData = { ...globalData, ...data } as TranslationObject;
         setCurrentTranslations(mergedData);
