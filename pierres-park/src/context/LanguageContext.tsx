@@ -538,6 +538,41 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [currentTranslations, setCurrentTranslations] = useState<TranslationObject>({});
   const [translationsLoaded, setTranslationsLoaded] = useState(false);
 
+  // Browser-Sprache erkennen
+  const detectBrowserLanguage = (): Language => {
+    if (typeof window === 'undefined') return 'de';
+    
+    const browserLang = navigator.language.toLowerCase();
+    
+    // Deutsch
+    if (browserLang.startsWith('de')) return 'de';
+    // Norwegisch
+    if (browserLang.startsWith('no') || browserLang.startsWith('nb') || browserLang.startsWith('nn')) return 'no';
+    // Spanisch
+    if (browserLang.startsWith('es')) return 'es';
+    // Englisch (Fallback)
+    if (browserLang.startsWith('en')) return 'en';
+    
+    // Standard-Fallback ist Englisch
+    return 'en';
+  };
+
+  // Initiale Sprache setzen
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Zuerst localStorage prüfen
+      const savedLanguage = localStorage.getItem('park-nordica-language') as Language;
+      if (savedLanguage && ['de', 'en', 'no', 'es'].includes(savedLanguage)) {
+        setLanguageState(savedLanguage);
+      } else {
+        // Fallback auf Browser-Sprache
+        const detectedLanguage = detectBrowserLanguage();
+        setLanguageState(detectedLanguage);
+        localStorage.setItem('park-nordica-language', detectedLanguage);
+      }
+    }
+  }, []);
+
   useEffect(() => {
     async function loadTranslations(lang: Language) {
       setTranslationsLoaded(false);
@@ -564,6 +599,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
+    // Sprache in localStorage speichern
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('park-nordica-language', lang);
+    }
   };
 
   const t = (key: string, params?: Record<string, string>): string => {

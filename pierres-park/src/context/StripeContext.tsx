@@ -2,6 +2,7 @@
 
 import { createContext, useContext, ReactNode, useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
+import { useLanguage } from './LanguageContext';
 
 // Stripes Publishable Key
 const PUBLISHABLE_KEY = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '';
@@ -17,6 +18,7 @@ const StripeContext = createContext<StripeContextType | null>(null);
 export function StripeProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const { language } = useLanguage();
 
   const initiateCheckout = async (quantity: number) => {
     try {
@@ -29,7 +31,10 @@ export function StripeProvider({ children }: { children: ReactNode }) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ quantity }),
+        body: JSON.stringify({ 
+          quantity,
+          language // Aktuelle Sprache mitsenden
+        }),
       });
 
       if (!response.ok) {

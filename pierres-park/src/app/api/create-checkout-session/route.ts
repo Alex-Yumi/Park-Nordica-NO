@@ -29,11 +29,12 @@ export async function POST(req: NextRequest) {
     }
 
     // Prüfe Request-Body
-    let quantity;
+    let quantity, language;
     try {
       const body = await req.json();
       quantity = body.quantity;
-      console.log('Erhaltene Ticketanzahl:', quantity);
+      language = body.language || 'en'; // Fallback auf Englisch
+      console.log('Erhaltene Ticketanzahl:', quantity, 'Sprache:', language);
     } catch (error) {
       console.error('Fehler beim Parsen des Request-Body:', error);
       return NextResponse.json({ 
@@ -47,6 +48,16 @@ export async function POST(req: NextRequest) {
         error: 'Ungültige Ticketanzahl' 
       }, { status: 400 });
     }
+
+    // Sprach-Mapping für Stripe-Locales
+    const stripeLocaleMap: Record<string, string> = {
+      'de': 'de',
+      'en': 'en',
+      'no': 'nb', // Norwegisch Bokmål
+      'es': 'es'
+    };
+
+    const stripeLocale = stripeLocaleMap[language] || 'en';
 
     console.log('Versuche, Checkout-Session zu erstellen mit dynamischem Preis von 150 NOK pro Ticket');
 
@@ -68,9 +79,9 @@ export async function POST(req: NextRequest) {
         },
       ],
       mode: 'payment',
-      success_url: `${req.nextUrl.origin}/thank-you?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${req.nextUrl.origin}/`,
-      locale: 'de',
+      success_url: `${req.nextUrl.origin}/thank-you?session_id={CHECKOUT_SESSION_ID}&quantity=${quantity}&lang=${language}`,
+      cancel_url: `${req.nextUrl.origin}/?lang=${language}`,
+      locale: stripeLocale as any,
     });
 
     console.log('Checkout-Session erfolgreich erstellt:', session.id);

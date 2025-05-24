@@ -9,7 +9,7 @@ import { useSearchParams } from 'next/navigation';
 import GitHubImage from '@/components/GitHubImage';
 
 export default function ThankYouPage() {
-  const { t } = useLanguage();
+  const { t, setLanguage } = useLanguage();
   const [orderDetails, setOrderDetails] = useState<{
     orderId: string;
     ticketCount: number;
@@ -23,13 +23,19 @@ export default function ThankYouPage() {
     const searchParams = new URLSearchParams(window.location.search);
     const sessionId = searchParams.get('session_id') || '';
     const ticketCount = parseInt(searchParams.get('quantity') || '1', 10);
+    const lang = searchParams.get('lang');
+
+    // Setze Sprache falls sie als Parameter übergeben wurde
+    if (lang && ['de', 'en', 'no', 'es'].includes(lang)) {
+      setLanguage(lang as any);
+    }
 
     // Setze Bestelldetails
     setOrderDetails({
       orderId: sessionId,
       ticketCount: ticketCount,
     });
-  }, []);
+  }, [setLanguage]);
 
   return (
     <main className="flex min-h-screen flex-col items-center py-24">
