@@ -210,5 +210,11 @@
   "copyAddress": "Copiar dirección",
   "copied": "¡Copiado!",
   "followSocialMedia": "¡Sigue nuestro progreso en las redes sociales!",
-  "copyright": "Todos los derechos reservados"
+  "copyright": "Todos los derechos reservados",
+  "legal": "Legal",
+  "imprint": {
+    "title": "Aviso legal"
+  },
+  "contact": "Contacto",
+  "email": "Correo electrónico"
 } 

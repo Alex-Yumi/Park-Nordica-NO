@@ -210,5 +210,11 @@
   "copyAddress": "Kopier adresse",
   "copied": "Kopiert!",
   "followSocialMedia": "Følg vårt fremgang på sosiale medier!",
-  "copyright": "Alle rettigheter forbeholdt"
+  "copyright": "Alle rettigheter forbeholdt",
+  "legal": "Rettslig",
+  "imprint": {
+    "title": "Avtrykk"
+  },
+  "contact": "Kontakt",
+  "email": "E-post"
 } 

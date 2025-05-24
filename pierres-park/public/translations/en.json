@@ -210,5 +210,11 @@
   "copyAddress": "Copy Address",
   "copied": "Copied!",
   "followSocialMedia": "Follow our progress on social media!",
-  "copyright": "All rights reserved"
+  "copyright": "All rights reserved",
+  "legal": "Legal",
+  "imprint": {
+    "title": "Imprint"
+  },
+  "contact": "Contact",
+  "email": "Email"
 } 

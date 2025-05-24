@@ -210,5 +210,11 @@
   "drinkVoucher": "Getränkemarke",
   "foodVoucher": "Essensmarke",
   "followSocialMedia": "Folgt unserem Fortschritt auf Social Media!",
-  "copyright": "Alle Rechte vorbehalten"
+  "copyright": "Alle Rechte vorbehalten",
+  "legal": "Rechtliches",
+  "imprint": {
+    "title": "Impressum"
+  },
+  "contact": "Kontakt",
+  "email": "E-Mail"
 } 
