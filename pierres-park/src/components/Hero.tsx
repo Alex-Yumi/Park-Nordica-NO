@@ -213,10 +213,20 @@ export default function Hero() {
             <div className="relative w-full h-[240px] md:h-[600px] rounded-xl md:rounded-3xl overflow-hidden shadow-[0_0_25px_rgba(0,0,0,0.1),0_10px_25px_rgba(0,0,0,0.2)] transform-gpu transition-all duration-500 hover:shadow-[0_0_35px_rgba(0,0,0,0.15),0_10px_35px_rgba(0,0,0,0.25)]">
               <GitHubImage
                 src="/banner/main-banner.jpeg"
-                alt="Park Nordica Logo"
+                alt="Park Nordica Banner"
                 fill
                 className="object-cover object-center transform-gpu transition-all duration-500 hover:scale-[1.02]"
                 priority
+                onError={(e) => {
+                  console.warn('Banner image failed to load:', e);
+                  // Fallback zu einem alternativen Bild oder Hintergrund
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = 'none';
+                  const parent = target.parentElement;
+                  if (parent) {
+                    parent.style.background = 'linear-gradient(135deg, #0a4725 0%, #166534 50%, #0a4725 100%)';
+                  }
+                }}
               />
               {/* Desktop: Überschrift im Banner */}
               <div className="hidden md:flex absolute inset-x-0 bottom-16 items-center justify-center">

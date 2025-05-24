@@ -21,9 +21,9 @@ export function githubImageLoader({ src, width, quality = 90 }: ImageLoaderProps
   // Entferne führende Slashes
   const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
   
-  // Für Git LFS-Dateien müssen wir media.githubusercontent.com verwenden, auch bei öffentlichen Repos
-  // Beachte: Der public-Ordner muss im Pfad hinzugefügt werden, da der client-seitige Pfad kein "public" enthält
-  const url = `https://media.githubusercontent.com/media/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
+  // WINDOWS CORS FIX: Verwende GitHub Raw statt Media für bessere CORS-Unterstützung
+  // GitHub Raw hat weniger CORS-Probleme als media.githubusercontent.com
+  const url = `https://raw.githubusercontent.com/Alex-Yumi/Park-Nordica-NO/main/pierres-park/public/${cleanSrc}`;
   
   return url;
 }
