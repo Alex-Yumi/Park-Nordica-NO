@@ -131,42 +131,30 @@
     "lastUpdated": "Última actualización: 24 de mayo de 2024"
   },
   "disclaimer": {
-    "title": "Descargo de Responsabilidad",
+    "title": "Exención de responsabilidad",
     "sections": {
-      "general": {
-        "title": "1. General",
-        "content": "La visita y el uso del parque son generalmente bajo su propio riesgo. Park Nordica es un parque natural con animales salvajes tanto en libertad como en recintos, que pueden ser sensibles a las perturbaciones. Por esta razón, todos los visitantes tienen una responsabilidad especial de comportarse de manera respetuosa y considerada hacia los animales, la naturaleza y otros huéspedes.\n\nEstá estrictamente prohibido acosar, alimentar, cazar o estresar de cualquier otra forma a los animales. Cualquier forma de comportamiento perturbador puede ser peligrosa tanto para los animales como para los humanos. Los visitantes están obligados a comportarse con prudencia y a mantener una distancia suficiente de los animales salvajes.\n\nAdemás, Park Nordica otorga gran importancia a la protección del medio ambiente y la sostenibilidad. Instamos a todos los huéspedes a no dejar basura en el parque, ya que podría ser ingerida por los animales y provocar lesiones graves o incluso la muerte.\n\nApelamos a la conciencia ambiental y la responsabilidad personal de cada visitante para contribuir activamente a la protección de nuestro sensible ecosistema."
+      "behavior": {
+        "title": "1. Comportamiento en el parque y hacia los animales",
+        "content": "Park Nordica es un parque de aventuras orientado a la naturaleza donde la vida silvestre se mueve en recintos espaciosos o áreas de libre acceso. Pedimos urgentemente a todos los huéspedes que se comporten de manera considerada y cuidadosa, hacia los animales, la naturaleza y otros visitantes.\n\nAlimentar, molestar o tocar animales fuera de las áreas expresamente designadas (por ejemplo, zoológico de mascotas) está estrictamente prohibido. Las violaciones pueden llevar a peligros tanto para animales como para humanos y pueden resultar en expulsión de las instalaciones.\n\nLos padres y personas acompañantes son responsables de supervisar a los niños. Los niños menores de 12 años solo pueden ingresar al área del zoológico de mascotas cuando estén acompañados por un adulto.\n\nPor favor manténganse en los senderos marcados y sigan las instrucciones del personal."
       },
-      "website": {
-        "title": "2. Uso del Sitio Web y Sistemas de Pago en Línea",
-        "content": "Park Nordica no asume ninguna responsabilidad por daños directos o indirectos derivados del uso de este sitio web, en particular no por:\n• fallos técnicos o averías,\n• información incompleta o incorrecta,\n• indisponibilidad temporal de la oferta,\n• o daños causados por virus, malware o conexiones inseguras.\n\nAunque siempre nos esforzamos por mantener toda la información de nuestro sitio web actualizada, correcta y completa, pueden producirse errores o cambios no intencionados. El contenido, los precios, los eventos o los horarios de apertura pueden ajustarse en cualquier momento y sin previo aviso.\n\nLa reserva y el pago de entradas, eventos u otros servicios se procesan a través del sistema de servicio de pago \"Stripe\" y su infraestructura técnica. Park Nordica no tiene acceso directo a datos de pago sensibles (como números de tarjetas de crédito o similares), ya que estos son procesados exclusivamente por Stripe.\n\nTratamos toda la información personal que se nos proporciona durante el proceso de reserva con el máximo cuidado y de acuerdo con la legislación vigente sobre protección de datos. Sin embargo, Park Nordica no asume ninguna responsabilidad por errores, fallos o pérdidas de datos que ocurran en Stripe o sus socios.\n\nEl uso de todo el contenido, formularios y funciones de pago en nuestro sitio web es bajo su propio riesgo. No se puede garantizar una disponibilidad impecable y permanente."
+      "facilities": {
+        "title": "2. Uso de instalaciones, atracciones y áreas de juego",
+        "content": "El uso de nuestras atracciones está sujeto a la observancia de las regulaciones de seguridad, restricciones de edad o altura, y todas las instrucciones del personal.\n\nNo se puede asumir responsabilidad por el uso inadecuado o el incumplimiento de las instrucciones. Los daños resultantes del uso incorrecto o mala conducta son responsabilidad del visitante."
       },
-      "stay": {
-        "title": "3. Estancia en el Parque",
-        "content": "La estancia en el parque es generalmente bajo su propio riesgo. Los padres o tutores legales asumen la total responsabilidad por la seguridad y el comportamiento de sus hijos o de las personas a su cargo.\n\nPark Nordica no asume ninguna responsabilidad por lesiones personales o daños materiales que ocurran durante la estancia en el parque, siempre que estos sean atribuibles al uso indebido de las instalaciones, comportamiento gravemente negligente o incumplimiento de las instrucciones de seguridad y las directivas del personal.\n\nLos visitantes están obligados a comportarse de manera responsable en todo momento, a velar por su propia seguridad y la de los demás, y a seguir todas las instrucciones y señales de advertencia en el parque. El incumplimiento puede dar lugar a la expulsión inmediata del parque, sin derecho a reembolso."
-      },
-      "animals": {
-        "title": "4. Contacto con Animales",
-        "content": "El contacto con los animales en el área del zoológico de mascotas de Park Nordica es bajo su propio riesgo o el de los supervisores respectivos. No se permite la entrada de niños al área del zoológico de mascotas sin la supervisión de un adulto.\n\nTodos los visitantes están obligados a tratar a los animales con respeto y a seguir las recomendaciones de seguridad y comportamiento del personal.\n\nCualquier contacto con otros animales fuera del zoológico de mascotas, especialmente con animales salvajes o animales en recintos, está estrictamente prohibido. Las violaciones son bajo su propio riesgo. Park Nordica no asume ninguna responsabilidad por daños o lesiones resultantes de dicho contacto no autorizado con animales."
-      },
-      "activities": {
-        "title": "5. Actividades y Atracciones",
-        "content": "El uso de equipos de juego, atracciones, y todas las demás actividades de ocio en el parque es bajo su propio riesgo. Los visitantes están obligados a seguir estrictamente todas las instrucciones de seguridad, restricciones de edad o altura, y las directivas del personal.\n\nSi el equipo o las instalaciones no se utilizan de acuerdo con las regulaciones, o si se ignoran las instrucciones del personal, Park Nordica no asume responsabilidad alguna por los daños, lesiones u otras consecuencias resultantes.\n\nEl uso adecuado y la consideración hacia otros visitantes son requisitos fundamentales para la participación en todas las actividades del parque. En caso de mala conducta reiterada, nos reservamos el derecho de negar a las personas afectadas el acceso a ciertas áreas o a todo el parque."
+      "liability": {
+        "title": "3. Exención de responsabilidad",
+        "content": "Park Nordica solo es responsable en casos de intención o negligencia grave. La responsabilidad adicional, particularmente por daños causados por el comportamiento inadecuado de los huéspedes o el incumplimiento de las instrucciones de seguridad, está excluida.\n\nNo somos responsables de:\n• Accidentes debido a mala conducta personal\n• Pérdida o robo de pertenencias personales\n• Restricciones o daños relacionados con el clima\n• Daños debido a fuerza mayor (por ejemplo, tormentas, pandemias, cortes de energía)\n\nNo somos responsables de fallas técnicas, fallas del sistema o errores en reservas en línea a través de proveedores externos (por ejemplo, Stripe). El procesamiento de pagos es manejado por un proveedor de servicios de pago certificado: no tenemos acceso a sus datos de pago."
       },
       "events": {
-        "title": "6. Eventos",
-        "content": "Las entradas para eventos o eventos especiales en Park Nordica son válidas exclusivamente el día del evento impreso en ellas. Se excluyen los reembolsos o cambios de reserva, incluso si el huésped no se presenta.\n\nPark Nordica no asume ninguna responsabilidad por cancelaciones o cambios causados por condiciones climáticas, problemas técnicos u otras circunstancias ajenas a nuestro control.\n\nDurante el evento, los visitantes solo pueden permanecer en las áreas designadas y señalizadas. Está prohibido permanecer en el resto del recinto del parque a menos que el personal lo permita expresamente.\n\nEsta regulación sirve para proteger a los visitantes, ya que también hay animales salvajes y recintos no accesibles al público en el parque, cuyo acceso no supervisado puede estar asociado con peligros considerables.\n\nLas violaciones son bajo su propio riesgo, y Park Nordica se reserva el derecho de expulsar a personas del recinto."
+        "title": "4. Eventos",
+        "content": "Los boletos solo son válidos en la fecha reservada. La devolución o reembolso no es posible: se aplican excepciones para cancelaciones por nuestra parte.\n\nPermanecer durante eventos especiales solo está permitido en áreas designadas. Ingresar a zonas no públicamente accesibles está prohibido y se hace bajo su propio riesgo."
       },
-      "theft": {
-        "title": "7. Robo",
-        "content": "Park Nordica no asume responsabilidad alguna por objetos perdidos, dañados o robados, ni en el recinto del parque ni en los aparcamientos asociados o áreas interiores.\n\nPedimos a todos los huéspedes que manejen sus propiedades con cuidado y que mantengan sus pertenencias personales a la vista o guardadas de forma segura en todo momento.\n\nLlevar objetos de valor es bajo su propio riesgo. No se concederá ninguna compensación en caso de pérdida o robo."
-      },
-      "force": {
-        "title": "8. Fuerza Mayor",
-        "content": "Park Nordica no se hace responsable de los daños, fallos o restricciones causados por eventos de fuerza mayor. Los eventos de fuerza mayor son todos los eventos imprevisibles y extraordinarios que escapan a nuestro control y que no pueden prevenirse a pesar de un cuidado razonable.\n\nEstos incluyen, entre otros:\n• Desastres naturales (por ejemplo, tormentas, rayos, inundaciones)\n• Incendios o explosiones\n• Pandemias y cierres ordenados oficialmente\n• Fallos técnicos debidos a cortes de energía o de Internet\n• Huelgas o acciones sindicales\n• Actos terroristas o amenazas relacionadas con la seguridad\n\nEn tales casos, nos reservamos el derecho de cancelar eventos, cambiar los horarios de apertura o cerrar el parque total o parcialmente, sin que ello dé lugar a ninguna reclamación por daños, reembolsos u otra compensación."
+      "website": {
+        "title": "5. Información del sitio web",
+        "content": "Nos esforzamos por proporcionar información correcta y actualizada. Sin embargo, el contenido (por ejemplo, precios, horarios de apertura) puede cambiar con poca antelación. No asumimos responsabilidad por problemas técnicos, pérdida de datos o daños causados por virus o terceros."
       }
     },
-    "lastUpdated": "Última actualización: {{date}}"
+    "lastUpdated": "Última actualización: 24 de mayo de 2024"
   },
   "buildingFuture": "Park Nordica – Reapertura en junio de 2026",
   "parkClosed": "Nuestro parque permanece cerrado en 2025 – estamos construyendo para el futuro",

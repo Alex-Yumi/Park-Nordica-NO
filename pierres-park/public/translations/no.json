@@ -133,40 +133,28 @@
   "disclaimer": {
     "title": "Ansvarsfraskrivelse",
     "sections": {
-      "general": {
-        "title": "1. Generelt",
-        "content": "Opphold og bruk av parken skjer generelt på egen risiko. Park Nordica er en naturpark med frittlevende og inngjerdede ville dyr som kan være følsomme for forstyrrelser. Av denne grunn har alle besøkende et spesielt ansvar for å oppføre seg respektfullt og hensynsfullt overfor dyr, natur og andre gjester.\n\nDet er strengt forbudt å plage, mate, jakte på eller på annen måte stresse dyr. Enhver form for forstyrrende atferd kan være farlig for både dyr og mennesker. Besøkende er forpliktet til å oppføre seg forsvarlig og holde tilstrekkelig avstand til ville dyr.\n\nVidere legger Park Nordica stor vekt på miljøvern og bærekraft. Vi oppfordrer alle gjester til ikke å etterlate søppel i parken, da dette kan bli spist av dyr og føre til alvorlige skader eller til og med død.\n\nVi appellerer til miljøbevisstheten og det personlige ansvaret til hver enkelt besøkende om aktivt å bidra til beskyttelsen av vårt sårbare økosystem."
+      "behavior": {
+        "title": "1. Oppførsel i parken og overfor dyr",
+        "content": "Park Nordica er en naturnær opplevelsespark hvor ville dyr beveger seg i romslige innhegninger eller fritt tilgjengelige områder. Vi ber alle gjester innstendig om å oppføre seg hensynsfullt og forsiktig – overfor dyr, natur og medmennesker.\n\nFôring, forstyrrelse eller berøring av dyr utenfor uttrykkelig utpekte områder (f.eks. kosepark) er strengt forbudt. Overtredelser kan føre til fare for både dyr og mennesker og kan resultere i utvisning fra området.\n\nForeldre og følgepersoner er ansvarlige for tilsyn med barn. Barn under 12 år kan bare komme inn i koseparken når de er i følge med en voksen.\n\nVennligst hold deg på merkede stier og følg personalets instruksjoner."
       },
-      "website": {
-        "title": "2. Bruk av nettstedet og online betalingssystemer",
-        "content": "Park Nordica påtar seg intet ansvar for direkte eller indirekte skader som oppstår ved bruk av dette nettstedet, spesielt ikke for:\n• tekniske feil eller driftsstans,\n• ufullstendig eller feilaktig informasjon,\n• midlertidig utilgjengelighet av tilbudet,\n• eller skader forårsaket av virus, skadelig programvare eller usikre tilkoblinger.\n\nSelv om vi alltid bestreber oss på å holde all informasjon på nettstedet vårt oppdatert, korrekt og fullstendig, kan utilsiktede feil eller endringer forekomme. Innhold, priser, arrangementer eller åpningstider kan når som helst og uten forvarsel justeres.\n\nBestilling og betaling av billetter, arrangementer eller andre tjenester behandles gjennom betalingstjenestesystemet \"Stripe\" og dets tekniske infrastruktur. Park Nordica har ingen direkte tilgang til sensitive betalingsdata (som kredittkortnumre eller lignende), da disse utelukkende behandles av Stripe.\n\nVi behandler all personlig informasjon som gis til oss under bestillingsprosessen med største forsiktighet og i samsvar med gjeldende personvernlovgivning. Park Nordica påtar seg imidlertid intet ansvar for eventuelle feil, svikt eller datatap som oppstår hos Stripe eller deres partnere.\n\nBruk av alt innhold, skjemaer og betalingsfunksjoner på nettstedet vårt skjer på egen risiko. Feilfri og permanent tilgjengelighet kan ikke garanteres."
+      "facilities": {
+        "title": "2. Bruk av fasiliteter, karuseller og lekeområder",
+        "content": "Bruk av våre attraksjoner er underlagt overholdelse av sikkerhetsforskrifter, alders- eller høydebegrensninger og alle personalets instruksjoner.\n\nIngen ansvar kan påtas for feil bruk eller ignorering av instruksjoner. Skader som følge av feil bruk eller dårlig oppførsel er besøkerens ansvar."
       },
-      "stay": {
-        "title": "3. Opphold i parken",
-        "content": "Opphold i parken skjer generelt på egen risiko. Foreldre eller foresatte bærer det fulle ansvaret for sikkerheten og oppførselen til sine barn eller personer de har ansvaret for.\n\nPark Nordica påtar seg intet ansvar for personskade eller materiell skade som oppstår under et opphold i parken, forutsatt at disse kan tilskrives feilaktig bruk av fasiliteter, grovt uaktsom oppførsel eller manglende overholdelse av sikkerhetsinstruksjoner og personalets direktiver.\n\nBesøkende er forpliktet til å oppføre seg ansvarlig til enhver tid, ivareta egen og andres sikkerhet, og følge alle instruksjoner og advarselsskilt i parken. Manglende overholdelse kan føre til umiddelbar bortvisning fra parken – uten rett til refusjon."
-      },
-      "animals": {
-        "title": "4. Kontakt med dyr",
-        "content": "Kontakt med dyr i klappedyrhagen i Park Nordica skjer på egen risiko eller på risikoen til de respektive tilsynspersonene. Barn har ikke adgang til klappedyrhagen uten tilsyn av en voksen.\n\nAlle besøkende er forpliktet til å behandle dyrene respektfullt og følge personalets sikkerhets- og atferdsanbefalinger.\n\nAll kontakt med andre dyr utenfor klappedyrhagen – spesielt med ville dyr eller inngjerdede dyr – er strengt forbudt. Overtredelser skjer på egen risiko. Park Nordica påtar seg intet ansvar for skader eller personskader som følge av slik uautorisert dyrekontakt."
-      },
-      "activities": {
-        "title": "5. Aktiviteter og attraksjoner",
-        "content": "Bruk av lekeapparater, attraksjoner, forlystelser og alle andre fritidsaktiviteter i parken skjer på egen risiko. Besøkende er forpliktet til å strengt følge alle sikkerhetsinstruksjoner, alders- eller høydebegrensninger og personalets direktiver.\n\nDersom utstyr eller anlegg ikke brukes i henhold til forskriftene, eller dersom personalets instruksjoner ikke følges, påtar Park Nordica seg intet ansvar overhodet for eventuelle resulterende skader, personskader eller andre konsekvenser.\n\nKorrekt bruk og hensyn til andre besøkende er grunnleggende forutsetninger for deltakelse i alle aktiviteter i parken. Ved gjentatt dårlig oppførsel forbeholder vi oss retten til å nekte de berørte personene adgang til bestemte områder eller hele parken."
+      "liability": {
+        "title": "3. Ansvarsfraskrivelse",
+        "content": "Park Nordica er kun ansvarlig i tilfeller av forsett eller grov uaktsomhet. Videre ansvar – spesielt for skader forårsaket av upassende oppførsel fra gjester eller ignorering av sikkerhetsinstruksjoner – er ekskludert.\n\nVi er ikke ansvarlige for:\n• Ulykker på grunn av personlig dårlig oppførsel\n• Tap eller tyveri av personlige eiendeler\n• Værrelaterte begrensninger eller skader\n• Skader på grunn av force majeure (f.eks. stormer, pandemier, strømbrudd)\n\nVi er ikke ansvarlige for tekniske feil, systemsvikt eller feil i online bookinger gjennom tredjepartsleverandører (f.eks. Stripe). Betalingsbehandling håndteres av en sertifisert betalingstjenesteleverandør – vi har ikke tilgang til dine betalingsdata."
       },
       "events": {
-        "title": "6. Arrangementer",
-        "content": "Billetter til arrangementer eller spesielle begivenheter i Park Nordica er utelukkende gyldige på arrangementsdagen som er trykt på dem. Refusjon eller ombooking er utelukket, selv om gjesten ikke møter opp.\n\nPark Nordica påtar seg intet ansvar for avlysninger eller endringer forårsaket av værforhold, tekniske problemer eller andre omstendigheter utenfor vår kontroll.\n\nUnder arrangementet har besøkende kun tillatelse til å oppholde seg i de angitte og merkede områdene. Opphold i resten av parkområdet er forbudt med mindre det uttrykkelig er tillatt av personalet.\n\nDenne forskriften tjener til å beskytte besøkende, da det også er ville dyr og ikke-offentlig tilgjengelige innhegninger i parken, hvor uovervåket adgang kan medføre betydelige farer.\n\nOvertredelser skjer på egen risiko, og Park Nordica forbeholder seg retten til å bortvise personer fra området."
+        "title": "4. Arrangementer",
+        "content": "Billetter er kun gyldige på den bookede datoen. Retur eller refusjon er ikke mulig – unntak gjelder for kanselleringer fra vår side.\n\nOpphold under spesielle arrangementer er kun tillatt i utpekte områder. Å gå inn i ikke-offentlig tilgjengelige soner er forbudt og gjøres på egen risiko."
       },
-      "theft": {
-        "title": "7. Tyveri",
-        "content": "Park Nordica påtar seg intet ansvar overhodet for tapte, skadede eller stjålne gjenstander, verken på parkområdet, på de tilhørende parkeringsplassene eller i innendørsområder.\n\nVi ber alle gjester om å håndtere eiendelene sine forsiktig og til enhver tid holde personlige eiendeler under oppsikt eller trygt oppbevart.\n\nMedbringelse av verdisaker skjer på egen risiko. Ingen kompensasjon vil bli gitt ved tap eller tyveri."
-      },
-      "force": {
-        "title": "8. Force Majeure",
-        "content": "Park Nordica er ikke ansvarlig for skader, svikt eller begrensninger forårsaket av force majeure-hendelser. Force majeure-hendelser er alle uforutsette, ekstraordinære hendelser som ligger utenfor vår kontroll og som ikke kan forhindres til tross for rimelig aktsomhet.\n\nDisse inkluderer, men er ikke begrenset til:\n• Naturkatastrofer (f.eks. stormer, lynnedslag, flom)\n• Branner eller eksplosjoner\n• Pandemier og offisielt beordrede nedleggelser\n• Tekniske feil på grunn av strøm- eller internettbrudd\n• Streiker eller arbeidskonflikter\n• Terrorhandlinger eller sikkerhetsrelaterte trusler\n\nI slike tilfeller forbeholder vi oss retten til å avlyse arrangementer, endre åpningstider eller stenge parken helt eller delvis, uten at det oppstår krav om erstatning, refusjon eller annen kompensasjon."
+      "website": {
+        "title": "5. Nettstedsinformasjon",
+        "content": "Vi streber etter å gi korrekt og oppdatert informasjon. Imidlertid kan innhold (f.eks. priser, åpningstider) endres på kort varsel. Vi påtar oss ikke ansvar for tekniske problemer, datatap eller skader forårsaket av virus eller tredjeparter."
       }
     },
-    "lastUpdated": "Sist oppdatert: {{date}}"
+    "lastUpdated": "Sist oppdatert: 24. mai 2024"
   },
   "buildingFuture": "Park Nordica – Gjenåpning i juni 2026",
   "parkClosed": "Parken vår er stengt i 2025 – vi bygger for fremtiden",

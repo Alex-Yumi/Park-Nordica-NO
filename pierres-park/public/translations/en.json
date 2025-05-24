@@ -133,40 +133,28 @@
   "disclaimer": {
     "title": "Disclaimer",
     "sections": {
-      "general": {
-        "title": "1. General",
-        "content": "Visiting and using the park is generally at your own risk. Park Nordica is a nature park with free-roaming and enclosed wild animals that can be sensitive to disturbances. For this reason, all visitors have a special responsibility to behave respectfully and considerately towards animals, nature, and other guests.\n\nIt is strictly forbidden to harass, feed, hunt, or otherwise stress animals. Any form of disruptive behavior can be dangerous for both animals and humans. Visitors are obliged to behave prudently and to maintain a sufficient distance from wild animals.\n\nFurthermore, Park Nordica places great importance on environmental protection and sustainability. We urge all guests not to leave any trash in the park, as it could be ingested by animals and lead to serious injuries or even death.\n\nWe appeal to the environmental awareness and personal responsibility of every visitor to actively contribute to the protection of our sensitive ecosystem."
+      "behavior": {
+        "title": "1. Behavior in the Park and Towards Animals",
+        "content": "Park Nordica is a nature-oriented adventure park where wildlife roams in spacious enclosures or freely accessible areas. We urgently ask all guests to behave considerately and carefully – towards animals, nature, and fellow visitors.\n\nFeeding, disturbing, or touching animals outside expressly designated areas (e.g., petting zoo) is strictly prohibited. Violations can lead to dangers for both animals and humans and may result in expulsion from the premises.\n\nParents and accompanying persons are responsible for supervising children. Children under 12 years may only enter the petting zoo area when accompanied by an adult.\n\nPlease stay on marked paths and follow staff instructions."
       },
-      "website": {
-        "title": "2. Use of the Website and Online Payment Systems",
-        "content": "Park Nordica assumes no liability for direct or indirect damages arising from the use of this website, in particular not for:\n• technical malfunctions or failures,\n• incomplete or incorrect information,\n• temporary unavailability of the offer,\n• or damages caused by viruses, malware, or insecure connections.\n\nAlthough we always strive to keep all information on our website up-to-date, correct, and complete, unintentional errors or changes may occur. Content, prices, events, or opening hours can be adjusted at any time and without prior notice.\n\nThe booking and payment of tickets, events, or other services are processed through the \"Stripe\" payment service system and its technical infrastructure. Park Nordica has no direct access to sensitive payment data (such as credit card numbers or similar), as these are processed exclusively by Stripe.\n\nWe treat all personal information provided to us during the booking process with the utmost care and in accordance with current data protection legislation. However, Park Nordica assumes no liability for any errors, failures, or data losses удовольствие occurring at Stripe or its partners.\n\nThe use of all content, forms, and payment functions on our website is at your own risk. Flawless and permanent availability cannot be guaranteed."
+      "facilities": {
+        "title": "2. Use of Facilities, Rides and Play Areas",
+        "content": "The use of our attractions is subject to observance of safety regulations, age or height restrictions, and all staff instructions.\n\nNo liability can be assumed for improper use or disregard of instructions. Damages resulting from incorrect use or misconduct are the responsibility of the visitor."
       },
-      "stay": {
-        "title": "3. Stay in the Park",
-        "content": "Staying in the park is generally at your own risk. Parents or legal guardians bear full responsibility for the safety and behavior of their children or persons entrusted to them.\n\nPark Nordica assumes no liability for personal injury or property damage occurring during a stay in the park, provided these are attributable to improper use of facilities, grossly negligent behavior, or non-compliance with safety instructions and staff directives.\n\nVisitors are obliged to behave responsibly at all times, to look out for their own safety and the safety of others, and to follow all instructions and warning signs in the park. Non-compliance can lead to immediate expulsion from the park – without entitlement to a refund."
-      },
-      "animals": {
-        "title": "4. Animal Contact",
-        "content": "Contact with animals in the petting zoo area of Park Nordica is at your own risk or at the risk of the respective supervisors. Children are not allowed in the petting zoo area without the supervision of an adult.\n\nAll visitors are obliged to treat the animals respectfully and to follow the safety and behavioral recommendations of the staff.\n\nAny contact with other animals outside the petting zoo – especially with wild animals or enclosed animals – is strictly prohibited. Violations are at your own risk. Park Nordica assumes no liability for damages or injuries resulting from such unauthorized animal contact."
-      },
-      "activities": {
-        "title": "5. Activities and Rides",
-        "content": "The use of playground equipment, rides, attractions, and all other leisure activities in the park is at your own risk. Visitors are obliged to strictly follow all safety instructions, age or height restrictions, and staff directives.\n\nShould equipment or facilities not be used according to regulations, or should staff instructions be disregarded, Park Nordica assumes no liability whatsoever for any resulting damages, injuries, or other consequences.\n\nProper use and consideration for other visitors are fundamental prerequisites for participation in all activities in the park. In case of repeated misconduct, we reserve the right to deny the persons concerned access to certain areas or the entire park."
+      "liability": {
+        "title": "3. Disclaimer of Liability",
+        "content": "Park Nordica is only liable in cases of intent or gross negligence. Further liability – particularly for damages caused by improper behavior of guests or disregard of safety instructions – is excluded.\n\nWe are not liable for:\n• Accidents due to personal misconduct\n• Loss or theft of personal belongings\n• Weather-related restrictions or damages\n• Damages due to force majeure (e.g., storms, pandemics, power outages)\n\nWe are not liable for technical malfunctions, system failures, or errors in online bookings through third-party providers (e.g., Stripe). Payment processing is handled by a certified payment service provider – we have no access to your payment data."
       },
       "events": {
-        "title": "6. Events",
-        "content": "Tickets for events or special events at Park Nordica are valid exclusively on the event day printed on them. Refunds or rebookings are excluded, even if the guest does not show up.\n\nPark Nordica assumes no liability for cancellations or changes caused by weather conditions, technical problems, or other circumstances beyond our control.\n\nDuring the event, visitors are only permitted to stay in the designated and marked areas. Staying in the rest of the park grounds is prohibited unless expressly permitted by staff.\n\nThis regulation serves to protect visitors, as there are also wild animals and non-publicly accessible enclosures in the park, unsupervised access to which can be associated with considerable dangers.\n\nViolations are at your own risk, and Park Nordica reserves the right to expel persons from the premises."
+        "title": "4. Events",
+        "content": "Tickets are only valid on the booked date. Return or refund is not possible – exceptions apply for cancellations by us.\n\nStaying during special events is only allowed in designated areas. Entering non-publicly accessible zones is prohibited and done at your own risk."
       },
-      "theft": {
-        "title": "7. Theft",
-        "content": "Park Nordica assumes no liability whatsoever for lost, damaged, or stolen items, neither on the park grounds nor in the associated parking lots or indoor areas.\n\nWe ask all guests to handle their property carefully and to keep their personal belongings in sight or securely stored at all times.\n\nBringing valuables is at your own risk. No compensation will be granted in case of loss or theft."
-      },
-      "force": {
-        "title": "8. Force Majeure",
-        "content": "Park Nordica is not liable for damages, failures, or restrictions caused by force majeure events. Force majeure events are all unforeseeable, extraordinary events that are beyond our control and cannot be prevented despite reasonable care.\n\nThese include, but are not limited to:\n• Natural disasters (e.g., storms, lightning, floods)\n• Fires or explosions\n• Pandemics and officially ordered closures\n• Technical failures due to power or internet outages\n• Strikes or industrial action\n• Terrorist acts or security-related threats\n\nIn such cases, we reserve the right to cancel events, change opening hours, or close the park полностью or partially, without any claim for damages, refunds, or other compensation arising."
+      "website": {
+        "title": "5. Website Information",
+        "content": "We strive to provide correct and current information. However, content (e.g., prices, opening hours) may change at short notice. We assume no liability for technical problems, data loss, or damages caused by viruses or third parties."
       }
     },
-    "lastUpdated": "Last updated: {{date}}"
+    "lastUpdated": "Last updated: May 24, 2024"
   },
   "thankYou": "Thank you for your purchase!",
   "orderConfirmed": "Your order has been successfully completed.",

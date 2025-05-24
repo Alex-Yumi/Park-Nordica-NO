@@ -29,28 +29,18 @@ export default function DisclaimerPage() {
             {/* Content */}
             <div className="p-6 space-y-6 text-white/90">
               <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.general.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.general.content')}</p>
+                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.behavior.title')}</h2>
+                <p className="whitespace-pre-line">{t('disclaimer.sections.behavior.content')}</p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.website.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.website.content')}</p>
+                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.facilities.title')}</h2>
+                <p className="whitespace-pre-line">{t('disclaimer.sections.facilities.content')}</p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.stay.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.stay.content')}</p>
-              </section>
-
-              <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.animals.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.animals.content')}</p>
-              </section>
-
-              <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.activities.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.activities.content')}</p>
+                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.liability.title')}</h2>
+                <p className="whitespace-pre-line">{t('disclaimer.sections.liability.content')}</p>
               </section>
 
               <section>
@@ -59,16 +49,11 @@ export default function DisclaimerPage() {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.theft.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.theft.content')}</p>
+                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.website.title')}</h2>
+                <p className="whitespace-pre-line">{t('disclaimer.sections.website.content')}</p>
               </section>
 
-              <section>
-                <h2 className="text-xl font-semibold mb-3 text-white">{t('disclaimer.sections.force.title')}</h2>
-                <p className="whitespace-pre-line">{t('disclaimer.sections.force.content')}</p>
-              </section>
-
-              <p className="mt-8 text-sm text-white/70">{t('disclaimer.lastUpdated', { date: '19.05.2024' })}</p>
+              <p className="mt-8 text-sm text-white/70">{t('disclaimer.lastUpdated')}</p>
             </div>
           </div>
         </div>
