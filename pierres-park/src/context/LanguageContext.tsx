@@ -215,6 +215,88 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
       },
       lastUpdated: 'Stand: 24. Mai 2025'
     },
+    terms: {
+      title: 'Allgemeine Geschäftsbedingungen (AGB)',
+      sections: {
+        introduction: {
+          title: '1. Allgemeine Informationen',
+          content: 'Diese Website wird betrieben von Park Nordica, einem Angebot der Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Norwegen.\nMit dem Kauf eines Tickets oder der Nutzung dieser Website erklären Sie sich mit den nachstehenden Bedingungen einverstanden.'
+        },
+        contact: {
+          title: '2. Kontakt',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norwegen\nE-Mail: info@parknordica.no\nOrganisasjonsnummer: 935 112 761'
+        },
+        tickets: {
+          title: '3. Tickets und Reservierungen',
+          items: {
+            '0': '• Tickets gelten ausschließlich für das gewählte Datum und die gebuchte Veranstaltung.',
+            '1': '• Eine Rückgabe oder Erstattung ist ausgeschlossen, es sei denn, die Veranstaltung wird von uns abgesagt oder verschoben.',
+            '2': '• Tickets sind nicht übertragbar, sofern nicht anders angegeben.',
+            '3': '• Bei Zutritt ist ein gültiges Ticket (digital oder ausgedruckt) vorzulegen.',
+            '4': '• Bei Absage erstatten wir den vollen Ticketpreis, jedoch keine Folgekosten (z. B. Reise oder Unterkunft).'
+          }
+        },
+        withdrawal: {
+          title: '4. Widerrufsrecht / Rücktritt',
+          content: 'Für Online-Ticketkäufe besteht kein Widerrufsrecht gemäß § 22 des norwegischen Fernabsatzgesetzes (Angrerettloven), da es sich um Freizeitveranstaltungen mit festem Termin handelt.'
+        },
+        usage: {
+          title: '5. Nutzung der Website',
+          items: {
+            '0': '• Alle Inhalte (Texte, Bilder, Logos, Gestaltung) unterliegen dem Urheberrecht.',
+            '1': '• Die Nutzung der Inhalte zu kommerziellen Zwecken oder automatisiertes Auslesen der Website ist untersagt.',
+            '2': '• Wir behalten uns das Recht vor, die Website jederzeit inhaltlich zu verändern oder einzustellen.'
+          }
+        },
+        privacy: {
+          title: '6. Datenschutz',
+          content: 'Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung. Wir halten uns an die geltenden Vorschriften der DSGVO sowie das norwegische Personopplysningsloven.'
+        },
+        liability: {
+          title: '7. Haftungsbeschränkung',
+          content: 'Wir haften nicht für Schäden, die aus der Nutzung dieser Website, aus technischen Störungen oder durch Dritte entstehen – es sei denn, es liegt vorsätzliches oder grob fahrlässiges Verhalten unserseits vor.'
+        },
+        security: {
+          title: '8. Sicherheit',
+          content: 'Wir bemühen uns um den Schutz Ihrer persönlichen Daten und setzen geeignete technische Maßnahmen ein. Ein vollständiger Schutz gegen Angriffe von Dritten kann jedoch nicht garantiert werden.'
+        },
+        changes: {
+          title: '9. Änderungen der AGB',
+          content: 'Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu aktualisieren. Änderungen treten in Kraft, sobald sie auf dieser Seite veröffentlicht wurden.'
+        },
+        jurisdiction: {
+          title: '10. Anwendbares Recht & Gerichtsstand',
+          content: 'Es gilt ausschließlich norwegisches Recht. Gerichtsstand für alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website oder der Ticketkäufe ist das zuständige Gericht in Oslo, Norwegen.'
+        }
+      },
+      lastUpdated: 'Stand: 24. Mai 2024'
+    },
+    disclaimer: {
+      title: 'Haftungsausschluss',
+      sections: {
+        behavior: {
+          title: '1. Verhalten im Park und gegenüber Tieren',
+          content: 'Park Nordica ist ein naturnaher Erlebnispark, in dem sich Wildtiere in großzügigen Gehegen oder frei zugänglichen Bereichen bewegen. Wir bitten alle Gäste dringend, sich rücksichtsvoll und umsichtig zu verhalten – gegenüber Tieren, Natur und Mitmenschen.\n\nDas Füttern, Stören oder Berühren von Tieren außerhalb ausdrücklich ausgewiesener Bereiche (z. B. Streichelzoo) ist streng untersagt. Zuwiderhandlungen können zu Gefahren für Tier und Mensch führen und haben ggf. den Verweis vom Gelände zur Folge.\n\nEltern und Begleitpersonen sind für die Aufsicht über Kinder verantwortlich. Kinder unter 12 Jahren dürfen sich im Streichelzoo nur in Begleitung eines Erwachsenen aufhalten.\n\nBitte halten Sie die markierten Wege ein und folgen Sie den Hinweisen des Personals.'
+        },
+        facilities: {
+          title: '2. Nutzung von Einrichtungen, Fahrgeschäften und Spielbereichen',
+          content: 'Die Nutzung unserer Attraktionen erfolgt unter Beachtung der Sicherheitsvorgaben, Alters- oder Größenbeschränkungen sowie aller Anweisungen des Personals.\n\nBei unsachgemäßer Nutzung oder Missachtung der Hinweise kann keine Haftung übernommen werden. Schäden, die aus falscher Nutzung oder Fehlverhalten entstehen, liegen im Verantwortungsbereich des Besuchers.'
+        },
+        liability: {
+          title: '3. Haftungsausschluss',
+          content: 'Park Nordica haftet nur bei Vorsatz oder grober Fahrlässigkeit. Eine weitergehende Haftung – insbesondere für Schäden durch unsachgemäßes Verhalten von Gästen oder bei Missachtung von Sicherheitshinweisen – ist ausgeschlossen.\n\nWir haften nicht für:\n• Unfälle aufgrund von eigenem Fehlverhalten\n• den Verlust oder Diebstahl persönlicher Gegenstände\n• witterungsbedingte Einschränkungen oder Schäden\n• Schäden durch höhere Gewalt (z. B. Sturm, Pandemie, Stromausfall)\n\nFür technische Störungen, Systemausfälle oder Fehler bei Onlinebuchungen über Drittanbieter (z. B. Stripe) haften wir nicht. Die Zahlungsabwicklung erfolgt über einen zertifizierten Zahlungsdienstleister – wir haben keinen Zugriff auf Ihre Zahlungsdaten.'
+        },
+        events: {
+          title: '4. Veranstaltungen',
+          content: 'Tickets gelten nur am gebuchten Datum. Rückgabe oder Erstattung ist nicht möglich – Ausnahmen gelten bei Absage durch uns.\n\nDer Aufenthalt während Sonderveranstaltungen ist nur in ausgewiesenen Bereichen erlaubt. Das Betreten von nicht öffentlich zugänglichen Zonen ist untersagt und erfolgt auf eigene Gefahr.'
+        },
+        website: {
+          title: '5. Hinweise zur Website',
+          content: 'Wir bemühen uns um korrekte und aktuelle Informationen. Dennoch können sich Inhalte (z. B. Preise, Öffnungszeiten) kurzfristig ändern. Für technische Probleme, Datenverluste oder Schäden durch Viren oder Dritte übernehmen wir keine Haftung.'
+        }
+      },
+      lastUpdated: 'Zuletzt aktualisiert: 24. Mai 2024'
+    },
   },
   en: {
     parkName: 'Namsskogan Wildlife and Adventure Park',
@@ -331,11 +413,93 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     firstLook: 'First glimpse of the new enclosures and facilities',
     foodIncluded: 'Coffee, tea, and traditional pastries included',
     limitedSpots: 'Strictly limited spots – book quickly!',
-    previewDetailedText: "[NEEDS TRANSLATION - German original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor der offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
+    previewDetailedText: "[NEEDS TRANSLATION - German original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor der offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitende Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Read more",
     close: "Close",
     followSocialMedia: "Follow our progress on social media!",
-    copyright: "All rights reserved"
+    copyright: "All rights reserved",
+    terms: {
+      title: 'Terms and Conditions',
+      sections: {
+        introduction: {
+          title: '1. General Information',
+          content: 'This website is operated by Park Nordica, an offering of Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Norway.\nBy purchasing a ticket or using this website, you agree to the following terms and conditions.'
+        },
+        contact: {
+          title: '2. Contact',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norway\nE-Mail: info@parknordica.no\nOrganization Number: 935 112 761'
+        },
+        tickets: {
+          title: '3. Tickets and Reservations',
+          items: {
+            '0': '• Tickets are valid exclusively for the selected date and booked event.',
+            '1': '• Returns or refunds are excluded, unless the event is cancelled or postponed by us.',
+            '2': '• Tickets are non-transferable unless otherwise stated.',
+            '3': '• A valid ticket (digital or printed) must be presented upon entry.',
+            '4': '• In case of cancellation, we will refund the full ticket price, but not consequential costs (e.g. travel or accommodation).'
+          }
+        },
+        withdrawal: {
+          title: '4. Right of Withdrawal / Cancellation',
+          content: 'For online ticket purchases, there is no right of withdrawal according to § 22 of the Norwegian Distance Selling Act (Angrerettloven), as these are leisure events with a fixed date.'
+        },
+        usage: {
+          title: '5. Website Usage',
+          items: {
+            '0': '• All content (texts, images, logos, design) is protected by copyright.',
+            '1': '• Commercial use of content or automated reading of the website is prohibited.',
+            '2': '• We reserve the right to change or discontinue the website content at any time.'
+          }
+        },
+        privacy: {
+          title: '6. Privacy',
+          content: 'Information on the processing of personal data can be found in our privacy policy. We comply with the applicable provisions of the GDPR as well as the Norwegian Personal Data Act (Personopplysningsloven).'
+        },
+        liability: {
+          title: '7. Limitation of Liability',
+          content: 'We are not liable for damages arising from the use of this website, technical malfunctions or third parties – unless there is intentional or grossly negligent behavior on our part.'
+        },
+        security: {
+          title: '8. Security',
+          content: 'We strive to protect your personal data and employ appropriate technical measures. However, complete protection against third-party attacks cannot be guaranteed.'
+        },
+        changes: {
+          title: '9. Changes to Terms and Conditions',
+          content: 'We reserve the right to update these terms at any time. Changes take effect as soon as they are published on this page.'
+        },
+        jurisdiction: {
+          title: '10. Applicable Law & Jurisdiction',
+          content: 'Norwegian law applies exclusively. The competent court in Oslo, Norway, has jurisdiction for all disputes relating to the use of this website or ticket purchases.'
+        }
+      },
+      lastUpdated: 'Last updated: May 24, 2024'
+    },
+    disclaimer: {
+      title: 'Disclaimer',
+      sections: {
+        behavior: {
+          title: '1. Behavior in the Park and Towards Animals',
+          content: 'Park Nordica is a nature-oriented adventure park where wildlife roams in spacious enclosures or freely accessible areas. We urgently ask all guests to behave considerately and carefully – towards animals, nature, and fellow visitors.\n\nFeeding, disturbing, or touching animals outside expressly designated areas (e.g., petting zoo) is strictly prohibited. Violations can lead to dangers for both animals and humans and may result in expulsion from the premises.\n\nParents and accompanying persons are responsible for supervising children. Children under 12 years may only enter the petting zoo area when accompanied by an adult.\n\nPlease stay on marked paths and follow staff instructions.'
+        },
+        facilities: {
+          title: '2. Use of Facilities, Rides and Play Areas',
+          content: 'The use of our attractions is subject to observance of safety regulations, age or height restrictions, and all staff instructions.\n\nNo liability can be assumed for improper use or disregard of instructions. Damages resulting from incorrect use or misconduct are the responsibility of the visitor.'
+        },
+        liability: {
+          title: '3. Disclaimer of Liability',
+          content: 'Park Nordica is only liable in cases of intent or gross negligence. Further liability – particularly for damages caused by improper behavior of guests or disregard of safety instructions – is excluded.\n\nWe are not liable for:\n• Accidents due to personal misconduct\n• Loss or theft of personal belongings\n• Weather-related restrictions or damages\n• Damages due to force majeure (e.g., storms, pandemics, power outages)\n\nFür technische Störungen, Systemausfälle oder Fehler bei Onlinebuchungen über Drittanbieter (z. B. Stripe) haften wir nicht. Die Zahlungsabwicklung erfolgt über einen zertifizierten Zahlungsdienstleister – wir haben keinen Zugriff auf Ihre Zahlungsdaten.'
+        },
+        events: {
+          title: '4. Events',
+          content: 'Tickets are only valid on the booked date. Return or refund is not possible – exceptions apply for cancellations by us.\n\nStaying during special events is only allowed in designated areas. Entering non-publicly accessible zones is prohibited and done at your own risk.'
+        },
+        website: {
+          title: '5. Website Information',
+          content: 'We strive to provide correct and current information. However, content (e.g., prices, opening hours) may change at short notice. We assume no liability for technical problems, data loss, or damages caused by viruses or third parties.'
+        }
+      },
+      lastUpdated: 'Last updated: May 24, 2024'
+    }
   },
   no: {
     parkName: 'Namsskogan Familiepark og Rovdyrsenter',
@@ -452,11 +616,93 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     firstLook: 'Første glimt av de nye innhegningene og anleggene',
     foodIncluded: 'Kaffe, te og tradisjonelt bakverk inkludert',
     limitedSpots: 'Strengt begrensede plasser – bestill raskt!',
-    previewDetailedText: "[TRENGER OVERSETTELSE - Tysk original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor la offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
+    previewDetailedText: "[TRENGER OVERSETTELSE - Tysk original: Erleben Sie eine exklusive Vorschau på den nye Park Nordica an unsere Wochenend-Events im Mai 2026, noch før den offisielle Wiedereröffnung! Vi åpner våre dører for en begrenset antall besøkere.\n\nHva du forventes:\n• Begleitende fütteringer av våre charismatiske polarrever og det beeindrende ulveflokket gjennom våre erfarne ranger.\n• Ein erster, eksklusiver Blick på de nye, naturorienterte gehegnene og de moderne anleggene, som sikrer et behagelig besøksopplevelse for våre dyr og et intensivt besøksopplevelse.\n• Varm deg opp ved kostnadsfrie kaffe, te og tradisjonelt norsk brød i vårt behagelige besøkssentrum.\n• Bruk den unike muligheten til å utforske parken i en rolig atmosfære og komme inn i dialog med våre eksperter.\n\nPlassene for disse spesielle weekend-forhåndsvisningene er strengt begrenset for å sikre et personlig og uforstyrret opplevelse. Bestill dine billetter tidlig!\n\nErleben Sie eine exklusive Vorschau på den nye Park Nordica an unsere Wochenend-Events im Mai 2026, noch før den offisielle Wiedereröffnung! Vi åpner våre dører for en begrenset antall besøkere.\n\nHva du forventes:\n• Begleitende fütteringer av våre charismatiske polarrever og det beeindrende ulveflokket gjennom våre erfarne ranger.\n• Ein erster, eksklusiver Blick på de nye, naturorienterte gehegnene og de moderne anleggene, som sikrer et behagelig besøksopplevelse for våre dyr og et intensivt besøksopplevelse.\n• Varm deg opp ved kostnadsfrie kaffe, te og tradisjonelt norsk brød i vårt behagelige besøkssentrum.\n• Bruk den unike muligheten til å utforske parken i en rolig atmosfære og komme inn i dialog med våre eksperter.\n\nPlassene for disse spesielle weekend-forhåndsvisningene er strengt begrenset for å sikre et personlig og uforstyrret opplevelse. Bestill dine billetter tidlig!]",
     readMore: "Les mer",
     close: "Lukk",
     followSocialMedia: "Følg vårt fremgang på sosiale medier!",
-    copyright: "Alle rettigheter forbeholdt"
+    copyright: "Alle rettigheter forbeholdt",
+    terms: {
+      title: 'Vilkår og betingelser',
+      sections: {
+        introduction: {
+          title: '1. Generell informasjon',
+          content: 'Denne nettsiden drives av Park Nordica, et tilbud fra Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Norge.\nVed å kjøpe en billett eller bruke denne nettsiden godtar du følgende vilkår og betingelser.'
+        },
+        contact: {
+          title: '2. Kontakt',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norge\nE-post: info@parknordica.no\nOrganisasjonsnummer: 935 112 761'
+        },
+        tickets: {
+          title: '3. Billetter og reservasjoner',
+          items: {
+            '0': '• Billetter gjelder utelukkende for valgt dato og bestilt arrangement.',
+            '1': '• Retur eller refusjon er utelukket, med mindre arrangementet blir avlyst eller utsatt av oss.',
+            '2': '• Billetter kan ikke overføres med mindre annet er angitt.',
+            '3': '• En gyldig billett (digital eller utskrevet) må vises ved inngang.',
+            '4': '• Ved avlysning refunderer vi full billettprisen, men ikke følgekostnader (f.eks. reise eller overnatting).'
+          }
+        },
+        withdrawal: {
+          title: '4. Angrerrett / Avbestilling',
+          content: 'For online billettkjøp finnes det ingen angrerrett i henhold til § 22 i norsk angrerettlov, da det gjelder fritidsarrangementer med fast dato.'
+        },
+        usage: {
+          title: '5. Bruk av nettsiden',
+          items: {
+            '0': '• Alt innhold (tekster, bilder, logoer, design) er beskyttet av opphavsrett.',
+            '1': '• Kommersiell bruk av innhold eller automatisert lesing av nettsiden er forbudt.',
+            '2': '• Vi forbeholder oss retten til å endre eller avslutte nettsidens innhold når som helst.'
+          }
+        },
+        privacy: {
+          title: '6. Personvern',
+          content: 'Informasjon om behandling av personopplysninger finnes i vår personvernerklæring. Vi overholder gjeldende bestemmelser i GDPR samt norsk personopplysningslov.'
+        },
+        liability: {
+          title: '7. Ansvarsbegrensning',
+          content: 'Vi er ikke ansvarlige for skader som oppstår ved bruk av denne nettsiden, tekniske feil eller tredjeparter – med mindre det foreligger forsettlig eller grovt uaktsom oppførsel fra vår side.'
+        },
+        security: {
+          title: '8. Sikkerhet',
+          content: 'Vi streber etter å beskytte dine personopplysninger og bruker passende tekniske tiltak. Fullstendig beskyttelse mot tredjeparts angrep kan imidlertid ikke garanteres.'
+        },
+        changes: {
+          title: '9. Endringer av vilkår og betingelser',
+          content: 'Vi forbeholder oss retten til å oppdatere disse vilkårene når som helst. Endringer trer i kraft så snart de publiseres på denne siden.'
+        },
+        jurisdiction: {
+          title: '10. Gjeldende lov og verneting',
+          content: 'Norsk lov gjelder utelukkende. Kompetent domstol i Oslo, Norge, har jurisdiksjon for alle tvister knyttet til bruk av denne nettsiden eller billettkjøp.'
+        }
+      },
+      lastUpdated: 'Sist oppdatert: 24. mai 2024'
+    },
+    disclaimer: {
+      title: 'Ansvarsfraskrivelse',
+      sections: {
+        behavior: {
+          title: '1. Oppførsel i parken og overfor dyr',
+          content: 'Park Nordica er en naturnær opplevelsespark hvor ville dyr beveger seg i romslige innhegninger eller fritt tilgjengelige områder. Vi ber alle gjester innstendig om å oppføre seg hensynsfullt og forsiktig – overfor dyr, natur og medmennesker.\n\nFôring, forstyrrelse eller berøring av dyr utenfor uttrykkelig utpekte områder (f.eks. kosepark) er strengt forbudt. Overtredelser kan føre til fare for både dyr og mennesker og kan resultere i utvisning fra området.\n\nForeldre og følgepersoner er ansvarlige for tilsyn med barn. Barn under 12 år kan bare komme inn i koseparken når de er i følge med en voksen.\n\nVennligst hold deg på merkede stier og følg personalets instruksjoner.'
+        },
+        facilities: {
+          title: '2. Bruk av fasiliteter, karuseller og lekeområder',
+          content: 'Bruk av våre attraksjoner er underlagt overholdelse av sikkerhetsforskrifter, alders- eller høydebegrensninger og alle personalets instruksjoner.\n\nIngen ansvar kan påtas for feil bruk eller ignorering av instruksjoner. Skader som følge av feil bruk eller dårlig oppførsel er besøkerens ansvar.'
+        },
+        liability: {
+          title: '3. Ansvarsfraskrivelse',
+          content: 'Park Nordica er kun ansvarlig i tilfeller av forsett eller grov uaktsomhet. Videre ansvar – spesielt for skader forårsaket av upassende oppførsel fra gjester eller ignorering av sikkerhetsinstruksjoner – er ekskludert.\n\nVi er ikke ansvarlige for:\n• Ulykker på grunn av personlig dårlig oppførsel\n• Tap eller tyveri av personlige eiendeler\n• Værrelaterte begrensninger eller skader\n• Skader på grunn av force majeure (f.eks. stormer, pandemier, strømbrudd)\n\nVi er ikke ansvarlige for tekniske feil, systemsvikt eller feil i online bookinger gjennom tredjepartsleverandører (f.eks. Stripe). Betalingsbehandling håndteres av en sertifisert betalingstjenesteleverandør – vi har ikke tilgang til dine betalingsdata.'
+        },
+        events: {
+          title: '4. Arrangementer',
+          content: 'Billetter er kun gyldige på den bookede datoen. Retur eller refusjon er ikke mulig – unntak gjelder for kanselleringer fra vår side.\n\nOpphold under spesielle arrangementer er kun tillatt i utpekte områder. Å gå inn i ikke-offentlig tilgjengelige soner er forbudt og gjøres på egen risiko.'
+        },
+        website: {
+          title: '5. Nettstedsinformasjon',
+          content: 'Vi streber etter å gi korrekt og oppdatert informasjon. Imidlertid kan innhold (f.eks. priser, åpningstider) endres på kort varsel. Vi påtar oss ikke ansvar for tekniske problemer, datatap eller skader forårsaket av virus eller tredjeparter.'
+        }
+      },
+      lastUpdated: 'Sist oppdatert: 24. mai 2024'
+    }
   },
   es: {
     parkName: 'Parque de Vida Silvestre y Aventuras Namsskogan',
@@ -573,11 +819,93 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     firstLook: 'Primer vistazo a los nuevos recintos e instalaciones',
     foodIncluded: 'Café, té y bollería tradicional incluidos',
     limitedSpots: 'Plazas estrictamente limitadas – ¡reserve rápido!',
-    previewDetailedText: "[NECESITA TRADUCCIÓN - Original alemán: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor la offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
+    previewDetailedText: "[NECESITA TRADUCCIÓN - Original alemán: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor la offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitende Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Leer más",
     close: "Cerrar",
     followSocialMedia: "¡Sigue nuestro progreso en las redes sociales!",
-    copyright: "Todos los derechos reservados"
+    copyright: "Todos los derechos reservados",
+    terms: {
+      title: 'Términos y Condiciones',
+      sections: {
+        introduction: {
+          title: '1. Información General',
+          content: 'Este sitio web es operado por Park Nordica, una oferta de Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Noruega.\nAl comprar un boleto o usar este sitio web, usted acepta los siguientes términos y condiciones.'
+        },
+        contact: {
+          title: '2. Contacto',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Noruega\nCorreo electrónico: info@parknordica.no\nNúmero de organización: 935 112 761'
+        },
+        tickets: {
+          title: '3. Entradas y Reservas',
+          items: {
+            '0': '• Los boletos son válidos exclusivamente para la fecha seleccionada y el evento reservado.',
+            '1': '• Devoluciones o reembolsos están excluidos, a menos que el evento sea cancelado o pospuesto por nosotros.',
+            '2': '• Los boletos no son transferibles a menos que se indique lo contrario.',
+            '3': '• Se debe presentar un boleto válido (digital o impreso) al ingresar.',
+            '4': '• En caso de cancelación, reembolsaremos el precio completo del boleto, pero no los costos consecuentes (ej. viaje o alojamiento).'
+          }
+        },
+        withdrawal: {
+          title: '4. Derecho de Desistimiento / Cancelación',
+          content: 'Para compras de boletos en línea, no existe derecho de desistimiento según el § 22 de la Ley Noruega de Ventas a Distancia (Angrerettloven), ya que se trata de eventos de ocio con fecha fija.'
+        },
+        usage: {
+          title: '5. Uso del Sitio Web',
+          items: {
+            '0': '• Todo el contenido (textos, imágenes, logos, diseño) está protegido por derechos de autor.',
+            '1': '• El uso comercial del contenido o la lectura automatizada del sitio web está prohibido.',
+            '2': '• Nos reservamos el derecho de cambiar o descontinuar el contenido del sitio web en cualquier momento.'
+          }
+        },
+        privacy: {
+          title: '6. Privacidad',
+          content: 'La información sobre el procesamiento de datos personales se puede encontrar en nuestra política de privacidad. Cumplimos con las disposiciones aplicables del RGPD así como la Ley Noruega de Datos Personales (Personopplysningsloven).'
+        },
+        liability: {
+          title: '7. Limitación de Responsabilidad',
+          content: 'No somos responsables de daños que surjan del uso de este sitio web, fallas técnicas o terceros – a menos que haya comportamiento intencional o groseramente negligente de nuestra parte.'
+        },
+        security: {
+          title: '8. Seguridad',
+          content: 'Nos esforzamos por proteger sus datos personales y empleamos medidas técnicas apropiadas. Sin embargo, no se puede garantizar una protección completa contra ataques de terceros.'
+        },
+        changes: {
+          title: '9. Cambios a los Términos y Condiciones',
+          content: 'Nos reservamos el derecho de actualizar estos términos en cualquier momento. Los cambios entran en vigor tan pronto como se publican en esta página.'
+        },
+        jurisdiction: {
+          title: '10. Ley Aplicable y Jurisdicción',
+          content: 'La ley noruega se aplica exclusivamente. El tribunal competente en Oslo, Noruega, tiene jurisdicción para todas las disputas relacionadas con el uso de este sitio web o compras de boletos.'
+        }
+      },
+      lastUpdated: 'Última actualización: 24 de mayo de 2024'
+    },
+    disclaimer: {
+      title: 'Exención de responsabilidad',
+      sections: {
+        behavior: {
+          title: '1. Comportamiento en el parque y hacia los animales',
+          content: 'Park Nordica es un parque de aventuras orientado a la naturaleza donde la vida silvestre se mueve en recintos espaciosos o áreas de libre acceso. Pedimos urgentemente a todos los huéspedes que se comporten de manera considerada y cuidadosa, hacia los animales, la naturaleza y otros visitantes.\n\nAlimentar, molestar o tocar animales fuera de las áreas expresamente designadas (por ejemplo, zoológico de mascotas) está estrictamente prohibido. Las violaciones pueden llevar a peligros tanto para animales como para humanos y pueden resultar en expulsión de las instalaciones.\n\nLos padres y personas acompañantes son responsables de supervisar a los niños. Los niños menores de 12 años solo pueden ingresar al área del zoológico de mascotas cuando estén acompañados por un adulto.\n\nPor favor manténganse en los senderos marcados y sigan las instrucciones del personal.'
+        },
+        facilities: {
+          title: '2. Uso de instalaciones, atracciones y áreas de juego',
+          content: 'El uso de nuestras atracciones está sujeto a la observancia de las regulaciones de seguridad, restricciones de edad o altura, y todas las instrucciones del personal.\n\nNo se puede asumir responsabilidad por el uso inadecuado o el incumplimiento de las instrucciones. Los daños resultantes del uso incorrecto o mala conducta son responsabilidad del visitante.'
+        },
+        liability: {
+          title: '3. Exención de responsabilidad',
+          content: 'Park Nordica solo es responsable en casos de intención o negligencia grave. La responsabilidad adicional, particularmente por daños causados por el comportamiento inadecuado de los huéspedes o el incumplimiento de las instrucciones de seguridad, está excluida.\n\nNo somos responsables de:\n• Accidentes debido a mala conducta personal\n• Pérdida o robo de pertenencias personales\n• Restricciones o daños relacionados con el clima\n• Daños debido a fuerza mayor (por ejemplo, tormentas, pandemias, cortes de energía)\n\nNo somos responsables de fallas técnicas, fallas del sistema o errores en reservas en línea a través de proveedores externos (por ejemplo, Stripe). El procesamiento de pagos es manejado por un proveedor de servicios de pago certificado: no tenemos acceso a sus datos de pago.'
+        },
+        events: {
+          title: '4. Eventos',
+          content: 'Los boletos solo son válidos en la fecha reservada. La devolución o reembolso no es posible: se aplican excepciones para cancelaciones por nuestra parte.\n\nPermanecer durante eventos especiales solo está permitido en áreas designadas. Ingresar a zonas no públicamente accesibles está prohibido y se hace bajo su propio riesgo.'
+        },
+        website: {
+          title: '5. Información del sitio web',
+          content: 'Nos esforzamos por proporcionar información correcta y actualizada. Sin embargo, el contenido (por ejemplo, precios, horarios de apertura) puede cambiar con poca antelación. No asumimos responsabilidad por problemas técnicos, pérdida de datos o daños causados por virus o terceros.'
+        }
+      },
+      lastUpdated: 'Última actualización: 24 de mayo de 2024'
+    }
   }
 };
 
