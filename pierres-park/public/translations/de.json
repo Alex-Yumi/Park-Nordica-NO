@@ -75,53 +75,60 @@
     "lastUpdated": "Stand: 24. Mai 2025"
   },
   "terms": {
-    "title": "Allgemeine Geschäftsbedingungen",
+    "title": "Allgemeine Geschäftsbedingungen (AGB)",
     "sections": {
       "introduction": {
         "title": "1. Allgemeine Informationen",
-        "content": "Diese Website wird betrieben von Park Nordica, unter dem rechtlichen Namen Nordisk Opplevelse AS. Mit der Nutzung unserer Website akzeptieren Sie unsere untenstehenden Bedingungen."
+        "content": "Diese Website wird betrieben von Park Nordica, einem Angebot der Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Norwegen.\nMit dem Kauf eines Tickets oder der Nutzung dieser Website erklären Sie sich mit den nachstehenden Bedingungen einverstanden."
       },
       "contact": {
-        "title": "2. Kontaktinformationen",
-        "content": "Parkveien 1\n7892 Trones\nNorwegen\nInfo@ParkNordica.no"
+        "title": "2. Kontakt",
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Norwegen\nE-Mail: info@parknordica.no\nOrganisasjonsnummer: 935 112 761"
       },
       "tickets": {
         "title": "3. Tickets und Reservierungen",
         "items": {
-          "0": "Tickets gelten nur für das gewählte Datum.",
-          "1": "Keine Rückerstattung, außer bei Absage durch uns.",
-          "2": "Bitte bringen Sie Ihr Ticket bei der Ankunft mit."
+          "0": "• Tickets gelten ausschließlich für das gewählte Datum und die gebuchte Veranstaltung.",
+          "1": "• Eine Rückgabe oder Erstattung ist ausgeschlossen, es sei denn, die Veranstaltung wird von uns abgesagt oder verschoben.",
+          "2": "• Tickets sind nicht übertragbar, sofern nicht anders angegeben.",
+          "3": "• Bei Zutritt ist ein gültiges Ticket (digital oder ausgedruckt) vorzulegen.",
+          "4": "• Bei Absage erstatten wir den vollen Ticketpreis, jedoch keine Folgekosten (z. B. Reise oder Unterkunft)."
         }
       },
+      "withdrawal": {
+        "title": "4. Widerrufsrecht / Rücktritt",
+        "content": "Für Online-Ticketkäufe besteht kein Widerrufsrecht gemäß § 22 des norwegischen Fernabsatzgesetzes (Angrerettloven), da es sich um Freizeitveranstaltungen mit festem Termin handelt."
+      },
       "usage": {
-        "title": "4. Nutzung der Website",
+        "title": "5. Nutzung der Website",
         "items": {
-          "0": "Der Inhalt ist urheberrechtlich geschützt.",
-          "1": "Automatisiertes Sammeln von Daten ist untersagt."
+          "0": "• Alle Inhalte (Texte, Bilder, Logos, Gestaltung) unterliegen dem Urheberrecht.",
+          "1": "• Die Nutzung der Inhalte zu kommerziellen Zwecken oder automatisiertes Auslesen der Website ist untersagt.",
+          "2": "• Wir behalten uns das Recht vor, die Website jederzeit inhaltlich zu verändern oder einzustellen."
         }
       },
       "privacy": {
-        "title": "5. Datenschutz",
-        "content": "Wir verarbeiten Ihre Daten gemäß norwegischem Recht."
+        "title": "6. Datenschutz",
+        "content": "Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung. Wir halten uns an die geltenden Vorschriften der DSGVO sowie das norwegische Personopplysningsloven."
       },
       "liability": {
-        "title": "6. Haftungsbeschränkung",
-        "content": "Wir übernehmen keine Haftung für Verluste, die durch die Nutzung der Website entstehen."
+        "title": "7. Haftungsbeschränkung",
+        "content": "Wir haften nicht für Schäden, die aus der Nutzung dieser Website, aus technischen Störungen oder durch Dritte entstehen – es sei denn, es liegt vorsätzliches oder grob fahrlässiges Verhalten unsererseits vor."
       },
       "security": {
-        "title": "7. Sicherheit",
-        "content": "Wir schützen Ihre Informationen, können jedoch keine vollständige Sicherheit garantieren."
+        "title": "8. Sicherheit",
+        "content": "Wir bemühen uns um den Schutz Ihrer persönlichen Daten und setzen geeignete technische Maßnahmen ein. Ein vollständiger Schutz gegen Angriffe von Dritten kann jedoch nicht garantiert werden."
       },
       "changes": {
-        "title": "8. Änderungen",
-        "content": "Wir behalten uns das Recht vor, die Bedingungen jederzeit zu ändern."
+        "title": "9. Änderungen der AGB",
+        "content": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu aktualisieren. Änderungen treten in Kraft, sobald sie auf dieser Seite veröffentlicht wurden."
       },
       "jurisdiction": {
-        "title": "9. Anwendbares Recht und Gerichtsstand",
-        "content": "Es gilt norwegisches Recht. Streitigkeiten werden vor dem Amtsgericht Oslo verhandelt."
+        "title": "10. Anwendbares Recht & Gerichtsstand",
+        "content": "Es gilt ausschließlich norwegisches Recht. Gerichtsstand für alle Streitigkeiten im Zusammenhang mit der Nutzung dieser Website oder der Ticketkäufe ist das zuständige Gericht in Oslo, Norwegen."
       }
     },
-    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+    "lastUpdated": "Stand: 24. Mai 2024"
   },
   "disclaimer": {
     "title": "Haftungsausschluss",

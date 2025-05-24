@@ -79,49 +79,56 @@
     "sections": {
       "introduction": {
         "title": "1. General Information",
-        "content": "This website is operated by Park Nordica, under the legal name Nordisk Opplevelse AS. By using our website, you accept our terms and conditions stated below."
+        "content": "This website is operated by Park Nordica, an offering of Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Norway.\nBy purchasing a ticket or using this website, you agree to the following terms and conditions."
       },
       "contact": {
-        "title": "2. Contact Information",
-        "content": "Parkveien 1\n7892 Trones\nNorway\nInfo@ParkNordica.no"
+        "title": "2. Contact",
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Norway\nE-Mail: info@parknordica.no\nOrganization Number: 935 112 761"
       },
       "tickets": {
         "title": "3. Tickets and Reservations",
         "items": {
-          "0": "Tickets are valid only for the selected date",
-          "1": "No refunds except in case of cancellation by us",
-          "2": "Please bring your ticket upon arrival"
+          "0": "• Tickets are valid exclusively for the selected date and booked event.",
+          "1": "• Returns or refunds are excluded, unless the event is cancelled or postponed by us.",
+          "2": "• Tickets are non-transferable unless otherwise stated.",
+          "3": "• A valid ticket (digital or printed) must be presented upon entry.",
+          "4": "• In case of cancellation, we will refund the full ticket price, but not consequential costs (e.g. travel or accommodation)."
         }
       },
+      "withdrawal": {
+        "title": "4. Right of Withdrawal / Cancellation",
+        "content": "For online ticket purchases, there is no right of withdrawal according to § 22 of the Norwegian Distance Selling Act (Angrerettloven), as these are leisure events with a fixed date."
+      },
       "usage": {
-        "title": "4. Website Usage",
+        "title": "5. Website Usage",
         "items": {
-          "0": "Content is protected by copyright",
-          "1": "Automated data collection is prohibited"
+          "0": "• All content (texts, images, logos, design) is protected by copyright.",
+          "1": "• Commercial use of content or automated reading of the website is prohibited.",
+          "2": "• We reserve the right to change or discontinue the website content at any time."
         }
       },
       "privacy": {
-        "title": "5. Privacy",
-        "content": "We process your data in accordance with Norwegian law."
+        "title": "6. Privacy",
+        "content": "Information on the processing of personal data can be found in our privacy policy. We comply with the applicable provisions of the GDPR as well as the Norwegian Personal Data Act (Personopplysningsloven)."
       },
       "liability": {
-        "title": "6. Limitation of Liability",
-        "content": "We assume no liability for losses arising from the use of the website."
+        "title": "7. Limitation of Liability",
+        "content": "We are not liable for damages arising from the use of this website, technical malfunctions or third parties – unless there is intentional or grossly negligent behavior on our part."
       },
       "security": {
-        "title": "7. Security",
-        "content": "We protect your information but cannot guarantee complete security."
+        "title": "8. Security",
+        "content": "We strive to protect your personal data and employ appropriate technical measures. However, complete protection against third-party attacks cannot be guaranteed."
       },
       "changes": {
-        "title": "8. Changes",
-        "content": "We reserve the right to change these terms at any time."
+        "title": "9. Changes to Terms and Conditions",
+        "content": "We reserve the right to update these terms at any time. Changes take effect as soon as they are published on this page."
       },
       "jurisdiction": {
-        "title": "9. Applicable Law and Jurisdiction",
-        "content": "Norwegian law applies. Disputes will be settled before the Oslo District Court."
+        "title": "10. Applicable Law & Jurisdiction",
+        "content": "Norwegian law applies exclusively. The competent court in Oslo, Norway, has jurisdiction for all disputes relating to the use of this website or ticket purchases."
       }
     },
-    "lastUpdated": "Last updated: {{date}}"
+    "lastUpdated": "Last updated: May 24, 2024"
   },
   "disclaimer": {
     "title": "Disclaimer",

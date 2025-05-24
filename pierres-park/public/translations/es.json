@@ -79,49 +79,56 @@
     "sections": {
       "introduction": {
         "title": "1. Información General",
-        "content": "Este sitio web es operado por Park Nordica, bajo el nombre legal Nordisk Opplevelse AS. Al utilizar nuestro sitio web, usted acepta nuestros términos y condiciones establecidos a continuación. (Texto de marcador de posición)"
+        "content": "Este sitio web es operado por Park Nordica, una oferta de Nordisk Opplevelse AS, Finvolldalsveien 1244, 7896 Brekkvasselv, Noruega.\nAl comprar un boleto o usar este sitio web, usted acepta los siguientes términos y condiciones."
       },
       "contact": {
-        "title": "2. Información de Contacto",
-        "content": "Parkveien 1\n7892 Trones\nNoruega\nInfo@ParkNordica.no"
+        "title": "2. Contacto",
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Noruega\nCorreo electrónico: info@parknordica.no\nNúmero de organización: 935 112 761"
       },
       "tickets": {
         "title": "3. Entradas y Reservas",
         "items": {
-          "0": "Las entradas son válidas solo para la fecha seleccionada",
-          "1": "No hay reembolsos excepto en caso de cancelación por nuestra parte",
-          "2": "Por favor, traiga su entrada al llegar"
+          "0": "• Los boletos son válidos exclusivamente para la fecha seleccionada y el evento reservado.",
+          "1": "• Devoluciones o reembolsos están excluidos, a menos que el evento sea cancelado o pospuesto por nosotros.",
+          "2": "• Los boletos no son transferibles a menos que se indique lo contrario.",
+          "3": "• Se debe presentar un boleto válido (digital o impreso) al ingresar.",
+          "4": "• En caso de cancelación, reembolsaremos el precio completo del boleto, pero no los costos consecuentes (ej. viaje o alojamiento)."
         }
       },
+      "withdrawal": {
+        "title": "4. Derecho de Desistimiento / Cancelación",
+        "content": "Para compras de boletos en línea, no existe derecho de desistimiento según el § 22 de la Ley Noruega de Ventas a Distancia (Angrerettloven), ya que se trata de eventos de ocio con fecha fija."
+      },
       "usage": {
-        "title": "4. Uso del Sitio Web",
+        "title": "5. Uso del Sitio Web",
         "items": {
-          "0": "El contenido está protegido por derechos de autor",
-          "1": "La recopilación automatizada de datos está prohibida"
+          "0": "• Todo el contenido (textos, imágenes, logos, diseño) está protegido por derechos de autor.",
+          "1": "• El uso comercial del contenido o la lectura automatizada del sitio web está prohibido.",
+          "2": "• Nos reservamos el derecho de cambiar o descontinuar el contenido del sitio web en cualquier momento."
         }
       },
       "privacy": {
-        "title": "5. Privacidad",
-        "content": "Procesamos sus datos de acuerdo con la ley noruega. (Texto de marcador de posición)"
+        "title": "6. Privacidad",
+        "content": "La información sobre el procesamiento de datos personales se puede encontrar en nuestra política de privacidad. Cumplimos con las disposiciones aplicables del RGPD así como la Ley Noruega de Datos Personales (Personopplysningsloven)."
       },
       "liability": {
-        "title": "6. Limitación de Responsabilidad",
-        "content": "No asumimos ninguna responsabilidad por las pérdidas derivadas del uso del sitio web. (Texto de marcador de posición)"
+        "title": "7. Limitación de Responsabilidad",
+        "content": "No somos responsables de daños que surjan del uso de este sitio web, fallas técnicas o terceros – a menos que haya comportamiento intencional o groseramente negligente de nuestra parte."
       },
       "security": {
-        "title": "7. Seguridad",
-        "content": "Protegemos su información pero no podemos garantizar una seguridad completa. (Texto de marcador de posición)"
+        "title": "8. Seguridad",
+        "content": "Nos esforzamos por proteger sus datos personales y empleamos medidas técnicas apropiadas. Sin embargo, no se puede garantizar una protección completa contra ataques de terceros."
       },
       "changes": {
-        "title": "8. Cambios",
-        "content": "Nos reservamos el derecho de cambiar estos términos en cualquier momento. (Texto de marcador de posición)"
+        "title": "9. Cambios a los Términos y Condiciones",
+        "content": "Nos reservamos el derecho de actualizar estos términos en cualquier momento. Los cambios entran en vigor tan pronto como se publican en esta página."
       },
       "jurisdiction": {
-        "title": "9. Ley Aplicable y Jurisdicción",
-        "content": "Se aplica la ley noruega. Las disputas se resolverán ante el Tribunal de Distrito de Oslo. (Texto de marcador de posición)"
+        "title": "10. Ley Aplicable y Jurisdicción",
+        "content": "La ley noruega se aplica exclusivamente. El tribunal competente en Oslo, Noruega, tiene jurisdicción para todas las disputas relacionadas con el uso de este sitio web o compras de boletos."
       }
     },
-    "lastUpdated": "Última actualización: {{date}}"
+    "lastUpdated": "Última actualización: 24 de mayo de 2024"
   },
   "disclaimer": {
     "title": "Descargo de Responsabilidad",
