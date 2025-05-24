@@ -240,11 +240,21 @@ export default function Hero() {
                 </div>
               </div>
               
-              {/* Button in der unteren rechten Ecke - Für Desktop und Mobile */}
-              <div className="absolute bottom-4 right-4">
+              {/* Desktop: Button zentriert unter der Text-Box */}
+              <div className="hidden md:flex absolute inset-x-0 bottom-4 items-center justify-center">
                 <a
                   href="/#tickets"
-                  className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-bold py-1.5 px-4 md:py-3 md:px-8 rounded-full text-xs md:text-lg transition-colors shadow-lg whitespace-nowrap"
+                  className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors shadow-lg whitespace-nowrap"
+                >
+                  {t('bookTickets')}
+                </a>
+              </div>
+              
+              {/* Mobile: Button in der unteren rechten Ecke */}
+              <div className="md:hidden absolute bottom-4 right-4">
+                <a
+                  href="/#tickets"
+                  className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-bold py-1.5 px-4 rounded-full text-xs transition-colors shadow-lg whitespace-nowrap"
                 >
                   {t('bookTickets')}
                 </a>
