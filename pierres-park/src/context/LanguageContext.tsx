@@ -452,7 +452,7 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     firstLook: 'Første glimt av de nye innhegningene og anleggene',
     foodIncluded: 'Kaffe, te og tradisjonelt bakverk inkludert',
     limitedSpots: 'Strengt begrensede plasser – bestill raskt!',
-    previewDetailedText: "[TRENGER OVERSETTELSE - Tysk original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor der offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
+    previewDetailedText: "[TRENGER OVERSETTELSE - Tysk original: Erleben Sie eine exklusive Vorschau auf den neuen Park Nordica an unseren Wochenend-Events im Mai 2026, noch vor la offiziellen Wiedereröffnung! Wir öffnen unsere Tore für eine begrenzte Anzahl von Besuchern.\n\nWas Sie erwartet:\n• Begleitete Fütterungen unserer charismatischen Polarfüchse und des beeindruckenden Wolfsrudels durch unsere erfahrenen Ranger.\n• Ein erster, exklusiver Blick auf die neugestalteten, naturnahen Gehege und die modernen Anlagen, die für das Wohlbefinden unserer Tiere und ein intensives Besuchererlebnis sorgen.\n• Wärmen Sie sich bei kostenlosem Kaffee, Tee und traditionellem norwegischen Gebäck in unserem gemütlichen Besucherzentrum auf.\n• Nutzen Sie die einmalige Gelegenheit, den Park in einer ruhigen Atmosphäre zu erkunden und mit unseren Experten ins Gespräch zu kommen.\n\nDie Plätze für diese besonderen Vorschau-Wochenenden sind stark limitiert, um ein persönliches und ungestörtes Erlebnis zu garantieren. Sichern Sie sich Ihre Tickets frühzeitig!]",
     readMore: "Les mer",
     close: "Lukk",
     followSocialMedia: "Følg vårt fremgang på sosiale medier!",
@@ -635,7 +635,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
           return;
         }
         const data: TranslationObject = await response.json();
-        setCurrentTranslations({ ...(globalTranslations[lang] || {}), ...data } as TranslationObject);
+        // JSON-Daten haben Vorrang, globalTranslations nur für fehlende Keys
+        const globalData = globalTranslations[lang] || {};
+        const mergedData = { ...globalData, ...data } as TranslationObject;
+        setCurrentTranslations(mergedData);
       } catch (error) {
         console.error(`Error loading translations for ${lang}:`, error);
         setCurrentTranslations((globalTranslations[lang] || {}) as TranslationObject);
@@ -689,4 +692,4 @@ export function useLanguage() {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }
   return context;
-} 
+}
