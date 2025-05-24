@@ -197,9 +197,9 @@ export default function Hero() {
   return (
     <div className="relative">
       {/* Waldlandschaft mit Tierkarten */}
-      <div className="relative min-h-screen-mobile w-full max-w-[100vw] bg-[#0a4725]">
+      <div className="relative hero-height w-full max-w-[100vw] bg-[#0a4725]">
         {/* Hauptinhalt */}
-        <div className="relative w-full max-w-[100vw] mx-auto px-1 md:px-4 pt-2 md:pt-24 pb-4 md:pb-24 overflow-hidden">
+        <div className="relative w-full max-w-[100vw] mx-auto px-1 md:px-4 pt-32 md:pt-24 pb-20 md:pb-24 overflow-hidden">
           
           {/* Bannerbild mit Überschrift */}
           <div className="w-full mx-auto mb-4 md:mb-10 perspective-[1000px]">
@@ -573,7 +573,7 @@ export default function Hero() {
       </div>
 
       {/* Schneelandschaft */}
-      <div className="relative w-full max-w-[100vw] bg-[#0a4725] -mt-4 md:-mt-8 pb-2 md:pb-24 overflow-visible">
+      <div className="relative w-full max-w-[100vw] bg-[#0a4725] -mt-4 md:-mt-8 pb-16 md:pb-24 overflow-visible">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 relative z-30 mt-2">
             <div 

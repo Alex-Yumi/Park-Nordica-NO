@@ -69,6 +69,19 @@
     min-height: 100dvh;
     min-height: -webkit-fill-available;
   }
+  
+  /* Hero-Container ohne Header-Überlappung */
+  .hero-height {
+    min-height: calc(100vh - 8rem); /* Mobile: 100vh - 128px header */
+    min-height: calc(100dvh - 8rem); /* Dynamic viewport für moderne mobile Browser */
+  }
+  
+  @media (min-width: 768px) {
+    .hero-height {
+      min-height: calc(100vh - 6rem); /* Desktop: 100vh - 96px header */
+      min-height: calc(100dvh - 6rem);
+    }
+  }
 }
 
 @layer utilities {

@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-stone-700/95 to-stone-800/95 text-white pt-6 md:pt-12 pb-6 shadow-xl mt-0 md:mt-4">
+    <footer className="bg-gradient-to-br from-stone-700/95 to-stone-800/95 text-white pt-12 pb-6 shadow-xl mt-4">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-8 space-y-8 md:space-y-0">
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
