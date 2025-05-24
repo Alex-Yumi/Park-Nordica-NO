@@ -19,6 +19,9 @@
     @apply scroll-smooth bg-[#0a4725];
     /* Verhindert horizontales Scrollen */
     overflow-x: hidden;
+    /* Mobile viewport height fix */
+    height: 100%;
+    height: -webkit-fill-available;
   }
 
   body {
@@ -27,8 +30,19 @@
     overflow-x: hidden;
     /* Für mobile Geräte: verhindert Bounce-Scrolling über die Seite hinaus */
     overscroll-behavior: none;
-    /* Mindesthöhe für vollständige Abdeckung */
+    /* Mobile viewport height fix - nutze verschiedene Einheiten */
     min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height für moderne Browser */
+    min-height: -webkit-fill-available; /* Safari fallback */
+    /* Zusätzlicher Schutz für Mobilgeräte */
+    position: relative;
+  }
+  
+  /* Mobile Safari viewport height fix */
+  @supports (-webkit-appearance: none) {
+    body {
+      min-height: -webkit-fill-available;
+    }
   }
 }
 
@@ -47,6 +61,13 @@
 
   .carousel-track:hover {
     @apply [animation-play-state:paused];
+  }
+  
+  /* Mobile-optimierte min-height Utilities */
+  .min-h-screen-mobile {
+    min-height: 100vh;
+    min-height: 100dvh;
+    min-height: -webkit-fill-available;
   }
 }
 

@@ -197,9 +197,9 @@ export default function Hero() {
   return (
     <div className="relative">
       {/* Waldlandschaft mit Tierkarten */}
-      <div className="relative min-h-screen w-full max-w-[100vw] bg-gradient-to-br from-stone-700/95 to-stone-800/95">
+      <div className="relative min-h-screen-mobile w-full max-w-[100vw] bg-[#0a4725]">
         {/* Hauptinhalt */}
-        <div className="relative w-full max-w-[100vw] mx-auto px-1 md:px-4 pt-24 md:pt-16 pb-8 md:pb-16 overflow-hidden">
+        <div className="relative w-full max-w-[100vw] mx-auto px-1 md:px-4 pt-32 md:pt-24 pb-20 md:pb-24 overflow-hidden">
           
           {/* Bannerbild mit Überschrift */}
           <div className="w-full mx-auto mb-4 md:mb-10 perspective-[1000px]">
@@ -224,7 +224,7 @@ export default function Hero() {
                   target.style.display = 'none';
                   const parent = target.parentElement;
                   if (parent) {
-                    parent.style.background = 'linear-gradient(135deg, #57534e 0%, #44403c 50%, #57534e 100%)';
+                    parent.style.background = 'linear-gradient(135deg, #0a4725 0%, #166534 50%, #0a4725 100%)';
                   }
                 }}
               />
@@ -546,7 +546,7 @@ export default function Hero() {
       </div>
 
       {/* Schneelandschaft */}
-      <div className="relative w-full max-w-[100vw] bg-gradient-to-br from-stone-700/95 to-stone-800/95 -mt-4 md:-mt-8 pb-16 md:pb-24 overflow-visible">
+      <div className="relative w-full max-w-[100vw] bg-[#0a4725] -mt-4 md:-mt-8 pb-16 md:pb-24 overflow-visible">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 relative z-30 mt-2">
             <div 
@@ -717,7 +717,7 @@ export default function Hero() {
           onClick={() => setActiveTextModal(null)}
         >
           <div 
-            className="relative bg-gradient-to-br from-stone-700/95 to-stone-800/95 max-w-2xl mx-4 rounded-xl shadow-2xl"
+            className="relative bg-[#0a4725] max-w-2xl mx-4 rounded-xl shadow-2xl"
             onClick={e => e.stopPropagation()}
           >
             {/* Modal Header */}
