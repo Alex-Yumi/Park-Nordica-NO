@@ -65,8 +65,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
       title: 'Impressum',
       sections: {
         company: {
-          title: 'Angaben gemäß § 5 E-Commerce-Gesetz (ECG) / norsk ehandelslov',
-          content: `Verantwortlich für den Inhalt dieser Website:\n\nPark Nordica\nParkveien 1, 7892 Trones\n\nBetreibergesellschaft:\nNordisk Opplevelse AS\nFinvolldalsveien 1244, 7896 Brekkvasselv\n\nKontakt:\nE-Mail: info@parknordica.no\nOrganisasjonsnummer: 935112761`
+          title: 'Angaben gemäß § 5 E-Commerce-Gesetz (ECG) / § 5 Telemediengesetz (TMG) sowie norsk ehandelslov',
+          content: `Verantwortlich für den Inhalt dieser Website:\n\nPark Nordica\nParkveien 1\n7892 Trones\nNorwegen\n\nBetreibergesellschaft:\nNordisk Opplevelse AS\nFinvolldalsveien 1244\n7896 Brekkvasselv\nNorwegen\n\nKontakt:\nE-Mail: info@parknordica.no\nTelefon: +47 944 64 223\nOrganisasjonsnummer: 935 112 761`
         },
         contact: {
           title: 'Kontakt',
@@ -185,8 +185,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
       title: 'Imprint',
       sections: {
         company: {
-          title: 'Company Information',
-          content: 'Responsible for the content of this website:\n\nPark Nordica\nParkveien 1, 7892 Trones\n\nOperating Company:\nNordisk Opplevelse AS\nFinvolldalsveien 1244, 7896 Brekkvasselv\n\nContact:\nE-Mail: info@parknordica.no\nOrganization Number: 935112761'
+          title: 'Information according to § 5 E-Commerce Act (ECG) / § 5 Telemedia Act (TMG) and Norwegian e-commerce law',
+          content: 'Responsible for the content of this website:\n\nPark Nordica\nParkveien 1\n7892 Trones\nNorway\n\nOperating Company:\nNordisk Opplevelse AS\nFinvolldalsveien 1244\n7896 Brekkvasselv\nNorway\n\nContact:\nE-Mail: info@parknordica.no\nPhone: +47 944 64 223\nOrganization Number: 935 112 761'
         },
         contact: {
           title: 'Contact',
@@ -306,8 +306,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
       title: 'Impressum',
       sections: {
         company: {
-          title: 'Foretaksinformasjon',
-          content: 'Ansvarlig for innholdet på denne nettsiden:\n\nPark Nordica\nParkveien 1, 7892 Trones\n\nDriftsselskap:\nNordisk Opplevelse AS\nFinvolldalsveien 1244, 7896 Brekkvasselv\n\nKontakt:\nE-post: info@parknordica.no\nOrganisasjonsnummer: 935112761'
+          title: 'Opplysninger i henhold til § 5 E-handelsloven (ECG) / § 5 Telemedieloven (TMG) samt norsk ehandelslov',
+          content: 'Ansvarlig for innholdet på denne nettsiden:\n\nPark Nordica\nParkveien 1\n7892 Trones\nNorge\n\nDriftsselskap:\nNordisk Opplevelse AS\nFinvolldalsveien 1244\n7896 Brekkvasselv\nNorge\n\nKontakt:\nE-post: info@parknordica.no\nTelefon: +47 944 64 223\nOrganisasjonsnummer: 935 112 761'
         },
         contact: {
           title: 'Kontakt',
@@ -427,8 +427,8 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
       title: 'Aviso legal',
       sections: {
         company: {
-          title: 'Información de la empresa',
-          content: 'Responsable del contenido de esta página web:\n\nPark Nordica\nParkveien 1, 7892 Trones\n\nEmpresa operadora:\nNordisk Opplevelse AS\nFinvolldalsveien 1244, 7896 Brekkvasselv\n\nContacto:\nCorreo electrónico: info@parknordica.no\nNúmero de organización: 935112761'
+          title: 'Información según § 5 Ley de Comercio Electrónico (ECG) / § 5 Ley de Telemedia (TMG) y ley noruega de comercio electrónico',
+          content: 'Responsable del contenido de esta página web:\n\nPark Nordica\nParkveien 1\n7892 Trones\nNoruega\n\nEmpresa operadora:\nNordisk Opplevelse AS\nFinvolldalsveien 1244\n7896 Brekkvasselv\nNoruega\n\nContacto:\nCorreo electrónico: info@parknordica.no\nTeléfono: +47 944 64 223\nNúmero de organización: 935 112 761'
         },
         contact: {
           title: 'Contacto',
