@@ -164,7 +164,57 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     readMore: "Mehr erfahren",
     close: "Schließen",
     followSocialMedia: "Folgt unserem Fortschritt auf Social Media!",
-    copyright: "Alle Rechte vorbehalten"
+    copyright: "Alle Rechte vorbehalten",
+    privacy: {
+      title: 'Datenschutzerklärung',
+      sections: {
+        introduction: {
+          title: '1. Einleitung',
+          content: 'Diese Datenschutzerklärung informiert Sie darüber, wie wir, Park Nordica, Ihre personenbezogenen Daten erheben, verarbeiten und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen.'
+        },
+        responsible: {
+          title: '2. Verantwortliche Stelle',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norwegen\nE-Mail: info@parknordica.no\nOrganisasjonsnummer: 935 112 761'
+        },
+        data: {
+          title: '3. Welche Daten wir erheben',
+          content: 'Wir erheben personenbezogene Daten, wenn Sie:\n• unsere Website besuchen (z. B. durch Cookies, IP-Adresse, Gerätedaten)\n• ein Ticket kaufen oder sich anmelden\n• mit uns in Kontakt treten\n\nBeispiele für erhobene Daten:\n• Name, Adresse, E-Mail-Adresse\n• Zahlungs- und Kaufdetails\n• IP-Adresse, Browserinformationen, Geräteinformationen (über Cookies)'
+        },
+        purpose: {
+          title: '4. Zwecke der Datenverarbeitung',
+          content: 'Wir verwenden Ihre Daten für folgende Zwecke:\n• Abwicklung von Ticketkäufen und Bestellungen\n• Kundenservice und Kommunikation\n• Verbesserung der Websitefunktionalität (Analyse, Nutzererlebnis)\n• Erfüllung rechtlicher Pflichten'
+        },
+        legal: {
+          title: '5. Rechtsgrundlagen der Verarbeitung',
+          content: 'Ihre Daten verarbeiten wir auf Basis von:\n• Ihrer Einwilligung (z. B. für Newsletter oder Cookies)\n• Vertraglicher Erfüllung (z. B. Ticketkauf)\n• Gesetzlicher Verpflichtung (z. B. Aufbewahrungspflichten)'
+        },
+        storage: {
+          title: '6. Speicherdauer',
+          content: 'Personenbezogene Daten werden nur so lange gespeichert, wie es für die jeweiligen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist. Danach werden sie gelöscht oder anonymisiert.'
+        },
+        sharing: {
+          title: '7. Weitergabe an Dritte',
+          content: 'Eine Weitergabe Ihrer Daten erfolgt nur:\n• mit Ihrer ausdrücklichen Zustimmung\n• zur Vertragserfüllung (z. B. Zahlungsdienstleister)\n• wenn wir gesetzlich dazu verpflichtet sind (z. B. Steuerbehörden)'
+        },
+        rights: {
+          title: '8. Ihre Rechte',
+          content: 'Sie haben das Recht auf:\n• Auskunft über Ihre gespeicherten Daten\n• Berichtigung unrichtiger Daten\n• Löschung („Recht auf Vergessenwerden")\n• Einschränkung der Verarbeitung\n• Datenübertragbarkeit\n• Widerspruch gegen die Verarbeitung\n• Beschwerde bei einer Datenschutzbehörde (z. B. Datatilsynet in Norwegen oder eine Aufsichtsbehörde in Ihrem Wohnsitzland)'
+        },
+        cookies: {
+          title: '9. Cookies',
+          content: 'Unsere Website verwendet Cookies und ähnliche Technologien, um:\n• die Funktionalität der Seite zu gewährleisten\n• das Nutzerverhalten zu analysieren (z. B. Google Analytics)\n\nBeim ersten Besuch fragen wir nach Ihrer Einwilligung zur Verwendung dieser Cookies. Sie können Ihre Einstellungen jederzeit anpassen.'
+        },
+        security: {
+          title: '10. Datensicherheit',
+          content: 'Wir treffen geeignete technische und organisatorische Maßnahmen, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen.'
+        },
+        changes: {
+          title: '11. Änderungen dieser Datenschutzerklärung',
+          content: 'Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren. Änderungen werden auf dieser Website veröffentlicht. Bitte informieren Sie sich regelmäßig über den aktuellen Stand.'
+        }
+      },
+      lastUpdated: 'Stand: 24. Mai 2025'
+    },
   },
   en: {
     parkName: 'Namsskogan Wildlife and Adventure Park',

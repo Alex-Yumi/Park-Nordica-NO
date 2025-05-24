@@ -3,63 +3,76 @@
     "title": "Datenschutzerklärung",
     "sections": {
       "introduction": {
-        "title": "1. Einführung",
-        "content": "Diese Datenschutzerklärung erklärt, wie wir Ihre personenbezogenen Daten erheben und nutzen."
+        "title": "1. Einleitung",
+        "content": "Diese Datenschutzerklärung informiert Sie darüber, wie wir, Park Nordica, Ihre personenbezogenen Daten erheben, verarbeiten und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen."
       },
       "responsible": {
         "title": "2. Verantwortliche Stelle",
-        "content": "Parkveien 1\n7892 Trones\nNorwegen\nInfo@ParkNordica.no"
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Norwegen\nE-Mail: info@parknordica.no\nOrganisasjonsnummer: 935 112 761"
       },
       "data": {
         "title": "3. Welche Daten wir erheben",
         "items": {
-          "0": "Name, Kontaktdaten",
-          "1": "Kaufdetails",
-          "2": "IP-Adresse und Cookies"
+          "0": "Wir erheben personenbezogene Daten, wenn Sie:",
+          "1": "• unsere Website besuchen (z. B. durch Cookies, IP-Adresse, Gerätedaten)",
+          "2": "• ein Ticket kaufen oder sich anmelden",
+          "3": "• mit uns in Kontakt treten",
+          "4": "",
+          "5": "Beispiele für erhobene Daten:",
+          "6": "• Name, Adresse, E-Mail-Adresse",
+          "7": "• Zahlungs- und Kaufdetails", 
+          "8": "• IP-Adresse, Browserinformationen, Geräteinformationen (über Cookies)"
         }
       },
       "purpose": {
-        "title": "4. Zweck der Verarbeitung",
+        "title": "4. Zwecke der Datenverarbeitung",
         "items": {
-          "0": "Abwicklung von Käufen",
-          "1": "Kundenservice"
+          "0": "Wir verwenden Ihre Daten für folgende Zwecke:",
+          "1": "• Abwicklung von Ticketkäufen und Bestellungen",
+          "2": "• Kundenservice und Kommunikation",
+          "3": "• Verbesserung der Websitefunktionalität (Analyse, Nutzererlebnis)",
+          "4": "• Erfüllung rechtlicher Pflichten"
         }
       },
       "legal": {
-        "title": "5. Rechtsgrundlage",
-        "content": "Einwilligung, Vertrag und gesetzliche Verpflichtungen."
+        "title": "5. Rechtsgrundlagen der Verarbeitung",
+        "content": "Ihre Daten verarbeiten wir auf Basis von:\n• Ihrer Einwilligung (z. B. für Newsletter oder Cookies)\n• Vertraglicher Erfüllung (z. B. Ticketkauf)\n• Gesetzlicher Verpflichtung (z. B. Aufbewahrungspflichten)"
       },
       "storage": {
-        "title": "6. Speicherung",
-        "content": "Daten werden gelöscht, wenn sie nicht mehr benötigt werden."
+        "title": "6. Speicherdauer",
+        "content": "Personenbezogene Daten werden nur so lange gespeichert, wie es für die jeweiligen Zwecke erforderlich ist oder gesetzlich vorgeschrieben ist. Danach werden sie gelöscht oder anonymisiert."
       },
       "sharing": {
-        "title": "7. Weitergabe",
-        "content": "Nur mit Einwilligung oder gesetzlicher Verpflichtung."
+        "title": "7. Weitergabe an Dritte",
+        "content": "Eine Weitergabe Ihrer Daten erfolgt nur:\n• mit Ihrer ausdrücklichen Zustimmung\n• zur Vertragserfüllung (z. B. Zahlungsdienstleister)\n• wenn wir gesetzlich dazu verpflichtet sind (z. B. Steuerbehörden)"
       },
       "rights": {
         "title": "8. Ihre Rechte",
         "items": {
-          "0": "Auskunft",
-          "1": "Berichtigung",
-          "2": "Löschung",
-          "3": "Beschwerde"
+          "0": "Sie haben das Recht auf:",
+          "1": "• Auskunft über Ihre gespeicherten Daten",
+          "2": "• Berichtigung unrichtiger Daten",
+          "3": "• Löschung („Recht auf Vergessenwerden")",
+          "4": "• Einschränkung der Verarbeitung",
+          "5": "• Datenübertragbarkeit",
+          "6": "• Widerspruch gegen die Verarbeitung",
+          "7": "• Beschwerde bei einer Datenschutzbehörde (z. B. Datatilsynet in Norwegen oder eine Aufsichtsbehörde in Ihrem Wohnsitzland)"
         }
       },
       "cookies": {
         "title": "9. Cookies",
-        "content": "Verwendung für Analyse und Funktionalität."
+        "content": "Unsere Website verwendet Cookies und ähnliche Technologien, um:\n• die Funktionalität der Seite zu gewährleisten\n• das Nutzerverhalten zu analysieren (z. B. Google Analytics)\n\nBeim ersten Besuch fragen wir nach Ihrer Einwilligung zur Verwendung dieser Cookies. Sie können Ihre Einstellungen jederzeit anpassen."
       },
       "security": {
-        "title": "10. Sicherheit",
-        "content": "Wir schützen Ihre Daten mit geeigneten Maßnahmen."
+        "title": "10. Datensicherheit",
+        "content": "Wir treffen geeignete technische und organisatorische Maßnahmen, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen."
       },
       "changes": {
-        "title": "11. Änderungen",
-        "content": "Änderungen werden auf der Website veröffentlicht."
+        "title": "11. Änderungen dieser Datenschutzerklärung",
+        "content": "Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren. Änderungen werden auf dieser Website veröffentlicht. Bitte informieren Sie sich regelmäßig über den aktuellen Stand."
       }
     },
-    "lastUpdated": "Zuletzt aktualisiert: {{date}}"
+    "lastUpdated": "Stand: 24. Mai 2025"
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",

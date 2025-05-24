@@ -4,62 +4,75 @@
     "sections": {
       "introduction": {
         "title": "1. Introducción",
-        "content": "Esta política de privacidad explica cómo recopilamos y utilizamos sus datos personales."
+        "content": "Esta política de privacidad le informa sobre cómo nosotros, Park Nordica, recopilamos, procesamos y protegemos sus datos personales cuando visita nuestro sitio web o utiliza nuestros servicios."
       },
       "responsible": {
         "title": "2. Entidad Responsable",
-        "content": "Parkveien 1\n7892 Trones\nNoruega\nInfo@ParkNordica.no"
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Noruega\nCorreo electrónico: info@parknordica.no\nNúmero de organización: 935 112 761"
       },
       "data": {
-        "title": "3. Datos que Recopilamos",
+        "title": "3. Qué datos recopilamos",
         "items": {
-          "0": "Nombre, datos de contacto",
-          "1": "Detalles de la compra",
-          "2": "Dirección IP y cookies"
+          "0": "Recopilamos datos personales cuando usted:",
+          "1": "• visita nuestro sitio web (p. ej., a través de cookies, dirección IP, datos del dispositivo)",
+          "2": "• compra un boleto o se registra",
+          "3": "• se pone en contacto con nosotros",
+          "4": "",
+          "5": "Ejemplos de datos recopilados:",
+          "6": "• Nombre, dirección, dirección de correo electrónico",
+          "7": "• Detalles de pago y compra",
+          "8": "• Dirección IP, información del navegador, información del dispositivo (a través de cookies)"
         }
       },
       "purpose": {
-        "title": "4. Propósito del Procesamiento",
+        "title": "4. Propósitos del procesamiento de datos",
         "items": {
-          "0": "Procesamiento de compras",
-          "1": "Servicio al cliente"
+          "0": "Utilizamos sus datos para los siguientes propósitos:",
+          "1": "• Procesamiento de compras de boletos y pedidos",
+          "2": "• Servicio al cliente y comunicación",
+          "3": "• Mejora de la funcionalidad del sitio web (análisis, experiencia del usuario)",
+          "4": "• Cumplimiento de obligaciones legales"
         }
       },
       "legal": {
-        "title": "5. Base Legal",
-        "content": "Consentimiento, contrato y obligaciones legales."
+        "title": "5. Base legal para el procesamiento",
+        "content": "Procesamos sus datos basándose en:\n• Su consentimiento (p. ej., para boletines o cookies)\n• Cumplimiento contractual (p. ej., compra de boletos)\n• Obligación legal (p. ej., requisitos de retención)"
       },
       "storage": {
-        "title": "6. Almacenamiento",
-        "content": "Los datos se eliminarán cuando ya no sean necesarios."
+        "title": "6. Duración del almacenamiento",
+        "content": "Los datos personales se almacenan solo durante el tiempo necesario para los propósitos respectivos o según lo requiera la ley. Después de eso, se eliminarán o anonimizarán."
       },
       "sharing": {
-        "title": "7. Intercambio de Datos",
-        "content": "Solo con consentimiento u obligación legal."
+        "title": "7. Intercambio de datos con terceros",
+        "content": "Sus datos solo se comparten:\n• con su consentimiento explícito\n• para el cumplimiento del contrato (p. ej., proveedores de servicios de pago)\n• cuando estamos legalmente obligados a hacerlo (p. ej., autoridades fiscales)"
       },
       "rights": {
-        "title": "8. Sus Derechos",
+        "title": "8. Sus derechos",
         "items": {
-          "0": "Información",
-          "1": "Corrección",
-          "2": "Eliminación",
-          "3": "Quejas"
+          "0": "Usted tiene derecho a:",
+          "1": "• Información sobre sus datos almacenados",
+          "2": "• Corrección de datos incorrectos",
+          "3": "• Eliminación (\"derecho al olvido\")",
+          "4": "• Restricción del procesamiento",
+          "5": "• Portabilidad de datos",
+          "6": "• Oponerse al procesamiento",
+          "7": "• Queja ante una autoridad de protección de datos (p. ej., Datatilsynet en Noruega o una autoridad supervisora en su país de residencia)"
         }
       },
       "cookies": {
         "title": "9. Cookies",
-        "content": "Utilizadas para análisis y funcionalidad."
+        "content": "Nuestro sitio web utiliza cookies y tecnologías similares para:\n• garantizar la funcionalidad del sitio\n• analizar el comportamiento del usuario (p. ej., Google Analytics)\n\nEn su primera visita, solicitamos su consentimiento para usar estas cookies. Puede ajustar su configuración en cualquier momento."
       },
       "security": {
-        "title": "10. Seguridad",
-        "content": "Protegemos sus datos con medidas adecuadas."
+        "title": "10. Seguridad de datos",
+        "content": "Tomamos medidas técnicas y organizativas apropiadas para proteger sus datos contra acceso no autorizado, pérdida o mal uso."
       },
       "changes": {
-        "title": "11. Cambios",
-        "content": "Los cambios se publicarán en el sitio web."
+        "title": "11. Cambios en esta política de privacidad",
+        "content": "Nos reservamos el derecho de actualizar esta política de privacidad según sea necesario. Los cambios se publicarán en este sitio web. Por favor, consulte regularmente el estado actual."
       }
     },
-    "lastUpdated": "Última actualización: {{date}}"
+    "lastUpdated": "Última actualización: 24 de mayo de 2025"
   },
   "terms": {
     "title": "Términos y Condiciones",

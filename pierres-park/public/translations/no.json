@@ -3,63 +3,76 @@
     "title": "Personvernerklæring",
     "sections": {
       "introduction": {
-        "title": "1. Introduksjon",
-        "content": "Denne personvernerklæringen forklarer hvordan vi samler inn og bruker dine personopplysninger."
+        "title": "1. Innledning",
+        "content": "Denne personvernerklæringen informerer deg om hvordan vi, Park Nordica, samler inn, behandler og beskytter dine personopplysninger når du besøker nettsiden vår eller bruker våre tjenester."
       },
       "responsible": {
-        "title": "2. Ansvarlig enhet",
-        "content": "Parkveien 1\n7892 Trones\nNorge\nInfo@ParkNordica.no"
+        "title": "2. Ansvarlig part",
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Norge\nE-post: info@parknordica.no\nOrganisasjonsnummer: 935 112 761"
       },
       "data": {
-        "title": "3. Data vi samler inn",
+        "title": "3. Hvilke data vi samler inn",
         "items": {
-          "0": "Navn, kontaktinformasjon",
-          "1": "Kjøpsdetaljer",
-          "2": "IP-adresse og informasjonskapsler"
+          "0": "Vi samler inn personopplysninger når du:",
+          "1": "• besøker nettsiden vår (f.eks. gjennom informasjonskapsler, IP-adresse, enhetsdata)",
+          "2": "• kjøper en billett eller registrerer deg",
+          "3": "• kontakter oss",
+          "4": "",
+          "5": "Eksempler på innsamlede data:",
+          "6": "• Navn, adresse, e-postadresse",
+          "7": "• Betalings- og kjøpsdetaljer",
+          "8": "• IP-adresse, nettleserinformasjon, enhetsinformasjon (via informasjonskapsler)"
         }
       },
       "purpose": {
-        "title": "4. Formål med behandlingen",
+        "title": "4. Formål med databehandling",
         "items": {
-          "0": "Behandling av kjøp",
-          "1": "Kundeservice"
+          "0": "Vi bruker dine data til følgende formål:",
+          "1": "• Behandling av billettkjøp og bestillinger",
+          "2": "• Kundeservice og kommunikasjon",
+          "3": "• Forbedring av nettstedets funksjonalitet (analyse, brukeropplevelse)",
+          "4": "• Oppfyllelse av juridiske forpliktelser"
         }
       },
       "legal": {
-        "title": "5. Rettslig grunnlag",
-        "content": "Samtykke, kontrakt og juridiske forpliktelser."
+        "title": "5. Rettsgrunnlag for behandling",
+        "content": "Vi behandler dine data basert på:\n• Ditt samtykke (f.eks. for nyhetsbrev eller informasjonskapsler)\n• Kontraktoppfyllelse (f.eks. billettkjøp)\n• Juridisk forpliktelse (f.eks. oppbevaringskrav)"
       },
       "storage": {
-        "title": "6. Lagring",
-        "content": "Data slettes når de ikke lenger er nødvendige."
+        "title": "6. Lagringsvarighet",
+        "content": "Personopplysninger lagres kun så lenge det er nødvendig for de respektive formålene eller juridisk påkrevd. Deretter slettes eller anonymiseres de."
       },
       "sharing": {
-        "title": "7. Datadeling",
-        "content": "Kun med samtykke eller juridisk forpliktelse."
+        "title": "7. Datadeling med tredjeparter",
+        "content": "Dine data deles kun:\n• med ditt uttrykkelige samtykke\n• for kontraktoppfyllelse (f.eks. betalingstjenesteleverandører)\n• når vi er juridisk forpliktet til å gjøre det (f.eks. skattemyndigheter)"
       },
       "rights": {
         "title": "8. Dine rettigheter",
         "items": {
-          "0": "Informasjon",
-          "1": "Korrigering",
-          "2": "Sletting",
-          "3": "Klage"
+          "0": "Du har rett til:",
+          "1": "• Informasjon om dine lagrede data",
+          "2": "• Korrigering av feilaktige data",
+          "3": "• Sletting (\"rett til å bli glemt\")",
+          "4": "• Begrensning av behandling",
+          "5": "• Dataportabilitet",
+          "6": "• Å protestere mot behandling",
+          "7": "• Klage til en databeskyttelsesmyndighet (f.eks. Datatilsynet i Norge eller en tilsynsmyndighet i ditt bostedsland)"
         }
       },
       "cookies": {
         "title": "9. Informasjonskapsler",
-        "content": "Brukes for analyse og funksjonalitet."
+        "content": "Nettsiden vår bruker informasjonskapsler og lignende teknologier for å:\n• sikre funksjonaliteten til siden\n• analysere brukeradferd (f.eks. Google Analytics)\n\nVed ditt første besøk ber vi om ditt samtykke til å bruke disse informasjonskapslene. Du kan justere innstillingene dine når som helst."
       },
       "security": {
-        "title": "10. Sikkerhet",
-        "content": "Vi beskytter dine data med passende tiltak."
+        "title": "10. Datasikkerhet",
+        "content": "Vi tar passende tekniske og organisatoriske tiltak for å beskytte dine data mot uautorisert tilgang, tap eller misbruk."
       },
       "changes": {
-        "title": "11. Endringer",
-        "content": "Endringer vil bli publisert på nettstedet."
+        "title": "11. Endringer i denne personvernerklæringen",
+        "content": "Vi forbeholder oss retten til å oppdatere denne personvernerklæringen etter behov. Endringer vil bli publisert på denne nettsiden. Vennligst sjekk regelmessig for gjeldende status."
       }
     },
-    "lastUpdated": "Sist oppdatert: {{date}}"
+    "lastUpdated": "Sist oppdatert: 24. mai 2025"
   },
   "terms": {
     "title": "Vilkår og betingelser",

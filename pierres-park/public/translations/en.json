@@ -4,62 +4,75 @@
     "sections": {
       "introduction": {
         "title": "1. Introduction",
-        "content": "This privacy policy explains how we collect and use your personal data."
+        "content": "This privacy policy informs you about how we, Park Nordica, collect, process and protect your personal data when you visit our website or use our services."
       },
       "responsible": {
         "title": "2. Responsible Entity",
-        "content": "Parkveien 1\n7892 Trones\nNorway\nInfo@ParkNordica.no"
+        "content": "Park Nordica\nParkveien 1\n7892 Trones, Norway\nE-Mail: info@parknordica.no\nOrganization Number: 935 112 761"
       },
       "data": {
         "title": "3. Data We Collect",
         "items": {
-          "0": "Name, contact details",
-          "1": "Purchase details",
-          "2": "IP address and cookies"
+          "0": "We collect personal data when you:",
+          "1": "• visit our website (e.g. through cookies, IP address, device data)",
+          "2": "• purchase a ticket or register",
+          "3": "• contact us",
+          "4": "",
+          "5": "Examples of collected data:",
+          "6": "• Name, address, email address",
+          "7": "• Payment and purchase details",
+          "8": "• IP address, browser information, device information (via cookies)"
         }
       },
       "purpose": {
-        "title": "4. Purpose of Processing",
+        "title": "4. Purposes of Data Processing",
         "items": {
-          "0": "Processing purchases",
-          "1": "Customer service"
+          "0": "We use your data for the following purposes:",
+          "1": "• Processing ticket purchases and orders",
+          "2": "• Customer service and communication",
+          "3": "• Improving website functionality (analysis, user experience)",
+          "4": "• Fulfillment of legal obligations"
         }
       },
       "legal": {
-        "title": "5. Legal Basis",
-        "content": "Consent, contract, and legal obligations."
+        "title": "5. Legal Basis for Processing",
+        "content": "We process your data based on:\n• Your consent (e.g. for newsletters or cookies)\n• Contractual fulfillment (e.g. ticket purchase)\n• Legal obligation (e.g. retention requirements)"
       },
       "storage": {
-        "title": "6. Storage",
-        "content": "Data will be deleted when no longer needed."
+        "title": "6. Storage Duration",
+        "content": "Personal data is only stored for as long as it is necessary for the respective purposes or legally required. After that, it will be deleted or anonymized."
       },
       "sharing": {
-        "title": "7. Data Sharing",
-        "content": "Only with consent or legal obligation."
+        "title": "7. Data Sharing with Third Parties",
+        "content": "Your data is only shared:\n• with your explicit consent\n• for contract fulfillment (e.g. payment service providers)\n• when we are legally obligated to do so (e.g. tax authorities)"
       },
       "rights": {
         "title": "8. Your Rights",
         "items": {
-          "0": "Information",
-          "1": "Correction",
-          "2": "Deletion",
-          "3": "Complaints"
+          "0": "You have the right to:",
+          "1": "• Information about your stored data",
+          "2": "• Correction of incorrect data",
+          "3": "• Deletion ("right to be forgotten")",
+          "4": "• Restriction of processing",
+          "5": "• Data portability",
+          "6": "• Object to processing",
+          "7": "• Complaint to a data protection authority (e.g. Datatilsynet in Norway or a supervisory authority in your country of residence)"
         }
       },
       "cookies": {
         "title": "9. Cookies",
-        "content": "Used for analytics and functionality."
+        "content": "Our website uses cookies and similar technologies to:\n• ensure the functionality of the site\n• analyze user behavior (e.g. Google Analytics)\n\nOn your first visit, we ask for your consent to use these cookies. You can adjust your settings at any time."
       },
       "security": {
-        "title": "10. Security",
-        "content": "We protect your data with appropriate measures."
+        "title": "10. Data Security",
+        "content": "We take appropriate technical and organizational measures to protect your data from unauthorized access, loss or misuse."
       },
       "changes": {
-        "title": "11. Changes",
-        "content": "Changes will be published on the website."
+        "title": "11. Changes to this Privacy Policy",
+        "content": "We reserve the right to update this privacy policy as needed. Changes will be published on this website. Please check regularly for the current status."
       }
     },
-    "lastUpdated": "Last updated: {{date}}"
+    "lastUpdated": "Last updated: May 24, 2025"
   },
   "terms": {
     "title": "Terms and Conditions",
