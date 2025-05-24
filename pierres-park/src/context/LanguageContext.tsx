@@ -198,7 +198,7 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
         },
         rights: {
           title: '8. Ihre Rechte',
-          content: 'Sie haben das Recht auf:\n• Auskunft über Ihre gespeicherten Daten\n• Berichtigung unrichtiger Daten\n• Löschung („Recht auf Vergessenwerden")\n• Einschränkung der Verarbeitung\n• Datenübertragbarkeit\n• Widerspruch gegen die Verarbeitung\n• Beschwerde bei einer Datenschutzbehörde (z. B. Datatilsynet in Norwegen oder eine Aufsichtsbehörde in Ihrem Wohnsitzland)'
+          content: 'Sie haben das Recht auf:\n• Auskunft über Ihre gespeicherten Daten\n• Berichtigung unrichtiger Daten\n• Löschung ("Recht auf Vergessenwerden")\n• Einschränkung der Verarbeitung\n• Datenübertragbarkeit\n• Widerspruch gegen die Verarbeitung\n• Beschwerde bei einer Datenschutzbehörde (z. B. Datatilsynet in Norwegen oder eine Aufsichtsbehörde in Ihrem Wohnsitzland)'
         },
         cookies: {
           title: '9. Cookies',
@@ -418,6 +418,56 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     close: "Close",
     followSocialMedia: "Follow our progress on social media!",
     copyright: "All rights reserved",
+    privacy: {
+      title: 'Privacy Policy',
+      sections: {
+        introduction: {
+          title: '1. Introduction',
+          content: 'This privacy policy informs you about how we, Park Nordica, collect, process and protect your personal data when you visit our website or use our services.'
+        },
+        responsible: {
+          title: '2. Responsible Entity',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norway\nE-Mail: info@parknordica.no\nOrganization Number: 935 112 761'
+        },
+        data: {
+          title: '3. What Data We Collect',
+          content: 'We collect personal data when you:\n• visit our website (e.g. through cookies, IP address, device data)\n• purchase a ticket or register\n• contact us\n\nExamples of collected data:\n• Name, address, email address\n• Payment and purchase details\n• IP address, browser information, device information (via cookies)'
+        },
+        purpose: {
+          title: '4. Purposes of Data Processing',
+          content: 'We use your data for the following purposes:\n• Processing ticket purchases and orders\n• Customer service and communication\n• Improving website functionality (analysis, user experience)\n• Fulfilling legal obligations'
+        },
+        legal: {
+          title: '5. Legal Basis for Processing',
+          content: 'We process your data based on:\n• Your consent (e.g. for newsletters or cookies)\n• Contract fulfillment (e.g. ticket purchase)\n• Legal obligation (e.g. retention requirements)'
+        },
+        storage: {
+          title: '6. Storage Duration',
+          content: 'Personal data is only stored for as long as necessary for the respective purposes or as required by law. After that, it is deleted or anonymized.'
+        },
+        sharing: {
+          title: '7. Sharing with Third Parties',
+          content: 'Your data is only shared:\n• with your express consent\n• for contract fulfillment (e.g. payment service providers)\n• when we are legally obliged to do so (e.g. tax authorities)'
+        },
+        rights: {
+          title: '8. Your Rights',
+          content: 'You have the right to:\n• Information about your stored data\n• Correction of incorrect data\n• Deletion ("right to be forgotten")\n• Restriction of processing\n• Data portability\n• Object to processing\n• Lodge a complaint with a data protection authority (e.g. Datatilsynet in Norway or a supervisory authority in your country of residence)'
+        },
+        cookies: {
+          title: '9. Cookies',
+          content: 'Our website uses cookies and similar technologies to:\n• ensure the functionality of the site\n• analyze user behavior (e.g. Google Analytics)\n\nWe ask for your consent to use these cookies on your first visit. You can adjust your settings at any time.'
+        },
+        security: {
+          title: '10. Data Security',
+          content: 'We take appropriate technical and organizational measures to protect your data from unauthorized access, loss or misuse.'
+        },
+        changes: {
+          title: '11. Changes to this Privacy Policy',
+          content: 'We reserve the right to update this privacy policy as needed. Changes will be published on this website. Please check regularly for updates.'
+        }
+      },
+      lastUpdated: 'Last updated: May 24, 2025'
+    },
     terms: {
       title: 'Terms and Conditions',
       sections: {
@@ -621,6 +671,56 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     close: "Lukk",
     followSocialMedia: "Følg vårt fremgang på sosiale medier!",
     copyright: "Alle rettigheter forbeholdt",
+    privacy: {
+      title: 'Personvernerklæring',
+      sections: {
+        introduction: {
+          title: '1. Innledning',
+          content: 'Denne personvernerklæringen informerer deg om hvordan vi, Park Nordica, samler inn, behandler og beskytter dine personopplysninger når du besøker nettstedet vårt eller bruker tjenestene våre.'
+        },
+        responsible: {
+          title: '2. Ansvarlig enhet',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Norge\nE-post: info@parknordica.no\nOrganisasjonsnummer: 935 112 761'
+        },
+        data: {
+          title: '3. Hvilke data vi samler inn',
+          content: 'Vi samler inn personopplysninger når du:\n• besøker nettstedet vårt (f.eks. gjennom cookies, IP-adresse, enhetsdata)\n• kjøper en billett eller registrerer deg\n• kontakter oss\n\nEksempler på innsamlede data:\n• Navn, adresse, e-postadresse\n• Betalings- og kjøpsdetaljer\n• IP-adresse, nettleserinformasjon, enhetsinformasjon (via cookies)'
+        },
+        purpose: {
+          title: '4. Formål med databehandling',
+          content: 'Vi bruker dataene dine til følgende formål:\n• Behandling av billettkjøp og bestillinger\n• Kundeservice og kommunikasjon\n• Forbedring av nettstedets funksjonalitet (analyse, brukeropplevelse)\n• Oppfyllelse av juridiske forpliktelser'
+        },
+        legal: {
+          title: '5. Rettslig grunnlag for behandling',
+          content: 'Vi behandler dataene dine basert på:\n• Ditt samtykke (f.eks. for nyhetsbrev eller cookies)\n• Kontraktoppfyllelse (f.eks. billettkjøp)\n• Juridisk forpliktelse (f.eks. oppbevaringskrav)'
+        },
+        storage: {
+          title: '6. Lagringsvarighet',
+          content: 'Personopplysninger lagres kun så lenge som nødvendig for de respektive formålene eller som påkrevd av loven. Etter det slettes de eller anonymiseres.'
+        },
+        sharing: {
+          title: '7. Deling med tredjeparter',
+          content: 'Dataene dine deles kun:\n• med ditt uttrykkelige samtykke\n• for kontraktoppfyllelse (f.eks. betalingstjenesteleverandører)\n• når vi er juridisk forpliktet til å gjøre det (f.eks. skattemyndigheter)'
+        },
+        rights: {
+          title: '8. Dine rettigheter',
+          content: 'Du har rett til:\n• Informasjon om dine lagrede data\n• Korrigering av feilaktige data\n• Sletting ("rett til å bli glemt")\n• Begrensning av behandling\n• Dataportabilitet\n• Motsette deg behandling\n• Klage til en datatilsynsmyndighet (f.eks. Datatilsynet i Norge eller en tilsynsmyndighet i ditt bostedsland)'
+        },
+        cookies: {
+          title: '9. Cookies',
+          content: 'Nettstedet vårt bruker cookies og lignende teknologier for å:\n• sikre funksjonaliteten til siden\n• analysere brukeratferd (f.eks. Google Analytics)\n\nVi ber om ditt samtykke til å bruke disse cookies ved ditt første besøk. Du kan justere innstillingene dine når som helst.'
+        },
+        security: {
+          title: '10. Datasikkerhet',
+          content: 'Vi tar passende tekniske og organisatoriske tiltak for å beskytte dataene dine mot uautorisert tilgang, tap eller misbruk.'
+        },
+        changes: {
+          title: '11. Endringer i denne personvernerklæringen',
+          content: 'Vi forbeholder oss retten til å oppdatere denne personvernerklæringen etter behov. Endringer vil bli publisert på dette nettstedet. Vennligst sjekk regelmessig for oppdateringer.'
+        }
+      },
+      lastUpdated: 'Sist oppdatert: 24. mai 2025'
+    },
     terms: {
       title: 'Vilkår og betingelser',
       sections: {
@@ -824,6 +924,56 @@ const globalTranslations: Record<Language, Partial<TranslationObject>> = {
     close: "Cerrar",
     followSocialMedia: "¡Sigue nuestro progreso en las redes sociales!",
     copyright: "Todos los derechos reservados",
+    privacy: {
+      title: 'Política de Privacidad',
+      sections: {
+        introduction: {
+          title: '1. Introducción',
+          content: 'Esta política de privacidad le informa sobre cómo nosotros, Park Nordica, recopilamos, procesamos y protegemos sus datos personales cuando visita nuestro sitio web o utiliza nuestros servicios.'
+        },
+        responsible: {
+          title: '2. Entidad Responsable',
+          content: 'Park Nordica\nParkveien 1\n7892 Trones, Noruega\nCorreo electrónico: info@parknordica.no\nNúmero de organización: 935 112 761'
+        },
+        data: {
+          title: '3. Qué Datos Recopilamos',
+          content: 'Recopilamos datos personales cuando usted:\n• visita nuestro sitio web (por ejemplo, a través de cookies, dirección IP, datos del dispositivo)\n• compra un boleto o se registra\n• se pone en contacto con nosotros\n\nEjemplos de datos recopilados:\n• Nombre, dirección, dirección de correo electrónico\n• Detalles de pago y compra\n• Dirección IP, información del navegador, información del dispositivo (a través de cookies)'
+        },
+        purpose: {
+          title: '4. Propósitos del Procesamiento de Datos',
+          content: 'Utilizamos sus datos para los siguientes propósitos:\n• Procesamiento de compras de boletos y pedidos\n• Servicio al cliente y comunicación\n• Mejora de la funcionalidad del sitio web (análisis, experiencia del usuario)\n• Cumplimiento de obligaciones legales'
+        },
+        legal: {
+          title: '5. Base Legal para el Procesamiento',
+          content: 'Procesamos sus datos basándose en:\n• Su consentimiento (por ejemplo, para boletines o cookies)\n• Cumplimiento del contrato (por ejemplo, compra de boletos)\n• Obligación legal (por ejemplo, requisitos de retención)'
+        },
+        storage: {
+          title: '6. Duración del Almacenamiento',
+          content: 'Los datos personales se almacenan solo durante el tiempo necesario para los propósitos respectivos o según lo requerido por la ley. Después de eso, se eliminan o se anonimizan.'
+        },
+        sharing: {
+          title: '7. Compartir con Terceros',
+          content: 'Sus datos solo se comparten:\n• con su consentimiento expreso\n• para el cumplimiento del contrato (por ejemplo, proveedores de servicios de pago)\n• cuando estamos legalmente obligados a hacerlo (por ejemplo, autoridades fiscales)'
+        },
+        rights: {
+          title: '8. Sus Derechos',
+          content: 'Usted tiene derecho a:\n• Información sobre sus datos almacenados\n• Corrección de datos incorrectos\n• Eliminación ("derecho al olvido")\n• Restricción del procesamiento\n• Portabilidad de datos\n• Oponerse al procesamiento\n• Presentar una queja ante una autoridad de protección de datos (por ejemplo, Datatilsynet en Noruega o una autoridad supervisora en su país de residencia)'
+        },
+        cookies: {
+          title: '9. Cookies',
+          content: 'Nuestro sitio web utiliza cookies y tecnologías similares para:\n• asegurar la funcionalidad del sitio\n• analizar el comportamiento del usuario (por ejemplo, Google Analytics)\n\nSolicitamos su consentimiento para usar estas cookies en su primera visita. Puede ajustar su configuración en cualquier momento.'
+        },
+        security: {
+          title: '10. Seguridad de Datos',
+          content: 'Tomamos medidas técnicas y organizativas apropiadas para proteger sus datos contra acceso no autorizado, pérdida o mal uso.'
+        },
+        changes: {
+          title: '11. Cambios a esta Política de Privacidad',
+          content: 'Nos reservamos el derecho de actualizar esta política de privacidad según sea necesario. Los cambios se publicarán en este sitio web. Por favor, consulte regularmente las actualizaciones.'
+        }
+      },
+      lastUpdated: 'Última actualización: 24 de mayo de 2025'
+    },
     terms: {
       title: 'Términos y Condiciones',
       sections: {
