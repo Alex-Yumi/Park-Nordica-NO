@@ -27,7 +27,7 @@ function LanguageHandler() {
 
 export default function Home() {
   return (
-    <main className="pt-10 md:pt-12">
+    <main className="min-h-screen-mobile bg-[#0a4725] pt-0 md:pt-12">
       <LanguageHandler />
       <Header />
       <Hero />
