@@ -44,30 +44,28 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
 
   const countryCode = getCountryCode(language);
   const languageLabel = getLanguageLabel(language);
-  const sizeClasses = size === 'large' ? 'w-20 h-20' : 'w-14 h-14';
   const flagSize = size === 'large' ? '3em' : '2.5em';
 
   return (
     <button
       onClick={onClick}
-      className={`${sizeClasses} rounded-lg border-2 flex items-center justify-center 
-        ${isActive 
-          ? 'border-[#4A90E2] bg-[#4A90E2]/20 shadow-[0_0_20px_rgba(74,144,226,0.3)] scale-105' 
-          : 'border-transparent bg-white/10 hover:bg-white/20 hover:scale-105 shadow-lg hover:shadow-xl'
-        } 
-        transition-all duration-300 backdrop-blur-sm
-        hover:border-white/30`}
+      className={`bg-transparent border-none p-0 transition-all duration-300 hover:scale-105 ${
+        isActive ? 'scale-105' : ''
+      }`}
       title={languageLabel}
       aria-label={`Sprache ändern zu ${languageLabel}`}
     >
-      <ReactCountryFlag
-        countryCode={countryCode}
-        svg
-        style={{
-          fontSize: flagSize,
-          lineHeight: 1,
-        }}
-      />
+      <div className={`${isActive ? 'border-2 border-[#4A90E2] rounded-md shadow-[0_0_15px_rgba(74,144,226,0.4)]' : ''}`}>
+        <ReactCountryFlag
+          countryCode={countryCode}
+          svg
+          style={{
+            fontSize: flagSize,
+            lineHeight: 1,
+            display: 'block',
+          }}
+        />
+      </div>
     </button>
   );
 } 
