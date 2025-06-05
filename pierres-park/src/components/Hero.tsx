@@ -522,10 +522,10 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 relative z-30 mt-2">
             <div 
               ref={parkHighlightsRef}
-              className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-16 md:pb-8"
+              className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-20 md:pb-12"
             >
               <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6 text-white">{t('buildingFuture')}</h2>
-              <ul className="space-y-2 md:space-y-4 text-sm md:text-lg">
+              <ul className="space-y-2 md:space-y-4 text-sm md:text-lg pr-0 md:pr-28">
                 <li className="text-white">{t('parkClosed')}</li>
                 <li className="text-white">{t('constructionSafety')}</li>
                 <li className="text-white">{t('modernization')}</li>
@@ -535,7 +535,7 @@ export default function Hero() {
               {/* Mehr erfahren Button */}
               <button
                 onClick={() => setActiveTextModal('future')}
-                className="absolute bottom-3 right-3 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full text-sm transition-all duration-300 flex items-center space-x-2"
+                className="absolute bottom-1 md:bottom-3 right-3 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full text-sm transition-all duration-300 flex items-center space-x-2"
               >
                 <span>{t('readMore')}</span>
                 <svg
@@ -552,10 +552,10 @@ export default function Hero() {
 
             <div 
               ref={visitorInfoRef}
-              className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-16 md:pb-8"
+              className="bg-gradient-to-br from-stone-700/90 via-stone-750/95 to-stone-800/90 rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1),0_5px_15px_rgba(0,0,0,0.2)] overflow-hidden transform-gpu transition-all duration-300 hover:scale-[1.02] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] backdrop-blur-md border border-white/10 p-6 md:p-8 mt-2 pb-20 md:pb-12"
             >
               <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-6 text-white">{t('weekendPreview')}</h2>
-              <ul className="space-y-2 md:space-y-4 text-sm md:text-lg">
+              <ul className="space-y-2 md:space-y-4 text-sm md:text-lg pr-0 md:pr-28">
                 <li className="text-white">{t('sneakPeekDates')}</li>
                 <li className="text-white">{t('guidedFeeding')}</li>
                 <li className="text-white">{t('firstLook')}</li>
@@ -566,7 +566,7 @@ export default function Hero() {
               {/* Mehr erfahren Button */}
               <button
                 onClick={() => setActiveTextModal('preview')}
-                className="absolute bottom-3 right-3 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full text-sm transition-all duration-300 flex items-center space-x-2"
+                className="absolute bottom-1 md:bottom-3 right-3 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-full text-sm transition-all duration-300 flex items-center space-x-2"
               >
                 <span>{t('readMore')}</span>
                 <svg
