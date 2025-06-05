@@ -50,13 +50,13 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
   return (
     <button
       onClick={onClick}
-      className={`${sizeClasses} rounded-full overflow-hidden flex items-center justify-center 
+      className={`${sizeClasses} rounded-lg border-2 flex items-center justify-center 
         ${isActive 
-          ? 'ring-2 ring-[#4A90E2] ring-offset-2 ring-offset-stone-700 shadow-xl scale-105' 
-          : 'opacity-90 hover:opacity-100 hover:scale-105 shadow-lg hover:shadow-xl'
+          ? 'border-[#4A90E2] bg-[#4A90E2]/20 shadow-[0_0_20px_rgba(74,144,226,0.3)] scale-105' 
+          : 'border-transparent bg-white/10 hover:bg-white/20 hover:scale-105 shadow-lg hover:shadow-xl'
         } 
-        transition-all duration-300 bg-gradient-to-br from-stone-500/80 to-stone-600/80 backdrop-blur-md
-        hover:from-stone-400/90 hover:to-stone-500/90`}
+        transition-all duration-300 backdrop-blur-sm
+        hover:border-white/30`}
       title={languageLabel}
       aria-label={`Sprache ändern zu ${languageLabel}`}
     >
