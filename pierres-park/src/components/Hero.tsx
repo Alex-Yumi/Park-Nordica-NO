@@ -265,7 +265,7 @@ export default function Hero() {
               </div>
               
               {/* Desktop: Button zentriert unter der Text-Box */}
-              <div className="hidden md:flex absolute inset-x-0 bottom-4 items-center justify-center">
+              <div className="hidden md:flex absolute inset-x-0 bottom-[-12px] items-center justify-center">
                 <a
                   href="/#tickets"
                   className="bg-[#4A90E2] hover:bg-[#4A90E2]/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors shadow-lg whitespace-nowrap"
