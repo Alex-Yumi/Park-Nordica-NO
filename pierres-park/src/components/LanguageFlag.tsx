@@ -55,7 +55,7 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
       title={languageLabel}
       aria-label={`Sprache ändern zu ${languageLabel}`}
     >
-      <div className={`${isActive ? 'border-2 border-[#4A90E2] rounded-md shadow-[0_0_15px_rgba(74,144,226,0.4)]' : ''}`}>
+      <div className={`inline-block ${isActive ? 'border-2 border-[#4A90E2] rounded-sm shadow-[0_0_15px_rgba(74,144,226,0.4)]' : ''}`}>
         <ReactCountryFlag
           countryCode={countryCode}
           svg
@@ -63,6 +63,7 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
             fontSize: flagSize,
             lineHeight: 1,
             display: 'block',
+            verticalAlign: 'top',
           }}
         />
       </div>
