@@ -44,7 +44,11 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
 
   const countryCode = getCountryCode(language);
   const languageLabel = getLanguageLabel(language);
-  const flagSize = size === 'large' ? '3em' : '2.5em';
+  
+  // Exakte Flaggen-Dimensionen für perfekte Rahmen-Anpassung
+  const flagDimensions = size === 'large' 
+    ? { width: '48px', height: '32px' }  // Large: 48x32px (3:2 Verhältnis)
+    : { width: '36px', height: '24px' }; // Normal: 36x24px (3:2 Verhältnis)
 
   return (
     <button
@@ -55,15 +59,14 @@ export default function LanguageFlag({ language, isActive, onClick, size = 'norm
       title={languageLabel}
       aria-label={`Sprache ändern zu ${languageLabel}`}
     >
-      <div className={`inline-block ${isActive ? 'border-2 border-[#4A90E2] rounded-sm shadow-[0_0_15px_rgba(74,144,226,0.4)]' : ''}`}>
+      <div className={`${isActive ? 'border-2 border-[#4A90E2] rounded-sm shadow-[0_0_15px_rgba(74,144,226,0.4)]' : ''}`}>
         <ReactCountryFlag
           countryCode={countryCode}
           svg
           style={{
-            fontSize: flagSize,
-            lineHeight: 1,
+            width: flagDimensions.width,
+            height: flagDimensions.height,
             display: 'block',
-            verticalAlign: 'top',
           }}
         />
       </div>
