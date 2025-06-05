@@ -312,49 +312,49 @@ export default function Header() {
             {t('language')}
           </h3>
           <div className="flex justify-center flex-wrap gap-8 px-4 mb-10">
-            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
-          <LanguageFlag 
-            language="no" 
-            isActive={language === 'no'} 
-            onClick={() => {
-              setLanguage('no');
-              setMobileMenuOpen(false);
-            }} 
-            size="large"
-          />
+            <div className="transform hover:scale-110 transition-transform">
+              <LanguageFlag 
+                language="no" 
+                isActive={language === 'no'} 
+                onClick={() => {
+                  setLanguage('no');
+                  setMobileMenuOpen(false);
+                }} 
+                size="large"
+              />
             </div>
-            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
-          <LanguageFlag 
-            language="en" 
-            isActive={language === 'en'} 
-            onClick={() => {
-              setLanguage('en');
-              setMobileMenuOpen(false);
-            }} 
-            size="large"
-          />
+            <div className="transform hover:scale-110 transition-transform">
+              <LanguageFlag 
+                language="en" 
+                isActive={language === 'en'} 
+                onClick={() => {
+                  setLanguage('en');
+                  setMobileMenuOpen(false);
+                }} 
+                size="large"
+              />
             </div>
-            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
-          <LanguageFlag 
-            language="de" 
-            isActive={language === 'de'} 
-            onClick={() => {
-              setLanguage('de');
-              setMobileMenuOpen(false);
-            }} 
-            size="large"
-          />
+            <div className="transform hover:scale-110 transition-transform">
+              <LanguageFlag 
+                language="de" 
+                isActive={language === 'de'} 
+                onClick={() => {
+                  setLanguage('de');
+                  setMobileMenuOpen(false);
+                }} 
+                size="large"
+              />
             </div>
-            <div className="w-14 h-14 transform hover:scale-110 transition-transform">
-          <LanguageFlag 
-            language="es" 
-            isActive={language === 'es'} 
-            onClick={() => {
-              setLanguage('es');
-              setMobileMenuOpen(false);
-            }} 
-            size="large"
-          />
+            <div className="transform hover:scale-110 transition-transform">
+              <LanguageFlag 
+                language="es" 
+                isActive={language === 'es'} 
+                onClick={() => {
+                  setLanguage('es');
+                  setMobileMenuOpen(false);
+                }} 
+                size="large"
+              />
             </div>
           </div>
         </div>
