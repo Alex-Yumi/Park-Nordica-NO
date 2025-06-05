@@ -213,7 +213,13 @@
   "copyright": "Todos los derechos reservados",
   "legal": "Legal",
   "imprint": {
-    "title": "Aviso legal"
+    "title": "Información Legal",
+    "sections": {
+      "company": {
+        "title": "Información de la Empresa",
+        "content": "Park Nordica\nNordisk Opplevelse AS\nFinvolldalsveien 1244\n7896 Brekkvasselv\nNoruega\n\nRepresentado por:\nPark Nordica\nParkveien 1\n7892 Trones\nNoruega\n\nContacto:\nTeléfono: +47 743 33 700\nEmail: info@parknordica.no\n\nNúmero de Organización: 935 112 761\n\nResponsable del contenido:\nPark Nordica\nParkveien 1, 7892 Trones, Noruega"
+      }
+    }
   },
   "contact": "Contacto",
   "email": "Correo electrónico"
